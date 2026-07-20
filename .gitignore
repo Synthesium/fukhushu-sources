@@ -1,0 +1,7 @@
+# Secrets — the QUL session cookie lives here, never committed.
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc

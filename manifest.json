@@ -1,0 +1,6106 @@
+{
+ "schemaVersion": 1,
+ "generatedAt": "2026-07-20T08:36:42.426272+00:00",
+ "resources": [
+  {
+   "qulId": 234,
+   "type": "translation",
+   "name": "Sadiq and Sani",
+   "translatedName": "Sadiq and Sani",
+   "author": "Sadiq and Sani",
+   "slug": "am-sadiq",
+   "language": {
+    "iso": "am",
+    "name": "Amharic",
+    "native": "Amharic",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330777-1zhhx-am-sadiq-simple.db.zip",
+   "fileSizeBytes": 439471
+  },
+  {
+   "qulId": 507,
+   "type": "tafsir",
+   "name": "Abu Bakr Jabir Al-Jazairi",
+   "translatedName": "Abu Bakr Jabir Al-Jazairi",
+   "author": null,
+   "slug": "ar-aysar-altafasir",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 1290,
+   "qulUpdatedAt": "2025-07-13T00:29:53+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752245993-3kvtv-abu-bakr-jabir-al-jazairi.db.zip",
+   "fileSizeBytes": 2068472
+  },
+  {
+   "qulId": 525,
+   "type": "tafsir",
+   "name": "Adwa' Al-Bayan",
+   "translatedName": "Adwa' Al-Bayan",
+   "author": null,
+   "slug": "ar-adwa-al-bayan",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 3541,
+   "qulUpdatedAt": "2025-07-17T19:05:39+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752272093-xjyxp-adwa-al-bayan.db.zip",
+   "fileSizeBytes": 7988255
+  },
+  {
+   "qulId": 505,
+   "type": "tafsir",
+   "name": "Al Dur Al Masun Lil Samin Al Halabi",
+   "translatedName": "Al Dur Al Masun Lil Samin Al Halabi",
+   "author": null,
+   "slug": "ar-aldur-almasoon",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2025-07-13T17:52:04+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752264923-1rui3-al-dur-al-masun-lil-samin-al-halabi.db.zip",
+   "fileSizeBytes": 4323573
+  },
+  {
+   "qulId": 520,
+   "type": "tafsir",
+   "name": "Al Jadwal fi I'rab Al Quran",
+   "translatedName": "Al Jadwal fi I'rab Al Quran",
+   "author": null,
+   "slug": "ar-aljadwal",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 3257,
+   "qulUpdatedAt": "2025-07-12T23:55:13+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752263251-euwxd-al-jadwal-fi-i-rab-al-quran.db.zip",
+   "fileSizeBytes": 2505719
+  },
+  {
+   "qulId": 516,
+   "type": "tafsir",
+   "name": "Al Lubab fi Ulum Al Kitab",
+   "translatedName": "Al Lubab fi Ulum Al Kitab",
+   "author": null,
+   "slug": "ar-lubab",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 1906,
+   "qulUpdatedAt": "2025-07-17T18:45:01+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752251000-jecog-al-lubab-fi-ulum-al-kitab.db.zip",
+   "fileSizeBytes": 9472613
+  },
+  {
+   "qulId": 522,
+   "type": "tafsir",
+   "name": "Al Nashr li Ibn Al Jazari",
+   "translatedName": "Al Nashr li Ibn Al Jazari",
+   "author": null,
+   "slug": "ar-alnashir",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 6035,
+   "qulUpdatedAt": "2025-07-17T18:38:28+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752264104-a1kll-al-nashr-li-ibn-al-jazari.db.zip",
+   "fileSizeBytes": 277921
+  },
+  {
+   "qulId": 521,
+   "type": "tafsir",
+   "name": "Al Qira'at Al Mawsoo'ah Al Qur'aniyyah",
+   "translatedName": "Al Qira'at Al Mawsoo'ah Al Qur'aniyyah",
+   "author": null,
+   "slug": "ar-qiraat-almawsoah",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 3706,
+   "qulUpdatedAt": "2025-07-17T18:32:55+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752263431-hs493-al-qira-at-al-mawsoo-ah-al-qur-aniyyah.db.zip",
+   "fileSizeBytes": 277985
+  },
+  {
+   "qulId": 526,
+   "type": "tafsir",
+   "name": "Al-Bahr Al-Muhit",
+   "translatedName": "Al-Bahr Al-Muhit",
+   "author": null,
+   "slug": "ar-albahr-almuheet",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 1427,
+   "qulUpdatedAt": "2025-07-17T18:50:50+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752261482-g0l3j-al-bahr-al-muhit.db.zip",
+   "fileSizeBytes": 7750497
+  },
+  {
+   "qulId": 511,
+   "type": "tafsir",
+   "name": "Al-Basit",
+   "translatedName": "Al-Basit",
+   "author": null,
+   "slug": "ar-al-basit",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 5333,
+   "qulUpdatedAt": "2025-07-13T17:54:09+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752248211-obuye-al-basit.db.zip",
+   "fileSizeBytes": 7958967
+  },
+  {
+   "qulId": 493,
+   "type": "tafsir",
+   "name": "Al-Durr Al-Manthur",
+   "translatedName": "Al-Durr Al-Manthur",
+   "author": null,
+   "slug": "ar-durr-al-manthur",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 3530,
+   "qulUpdatedAt": "2025-07-13T02:22:07+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752244628-9m5ur-al-durr-al-manthur.db.zip",
+   "fileSizeBytes": 4581119
+  },
+  {
+   "qulId": 510,
+   "type": "tafsir",
+   "name": "Al-Kashshaf Al-Zamakhshari",
+   "translatedName": "Al-Kashshaf Al-Zamakhshari",
+   "author": null,
+   "slug": "ar-kashshaf",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 2978,
+   "qulUpdatedAt": "2025-07-17T18:24:23+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752247564-ufcd3-al-kashshaf-al-zamakhshari.db.zip",
+   "fileSizeBytes": 3344401
+  },
+  {
+   "qulId": 509,
+   "type": "tafsir",
+   "name": "Al-Muharrar Al-Wajiz Ibn Atiyyah",
+   "translatedName": "Al-Muharrar Al-Wajiz Ibn Atiyyah",
+   "author": null,
+   "slug": "ar-ibn-atiyyah",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 1672,
+   "qulUpdatedAt": "2025-07-13T03:14:13+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752246258-zent9-al-muharrar-al-wajiz-ibn-atiyyah.db.zip",
+   "fileSizeBytes": 4174302
+  },
+  {
+   "qulId": 519,
+   "type": "tafsir",
+   "name": "Al-Muyassar fi Al-Gharib",
+   "translatedName": "Al-Muyassar fi Al-Gharib",
+   "author": null,
+   "slug": "ar-al-muyassar-fi-al-gharib",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 5897,
+   "qulUpdatedAt": "2025-07-13T01:21:50+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752264119-7ncvm-al-muyassar-fi-al-gharib.db.zip",
+   "fileSizeBytes": 454219
+  },
+  {
+   "qulId": 489,
+   "type": "tafsir",
+   "name": "Al-Wajiz Wahidi",
+   "translatedName": "Al-Wajiz Wahidi",
+   "author": null,
+   "slug": "ar-wajiz-wahidi",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 5303,
+   "qulUpdatedAt": "2025-07-17T18:36:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752062801-sbqh0-al-wajiz-wahidi.db.zip",
+   "fileSizeBytes": 347562
+  },
+  {
+   "qulId": 515,
+   "type": "tafsir",
+   "name": "Alrab Al-Quran li-Da'as",
+   "translatedName": "Alrab Al-Quran li-Da'as",
+   "author": null,
+   "slug": "ar-iraab-daas",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 3633,
+   "qulUpdatedAt": "2025-07-12T23:57:01+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752251336-e6bmz-alrab-al-quran-li-da-as.db.zip",
+   "fileSizeBytes": 1165191
+  },
+  {
+   "qulId": 251,
+   "type": "tafsir",
+   "name": "Arabic Al-Mukhtasar in interpreting the Noble Quran",
+   "translatedName": "Arabic Al-Mukhtasar in interpreting the Noble Quran",
+   "author": "Tafsir Center for Quranic Studies",
+   "slug": "ar-mukhtasar",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 6211,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748331975-6e4du-arabic-al-mukhtasar-in-interpreting-the-noble-quran.db.zip",
+   "fileSizeBytes": 651598
+  },
+  {
+   "qulId": 250,
+   "type": "tafsir",
+   "name": "Asseraj fi Bayan Gharib AlQuran",
+   "translatedName": null,
+   "author": "Muhammad Al-Khudairi",
+   "slug": "ar-seraj",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 1738,
+   "qulUpdatedAt": "2025-07-17T18:08:53+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748331215-wtgsn-asseraj-fi-bayan-gharib-alquran.db.zip",
+   "fileSizeBytes": 1945677
+  },
+  {
+   "qulId": 563,
+   "type": "tafsir",
+   "name": "Ayah Dependency Graphs",
+   "translatedName": "Ayah Dependency Graphs",
+   "author": null,
+   "slug": "ar-ayah-dependency-graphs",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 2369,
+   "qulUpdatedAt": "2025-07-13T04:39:01+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1760625473-cishr-ayah-dependency-graphs.db.zip",
+   "fileSizeBytes": 9423191
+  },
+  {
+   "qulId": 495,
+   "type": "tafsir",
+   "name": "Fath Al-Bayan li Al-Qanuji",
+   "translatedName": "Fath Al-Bayan li Al-Qanuji",
+   "author": null,
+   "slug": "ar-fath-al-albayan",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 6222,
+   "qulUpdatedAt": "2025-07-13T03:18:59+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752245516-duyo9-fath-al-bayan-li-al-qanuji.db.zip",
+   "fileSizeBytes": 4805935
+  },
+  {
+   "qulId": 494,
+   "type": "tafsir",
+   "name": "Fath Al-Qadir Al-Shawkani",
+   "translatedName": "Fath Al-Qadir Al-Shawkani",
+   "author": null,
+   "slug": "ar-fath-alqadeer",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 861,
+   "qulUpdatedAt": "2025-07-13T02:12:23+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752243828-iejsr-fath-al-qadir-al-shawkani.db.zip",
+   "fileSizeBytes": 4658135
+  },
+  {
+   "qulId": 506,
+   "type": "tafsir",
+   "name": "I'rab Al Quran li Al Darwish",
+   "translatedName": "I'rab Al Quran li Al Darwish",
+   "author": null,
+   "slug": "ar-iraab-aldarweesh",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 1387,
+   "qulUpdatedAt": "2025-07-12T23:59:57+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752245860-4tncw-i-rab-al-quran-li-al-darwish.db.zip",
+   "fileSizeBytes": 3340981
+  },
+  {
+   "qulId": 504,
+   "type": "tafsir",
+   "name": "Iraab Al-Muyassar",
+   "translatedName": "Iraab Al-Muyassar",
+   "author": null,
+   "slug": "ar-iraab-al-muyassar",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2025-07-17T08:11:05+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752248115-6madp-al-i-rab-al-muyassar.db.zip",
+   "fileSizeBytes": 1384136
+  },
+  {
+   "qulId": 508,
+   "type": "tafsir",
+   "name": "Jamia Al-Bayan AlIji",
+   "translatedName": "Jamia Al-Bayan AlIji",
+   "author": null,
+   "slug": "ar-jamia-al-bayan-aliji",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 556,
+   "qulUpdatedAt": "2026-04-27T18:27:34+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752245733-okino-jamia-al-bayan-aliji.db.zip",
+   "fileSizeBytes": 1205411
+  },
+  {
+   "qulId": 524,
+   "type": "tafsir",
+   "name": "Mahasin Al-Ta'wil Al-Qasimi",
+   "translatedName": "Mahasin Al-Ta'wil Al-Qasimi",
+   "author": null,
+   "slug": "ar-mahasin-altaweel",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 3989,
+   "qulUpdatedAt": "2025-07-13T04:55:05+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752262631-gilm4-mahasin-al-ta-wil-al-qasimi.db.zip",
+   "fileSizeBytes": 5149834
+  },
+  {
+   "qulId": 492,
+   "type": "tafsir",
+   "name": "Mawsoo'at Al-Tafsir Al-Ma'thoor",
+   "translatedName": "Mawsoo'at Al-Tafsir Al-Ma'thoor",
+   "author": null,
+   "slug": "ar-mathoor",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 5717,
+   "qulUpdatedAt": "2025-07-13T18:17:25+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752065543-n94jk-mawsoo-at-al-tafsir-al-ma-thoor.db.zip",
+   "fileSizeBytes": 12552789
+  },
+  {
+   "qulId": 498,
+   "type": "tafsir",
+   "name": "Nazam Al-Durar Al-Biqa'i",
+   "translatedName": "Nazam Al-Durar Al-Biqa'i",
+   "author": null,
+   "slug": "ar-nazam-aldurar",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 6181,
+   "qulUpdatedAt": "2025-07-13T03:57:20+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752245556-wt6es-nazam-al-durar-al-biqa-i.db.zip",
+   "fileSizeBytes": 7099935
+  },
+  {
+   "qulId": 517,
+   "type": "tafsir",
+   "name": "Tadabbur wa 'Amal",
+   "translatedName": "Tadabbur wa 'Amal",
+   "author": null,
+   "slug": "ar-tadabbur-wa-amal",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 662,
+   "qulUpdatedAt": "2025-07-13T00:22:34+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752263427-1o5ly-tadabbur-wa-amal.db.zip",
+   "fileSizeBytes": 1323092
+  },
+  {
+   "qulId": 23,
+   "type": "tafsir",
+   "name": "Tafseer Al Qurtubi",
+   "translatedName": "Tafseer Al Qurtubi",
+   "author": "Qurtubi",
+   "slug": "ar-tafseer-al-qurtubi",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748288200-41cfz-ar-tafseer-al-qurtubi.db.zip",
+   "fileSizeBytes": 8027839
+  },
+  {
+   "qulId": 24,
+   "type": "tafsir",
+   "name": "Tafseer Al Saadi - Arabic",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748288370-cb4c8-ar-tafseer-al-saddi.db.zip",
+   "fileSizeBytes": 1914747
+  },
+  {
+   "qulId": 27,
+   "type": "tafsir",
+   "name": "Tafseer Al-Baghawi",
+   "translatedName": "Tafseer Al-Baghawi",
+   "author": null,
+   "slug": "ar-tafsir-al-baghawi",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748288365-lqxum-ar-tafsir-al-baghawi.db.zip",
+   "fileSizeBytes": 3608332
+  },
+  {
+   "qulId": 497,
+   "type": "tafsir",
+   "name": "Tafsir Abi Al-Suaood",
+   "translatedName": "Tafsir Abi Al-Suaood",
+   "author": null,
+   "slug": "ar-alsuod",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 6105,
+   "qulUpdatedAt": "2025-07-13T04:38:06+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752245644-bixm5-tafsir-abi-al-su-ood.db.zip",
+   "fileSizeBytes": 4211349
+  },
+  {
+   "qulId": 26,
+   "type": "tafsir",
+   "name": "Tafsir Al Wasit",
+   "translatedName": "Tafsir Al Wasit",
+   "author": "Waseet",
+   "slug": "ar-tafsir-al-wasit",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748288745-rmdte-ar-tafsir-al-wasit.db.zip",
+   "fileSizeBytes": 5006128
+  },
+  {
+   "qulId": 501,
+   "type": "tafsir",
+   "name": "Tafsir Al-Alusi",
+   "translatedName": "Tafsir Al-Alusi",
+   "author": null,
+   "slug": "ar-tafsir-al-alusi",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 5629,
+   "qulUpdatedAt": "2025-07-13T17:24:09+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752244695-8lxzi-tafsir-al-alusi.db.zip",
+   "fileSizeBytes": 13048021
+  },
+  {
+   "qulId": 518,
+   "type": "tafsir",
+   "name": "Tafsir Al-Baydawi",
+   "translatedName": "Tafsir Al-Baydawi",
+   "author": null,
+   "slug": "ar-tafsir-al-baydawi",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 2382,
+   "qulUpdatedAt": "2025-07-13T01:10:04+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752264077-yq16f-tafsir-al-baydawi.db.zip",
+   "fileSizeBytes": 1663776
+  },
+  {
+   "qulId": 512,
+   "type": "tafsir",
+   "name": "Tafsir Al-Mawardi",
+   "translatedName": "Tafsir Al-Mawardi",
+   "author": null,
+   "slug": "ar-tafsir-al-mawardi",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 1709,
+   "qulUpdatedAt": "2025-07-13T03:42:24+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752247148-jiq0d-tafsir-al-mawardi.db.zip",
+   "fileSizeBytes": 1709764
+  },
+  {
+   "qulId": 514,
+   "type": "tafsir",
+   "name": "Tafsir Al-Nasafi",
+   "translatedName": "Tafsir Al-Nasafi",
+   "author": null,
+   "slug": "ar-tafsir-al-nasafi",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 6107,
+   "qulUpdatedAt": "2025-07-13T01:56:10+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752252203-icj6j-tafsir-al-nasafi.db.zip",
+   "fileSizeBytes": 2148793
+  },
+  {
+   "qulId": 488,
+   "type": "tafsir",
+   "name": "Tafsir Al-Razi",
+   "translatedName": "Tafsir Al-Razi",
+   "author": null,
+   "slug": "ar-tafsir-al-razi",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 2969,
+   "qulUpdatedAt": "2025-07-13T17:08:16+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752428099-xu360-tafsir-al-razi.db.zip",
+   "fileSizeBytes": 9833180
+  },
+  {
+   "qulId": 529,
+   "type": "tafsir",
+   "name": "Tafsir Al-Sam'ani",
+   "translatedName": "Tafsir Al-Sam'ani",
+   "author": null,
+   "slug": "ar-tafsir-al-sam-ani",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 5958,
+   "qulUpdatedAt": "2025-07-13T18:21:58+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752273180-5j4vl-tafsir-al-sam-ani.db.zip",
+   "fileSizeBytes": 3812001
+  },
+  {
+   "qulId": 513,
+   "type": "tafsir",
+   "name": "Tafsir Al-Samarqandi",
+   "translatedName": "Tafsir Al-Samarqandi",
+   "author": null,
+   "slug": "ar-tafsir-al-samarqandi",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 1525,
+   "qulUpdatedAt": "2025-07-17T18:51:14+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752246301-p1ij4-tafsir-al-samarqandi.db.zip",
+   "fileSizeBytes": 1860915
+  },
+  {
+   "qulId": 528,
+   "type": "tafsir",
+   "name": "Tafsir Al-Tha'alibi",
+   "translatedName": "Tafsir Al-Tha'alibi",
+   "author": null,
+   "slug": "ar-tafsir-al-tha-alibi",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 1497,
+   "qulUpdatedAt": "2026-05-25T11:15:59+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752261136-tkdpw-tafsir-al-tha-alibi.db.zip",
+   "fileSizeBytes": 3165178
+  },
+  {
+   "qulId": 527,
+   "type": "tafsir",
+   "name": "Tafsir Al-Tha'alibi",
+   "translatedName": "Tafsir Al-Tha'alibi",
+   "author": null,
+   "slug": "ar-tafsir-al-tha-alibi",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 1497,
+   "qulUpdatedAt": "2026-05-25T11:15:59+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752270158-rja19-tafsir-al-tha-alibi.db.zip",
+   "fileSizeBytes": 2561435
+  },
+  {
+   "qulId": 308,
+   "type": "tafsir",
+   "name": "Tafsir As-Saadi",
+   "translatedName": null,
+   "author": null,
+   "slug": "ur-tafsir-as-saadi",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 1740,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748335335-t0voa-tafsir-as-saadi.db.zip",
+   "fileSizeBytes": 1945645
+  },
+  {
+   "qulId": 502,
+   "type": "tafsir",
+   "name": "Tafsir Ibn Abi Hatim",
+   "translatedName": "Tafsir Ibn Abi Hatim",
+   "author": null,
+   "slug": "ar-hatim",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 2379,
+   "qulUpdatedAt": "2025-07-13T02:15:35+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752245308-jnc1n-tafsir-ibn-abi-hatim.db.zip",
+   "fileSizeBytes": 1920644
+  },
+  {
+   "qulId": 499,
+   "type": "tafsir",
+   "name": "Tafsir Ibn Abi Zamanin",
+   "translatedName": "Tafsir Ibn Abi Zamanin",
+   "author": null,
+   "slug": "ar-zamanin",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 5954,
+   "qulUpdatedAt": "2025-07-13T02:10:42+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752245481-15gx2-tafsir-ibn-abi-zamanin.db.zip",
+   "fileSizeBytes": 941085
+  },
+  {
+   "qulId": 496,
+   "type": "tafsir",
+   "name": "Tafsir Ibn Al-Jawzi",
+   "translatedName": "Tafsir Ibn Al-Jawzi",
+   "author": null,
+   "slug": "ar-zad-almaseer",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 2184,
+   "qulUpdatedAt": "2025-07-17T18:45:55+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752244268-otgb1-tafsir-ibn-al-jawzi.db.zip",
+   "fileSizeBytes": 2501149
+  },
+  {
+   "qulId": 500,
+   "type": "tafsir",
+   "name": "Tafsir Ibn Al-Qayyim",
+   "translatedName": "Tafsir Ibn Al-Qayyim",
+   "author": null,
+   "slug": "ar-tafsir-ibn-al-qayyim",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 5559,
+   "qulUpdatedAt": "2025-07-13T04:29:28+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752246088-mspcr-tafsir-ibn-al-qayyim.db.zip",
+   "fileSizeBytes": 5235010
+  },
+  {
+   "qulId": 491,
+   "type": "tafsir",
+   "name": "Tafsir Ibn Juzay",
+   "translatedName": "Tafsir Ibn Juzay",
+   "author": null,
+   "slug": "ar-juzay",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 3220,
+   "qulUpdatedAt": "2025-07-13T02:49:42+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752064089-a1x95-tafsir-ibn-juzay.db.zip",
+   "fileSizeBytes": 1121516
+  },
+  {
+   "qulId": 22,
+   "type": "tafsir",
+   "name": "Tafsir Ibn Kathir",
+   "translatedName": "Tafsir Ibn Kathir",
+   "author": "Hafiz Ibn Kathir",
+   "slug": "en-tafisr-ibn-kathir",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 1915,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748288131-9kse6-ar-tafsir-ibn-kathir.db.zip",
+   "fileSizeBytes": 5767414
+  },
+  {
+   "qulId": 486,
+   "type": "tafsir",
+   "name": "Tafsir Ibn Uthaymeen",
+   "translatedName": "Tafsir Ibn Uthaymeen",
+   "author": null,
+   "slug": "ar-ibn-uthaymeen",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 3539,
+   "qulUpdatedAt": "2025-12-09T13:17:30+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752060561-gl5jp-tafsir-ibn-uthaymeen.db.zip",
+   "fileSizeBytes": 9978307
+  },
+  {
+   "qulId": 523,
+   "type": "tafsir",
+   "name": "Tafsir Jalalayn",
+   "translatedName": "Tafsir Jalalayn",
+   "author": null,
+   "slug": "id-tafsir-jalalayn",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-07-14T10:14:14+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752263981-ivrlw-tafsir-jalalayn.db.zip",
+   "fileSizeBytes": 886309
+  },
+  {
+   "qulId": 490,
+   "type": "tafsir",
+   "name": "Tafsir Makhi",
+   "translatedName": "Tafsir Makhi",
+   "author": null,
+   "slug": "ar-tafsir-makhi",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 1705,
+   "qulUpdatedAt": "2025-07-13T04:19:40+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752063240-9ws29-tafsir-makhi.db.zip",
+   "fileSizeBytes": 2793418
+  },
+  {
+   "qulId": 38,
+   "type": "tafsir",
+   "name": "Tafsir Muyassar",
+   "translatedName": "Tafsir Muyassar",
+   "author": null,
+   "slug": "ar-tafsir-muyassar",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 5278,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748288895-dedw9-ar-tafsir-muyassar.db.zip",
+   "fileSizeBytes": 738015
+  },
+  {
+   "qulId": 37,
+   "type": "tafsir",
+   "name": "Tafsir al-Tabari",
+   "translatedName": "Tafsir al-Tabari",
+   "author": null,
+   "slug": "ar-tafsir-al-tabari",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 6202,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1750073984-8w9pa-ar-tafsir-al-tabari.db.zip",
+   "fileSizeBytes": 8837574
+  },
+  {
+   "qulId": 25,
+   "type": "tafsir",
+   "name": "Tafsir al-Tahrir wa al-Tanwir",
+   "translatedName": "Tafsir al-Tahrir wa al-Tanwir",
+   "author": "Tanweer",
+   "slug": "ar-tafseer-tahrir-al-tanwir",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752592745-vs99f-ar-tafseer-tahrir-al-tanwir.db.zip",
+   "fileSizeBytes": 10918963
+  },
+  {
+   "qulId": 487,
+   "type": "tafsir",
+   "name": "Tahlil Kalimat al-Qur'an",
+   "translatedName": "Tahlil Kalimat al-Qur'an",
+   "author": null,
+   "slug": "ar-tahlil-kalimat-al-qur-an",
+   "language": {
+    "iso": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2025-07-13T05:55:52+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752060623-jqb6b-tahlil-kalimat-al-qur-an.db.zip",
+   "fileSizeBytes": 1211453
+  },
+  {
+   "qulId": 255,
+   "type": "tafsir",
+   "name": "Assamese Abridged Explanation of the Quran",
+   "translatedName": "Assamese Abridged Explanation of the Quran",
+   "author": "Tafsir Center of Quranic Studies",
+   "slug": "as-mukhtasar",
+   "language": {
+    "iso": "as",
+    "name": "Assamese",
+    "native": "অসমীয়া",
+    "direction": "ltr"
+   },
+   "recordsCount": 6215,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748331933-7uo0z-assamese-mokhtasar.db.zip",
+   "fileSizeBytes": 959338
+  },
+  {
+   "qulId": 165,
+   "type": "translation",
+   "name": "Shaykh Rafeequl Islam Habibur-Rahman",
+   "translatedName": "Shaykh Rafeequl Islam Habibur-Rahman",
+   "author": "Shaykh Rafeequl Islam Habibur-Rahman",
+   "slug": "as-rafeequl-islam",
+   "language": {
+    "iso": "as",
+    "name": "Assamese",
+    "native": "অসমীয়া",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328823-xj3v3-shaykh-rafeequl-islam-habibur-rahman-with-footnote-tags.db.zip",
+   "fileSizeBytes": 559680
+  },
+  {
+   "qulId": 537,
+   "type": "tafsir",
+   "name": "Azeri Mokhtasar",
+   "translatedName": "Azeri Mokhtasar",
+   "author": null,
+   "slug": "az-mokhtasar",
+   "language": {
+    "iso": "az",
+    "name": "Azeri",
+    "native": "Azərbaycan dili",
+    "direction": "ltr"
+   },
+   "recordsCount": 6212,
+   "qulUpdatedAt": "2025-02-23T06:00:02+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752262126-5n400-azeri-mokhtasar.db.zip",
+   "fileSizeBytes": 761989
+  },
+  {
+   "qulId": 147,
+   "type": "translation",
+   "name": "Alikhan Musayev",
+   "translatedName": "Alikhan Musayev",
+   "author": "Alikhan Musayev",
+   "slug": "az-alikhan",
+   "language": {
+    "iso": "az",
+    "name": "Azeri",
+    "native": "Azərbaycan dili",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328161-059fn-az-alikhan-simple.db.zip",
+   "fileSizeBytes": 400580
+  },
+  {
+   "qulId": 125,
+   "type": "translation",
+   "name": "Azerbaijani",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "az",
+    "name": "Azeri",
+    "native": "Azərbaycan dili",
+    "direction": "ltr"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327758-71rp4-az-unknown-simple.db.zip",
+   "fileSizeBytes": 530930
+  },
+  {
+   "qulId": 294,
+   "type": "translation",
+   "name": "Bulgarian Translation",
+   "translatedName": "Bulgarian Translation",
+   "author": "Bulgarian Translation",
+   "slug": "bg-bulgarian",
+   "language": {
+    "iso": "bg",
+    "name": "Bulgarian",
+    "native": "Български",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334321-ghafy-bulgarian-translation-simple.db.zip",
+   "fileSizeBytes": 429288
+  },
+  {
+   "qulId": 221,
+   "type": "translation",
+   "name": "Tzvetan Theophanov",
+   "translatedName": "Tzvetan Theophanov",
+   "author": "Tzvetan Theophanov",
+   "slug": "bg-tzvetan",
+   "language": {
+    "iso": "bg",
+    "name": "Bulgarian",
+    "native": "Български",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330514-uc9bg-tzvetan-theophanov-simple.db.zip",
+   "fileSizeBytes": 400919
+  },
+  {
+   "qulId": 287,
+   "type": "translation",
+   "name": "Baba Mamady Jani",
+   "translatedName": "Baba Mamady Jani",
+   "author": "Baba Mamady Jani",
+   "slug": "bm-mamady",
+   "language": {
+    "iso": "bm",
+    "name": "Bambara",
+    "native": "Bambara",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:52+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334085-h2jvv-baba-mamady-jani-simple.db.zip",
+   "fileSizeBytes": 443740
+  },
+  {
+   "qulId": 288,
+   "type": "translation",
+   "name": "Suliman Kanti",
+   "translatedName": "Suliman Kanti",
+   "author": "Suliman Kanti",
+   "slug": "bm-suliman",
+   "language": {
+    "iso": "bm",
+    "name": "Bambara",
+    "native": "Bambara",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334146-y31qj-suliman-kanti-simple.db.zip",
+   "fileSizeBytes": 455936
+  },
+  {
+   "qulId": 267,
+   "type": "tafsir",
+   "name": "Bengali Abridged Explanation of the Quran",
+   "translatedName": "Bengali Abridged Explanation of the Quran",
+   "author": "Tafsir Center for Quranic Studies",
+   "slug": "bn-mukhtasar",
+   "language": {
+    "iso": "bn",
+    "name": "Bengali",
+    "native": "বাংলা",
+    "direction": "ltr"
+   },
+   "recordsCount": 6214,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748333948-bhpvq-bengali-mokhtasar.db.zip",
+   "fileSizeBytes": 946020
+  },
+  {
+   "qulId": 31,
+   "type": "tafsir",
+   "name": "Tafseer ibn Kathir",
+   "translatedName": "Tafseer ibn Kathir",
+   "author": "Tawheed Publication",
+   "slug": "bn-tafseer-ibn-e-kaseer",
+   "language": {
+    "iso": "bn",
+    "name": "Bengali",
+    "native": "বাংলা",
+    "direction": "ltr"
+   },
+   "recordsCount": 1914,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748288641-45bn3-bn-tafseer-ibn-e-kaseer.db.zip",
+   "fileSizeBytes": 4723385
+  },
+  {
+   "qulId": 33,
+   "type": "tafsir",
+   "name": "Tafsir Abu Bakr Zakaria",
+   "translatedName": "Tafsir Abu Bakr Zakaria",
+   "author": "King Fahd Quran Printing Complex",
+   "slug": "bn-tafsir-abu-bakr-zakaria",
+   "language": {
+    "iso": "bn",
+    "name": "Bengali",
+    "native": "বাংলা",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748289457-t2vzn-bn-tafsir-abu-bakr-zakaria.db.zip",
+   "fileSizeBytes": 2856765
+  },
+  {
+   "qulId": 32,
+   "type": "tafsir",
+   "name": "Tafsir Ahsanul Bayaan",
+   "translatedName": "Tafsir Ahsanul Bayaan",
+   "author": "Bayaan Foundation",
+   "slug": "bn-tafsir-ahsanul-bayaan",
+   "language": {
+    "iso": "bn",
+    "name": "Bengali",
+    "native": "বাংলা",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748289010-0m8qj-bn-tafsir-ahsanul-bayaan.db.zip",
+   "fileSizeBytes": 2106078
+  },
+  {
+   "qulId": 39,
+   "type": "tafsir",
+   "name": "Tafsir Fathul Majid",
+   "translatedName": "Tafsir Fathul Majid",
+   "author": "AbdulRahman Bin Hasan Al-Alshaikh",
+   "slug": "tafisr-fathul-majid-bn",
+   "language": {
+    "iso": "bn",
+    "name": "Bengali",
+    "native": "বাংলা",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748289022-eh6pk-tafisr-fathul-majid-bn.db.zip",
+   "fileSizeBytes": 352492
+  },
+  {
+   "qulId": 94,
+   "type": "translation",
+   "name": "Bengali wbw translation",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "bn",
+    "name": "Bengali",
+    "native": "বাংলা",
+    "direction": "ltr"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748326370-qcgc1-bangali-word-by-word-translation.db.zip",
+   "fileSizeBytes": 1305276
+  },
+  {
+   "qulId": 200,
+   "type": "translation",
+   "name": "Dr. Abu Bakr Muhammad Zakaria",
+   "translatedName": "Dr. Abu Bakr Muhammad Zakaria",
+   "author": "Dr. Abu Bakr Muhammad Zakaria",
+   "slug": "bn-zakaria",
+   "language": {
+    "iso": "bn",
+    "name": "Bengali",
+    "native": "বাংলা",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329996-7jg1h-dr-abu-bakr-muhammad-zakaria-simple.db.zip",
+   "fileSizeBytes": 513989
+  },
+  {
+   "qulId": 229,
+   "type": "translation",
+   "name": "Fathul Majid",
+   "translatedName": "Fathul Majid",
+   "author": "AbdulRahman Bin Hasan Al-Alshaikh",
+   "slug": "fathul-majid-bn",
+   "language": {
+    "iso": "bn",
+    "name": "Bengali",
+    "native": "বাংলা",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330624-rw59e-fathul-majid-bn-simple.db.zip",
+   "fileSizeBytes": 510159
+  },
+  {
+   "qulId": 185,
+   "type": "translation",
+   "name": "Rawai Al-bayan",
+   "translatedName": "Rawai Al-bayan",
+   "author": "Bayaan Foundation",
+   "slug": "bn-rawai-al-bayan",
+   "language": {
+    "iso": "bn",
+    "name": "Bengali",
+    "native": "বাংলা",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329683-q9v02-bn-rawai-al-bayan-simple.db.zip",
+   "fileSizeBytes": 513477
+  },
+  {
+   "qulId": 186,
+   "type": "translation",
+   "name": "Sheikh Mujibur Rahman",
+   "translatedName": "Sheikh Mujibur Rahman",
+   "author": "Darussalaam Publication",
+   "slug": "bn-sheikh-mujibur-rahman",
+   "language": {
+    "iso": "bn",
+    "name": "Bengali",
+    "native": "বাংলা",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329709-e4b9w-bn-sheikh-mujibur-rahman-simple.db.zip",
+   "fileSizeBytes": 515085
+  },
+  {
+   "qulId": 184,
+   "type": "translation",
+   "name": "Taisirul Quran",
+   "translatedName": "Taisirul Quran",
+   "author": "Tawheed Publication",
+   "slug": "bn-taisirul-quran",
+   "language": {
+    "iso": "bn",
+    "name": "Bengali",
+    "native": "বাংলা",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329620-7snm5-bn-taisirul-quran-simple.db.zip",
+   "fileSizeBytes": 547196
+  },
+  {
+   "qulId": 252,
+   "type": "tafsir",
+   "name": "Bosnian Abridged Explanation of the Quran",
+   "translatedName": "Bosnian Abridged Explanation of the Quran",
+   "author": "Tafsir Center",
+   "slug": "bs-mukhtasar",
+   "language": {
+    "iso": "bs",
+    "name": "Bosnian",
+    "native": "Bosanski",
+    "direction": "ltr"
+   },
+   "recordsCount": 6220,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748332330-cb40p-bosnian-mokhtasar.db.zip",
+   "fileSizeBytes": 687189
+  },
+  {
+   "qulId": 170,
+   "type": "translation",
+   "name": "Besim Korkut",
+   "translatedName": "Besim Korkut",
+   "author": "Besim Korkut",
+   "slug": "bs-besim",
+   "language": {
+    "iso": "bs",
+    "name": "Bosnian",
+    "native": "Bosanski",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328925-qthb1-besim-korkut-simple.db.zip",
+   "fileSizeBytes": 365964
+  },
+  {
+   "qulId": 201,
+   "type": "translation",
+   "name": "Dar Al-Salam Center",
+   "translatedName": "Dar Al-Salam Center",
+   "author": "Dar Al-Salam Center",
+   "slug": "tr-rwwad",
+   "language": {
+    "iso": "bs",
+    "name": "Bosnian",
+    "native": "Bosanski",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:51+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330028-bs916-dar-al-salam-center-simple.db.zip",
+   "fileSizeBytes": 1146852
+  },
+  {
+   "qulId": 190,
+   "type": "translation",
+   "name": "Muhamed Mehanović",
+   "translatedName": "Muhamed Mehanović",
+   "author": "Muhamed Mehanović",
+   "slug": "bs-unknown",
+   "language": {
+    "iso": "bs",
+    "name": "Bosnian",
+    "native": "Bosanski",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329773-62cra-bs-unknown-simple.db.zip",
+   "fileSizeBytes": 372592
+  },
+  {
+   "qulId": 156,
+   "type": "translation",
+   "name": "Magomed Magomedov",
+   "translatedName": "Magomed Magomedov",
+   "author": "Magomed Magomedov",
+   "slug": "chechen-translation",
+   "language": {
+    "iso": "ce",
+    "name": "Chechen",
+    "native": "Chechen",
+    "direction": "ltr"
+   },
+   "recordsCount": 6030,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328590-3kcho-chechen-translation-with-footnote-tags.db.zip",
+   "fileSizeBytes": 654287
+  },
+  {
+   "qulId": 120,
+   "type": "translation",
+   "name": "Czech",
+   "translatedName": "Czech",
+   "author": "Czech",
+   "slug": "cs-unknown",
+   "language": {
+    "iso": "cs",
+    "name": "Czech",
+    "native": "Čeština",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327681-a6ovu-cs-unknown-simple.db.zip",
+   "fileSizeBytes": 396459
+  },
+  {
+   "qulId": 197,
+   "type": "translation",
+   "name": "Abu Reda Muhammad ibn Ahmad",
+   "translatedName": "Abu Reda Muhammad ibn Ahmad",
+   "author": "Abu Reda Muhammad ibn Ahmad",
+   "slug": "de-reda",
+   "language": {
+    "iso": "de",
+    "name": "German",
+    "native": "Deutsch",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329930-hrhy1-abu-reda-muhammad-ibn-ahmad-simple.db.zip",
+   "fileSizeBytes": 407403
+  },
+  {
+   "qulId": 191,
+   "type": "translation",
+   "name": "Frank Bubenheim and Nadeem",
+   "translatedName": "Frank Bubenheim and Nadeem",
+   "author": "Frank Bubenheim and Nadeem",
+   "slug": "de-bubenheim",
+   "language": {
+    "iso": "de",
+    "name": "German",
+    "native": "Deutsch",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329833-uljow-de-bubenheim-simple.db.zip",
+   "fileSizeBytes": 402383
+  },
+  {
+   "qulId": 467,
+   "type": "translation",
+   "name": "German Translation - Rowwad Translation Center",
+   "translatedName": "German Translation - Rowwad Translation Center",
+   "author": null,
+   "slug": "de-rwwad",
+   "language": {
+    "iso": "de",
+    "name": "German",
+    "native": "Deutsch",
+    "direction": "ltr"
+   },
+   "recordsCount": 4473,
+   "qulUpdatedAt": "2026-07-19T06:00:05+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1749767102-z3mny-german-translation-rowwad-translation-center-simple.db.zip",
+   "fileSizeBytes": 332635
+  },
+  {
+   "qulId": 280,
+   "type": "translation",
+   "name": "Abu Bakr Ibrahim Ali (Bakurube)",
+   "translatedName": "Abu Bakr Ibrahim Ali (Bakurube)",
+   "author": "Abu Bakr Ibrahim Ali",
+   "slug": "ml-shaikh-aboobakr-ibrahim-ali",
+   "language": {
+    "iso": "di",
+    "name": "Divehi",
+    "native": "Divehi",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748333777-2bhg0-ml-shaikh-aboobakr-ibrahim-ali-simple.db.zip",
+   "fileSizeBytes": 929467
+  },
+  {
+   "qulId": 226,
+   "type": "translation",
+   "name": "Office of the president of Maldives",
+   "translatedName": "Office of the president of Maldives",
+   "author": "Office of the president of Maldives",
+   "slug": "dv-unknow",
+   "language": {
+    "iso": "dv",
+    "name": "Divehi, Dhivehi, Maldivian",
+    "native": "ދިވެހި",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330578-n3c58-dv-unknow-simple.db.zip",
+   "fileSizeBytes": 555971
+  },
+  {
+   "qulId": 464,
+   "type": "translation",
+   "name": "Greek translation",
+   "translatedName": "Greek translation",
+   "author": null,
+   "slug": "el-rwwad",
+   "language": {
+    "iso": "el",
+    "name": "Greek",
+    "native": "Ελληνικά",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2025-06-12T21:25:17+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1749763581-5rr02-greek-translation-simple.db.zip",
+   "fileSizeBytes": 696182
+  },
+  {
+   "qulId": 266,
+   "type": "tafsir",
+   "name": "English Al-Mukhtasar",
+   "translatedName": "English Al-Mukhtasar",
+   "author": "Tafsir Center of Quranic Studies",
+   "slug": "en-mukhtasar",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6211,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1750676694-9yqjf-abridged-explanation-of-the-quran.db.zip",
+   "fileSizeBytes": 657615
+  },
+  {
+   "qulId": 34,
+   "type": "tafsir",
+   "name": "Maarif-ul-Quran",
+   "translatedName": "Maarif-ul-Quran",
+   "author": "Mufti Muhammad Shafi",
+   "slug": "en-tafsir-maarif-ul-quran",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748288883-on5it-en-tafsir-maarif-ul-quran.db.zip",
+   "fileSizeBytes": 4155742
+  },
+  {
+   "qulId": 573,
+   "type": "tafsir",
+   "name": "Tafsir Al Jalalayn - English",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1777315357-760fx-tafsir-al-jalalayn.db.zip",
+   "fileSizeBytes": 921720
+  },
+  {
+   "qulId": 35,
+   "type": "tafsir",
+   "name": "Tafsir Ibn Kathir",
+   "translatedName": "Tafsir Ibn Kathir",
+   "author": "Hafiz Ibn Kathir",
+   "slug": "en-tafisr-ibn-kathir",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 1915,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748288847-99a1f-en-tafisr-ibn-kathir.db.zip",
+   "fileSizeBytes": 3855680
+  },
+  {
+   "qulId": 42,
+   "type": "tafsir",
+   "name": "Tazkirul Quran(Maulana Wahiduddin Khan)",
+   "translatedName": "Tazkirul Quran(Maulana Wahiduddin Khan)",
+   "author": "Maulana Wahid Uddin Khan",
+   "slug": "tazkirul-quran-en",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 1952,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748289461-lwumq-tazkirul-quran-en.db.zip",
+   "fileSizeBytes": 841285
+  },
+  {
+   "qulId": 278,
+   "type": "translation",
+   "name": "A. J. Arberry",
+   "translatedName": "A. J. Arberry",
+   "author": null,
+   "slug": "en-arberry",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748333712-lmxp9-en-arberry-simple.db.zip",
+   "fileSizeBytes": 344068
+  },
+  {
+   "qulId": 154,
+   "type": "translation",
+   "name": "Abdul Haleem",
+   "translatedName": "Abdul Haleem",
+   "author": "Abdul Haleem",
+   "slug": "en-haleem",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328466-d8ox2-en-haleem-with-footnote-tags.db.zip",
+   "fileSizeBytes": 368639
+  },
+  {
+   "qulId": 276,
+   "type": "translation",
+   "name": "Abdul Majid Daryabadi",
+   "translatedName": "Abdul Majid Daryabadi",
+   "author": null,
+   "slug": "en-daryabadi",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748333622-6fu36-en-daryabadi-simple.db.zip",
+   "fileSizeBytes": 362472
+  },
+  {
+   "qulId": 124,
+   "type": "translation",
+   "name": "Abdullah Yusuf Ali",
+   "translatedName": "Abdullah Yusuf Ali",
+   "author": "Abdullah Yusuf Ali",
+   "slug": "quran.en.yusufali",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327773-ahhtr-quran-en-yusufali-simple.db.zip",
+   "fileSizeBytes": 416623
+  },
+  {
+   "qulId": 564,
+   "type": "translation",
+   "name": "Colored English wbw translation",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1769196879-q8s33-colored-english-wbw-translation.db.zip",
+   "fileSizeBytes": 1333480
+  },
+  {
+   "qulId": 122,
+   "type": "translation",
+   "name": "Dr. Ghali",
+   "translatedName": "Muhammad Mahmood Ghali",
+   "author": "Dr. Ghali",
+   "slug": "en-ghali",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327711-c65fj-en-ghali-simple.db.zip",
+   "fileSizeBytes": 413209
+  },
+  {
+   "qulId": 300,
+   "type": "translation",
+   "name": "Dr. T. B. Irving",
+   "translatedName": "Dr. T. B. Irving",
+   "author": "Dr. T. B. Irving",
+   "slug": "en-irving",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334585-2r2yl-dr-t-b-irving-simple.db.zip",
+   "fileSizeBytes": 380667
+  },
+  {
+   "qulId": 451,
+   "type": "translation",
+   "name": "Dr. Waleed Bleyhesh Omary",
+   "translatedName": "Dr. Waleed Bleyhesh Omary",
+   "author": "Dr. Waleed Bleyhesh Omary",
+   "slug": "en-waleed",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 2250,
+   "qulUpdatedAt": "2026-05-12T22:38:51+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748336005-d10wz-dr-waleed-bleyhesh-omary-simple.db.zip",
+   "fileSizeBytes": 178044
+  },
+  {
+   "qulId": 145,
+   "type": "translation",
+   "name": "English Translation (Pickthall)",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328130-byyzi-quran-en-pickthall-simple.db.zip",
+   "fileSizeBytes": 370678
+  },
+  {
+   "qulId": 92,
+   "type": "translation",
+   "name": "English Word by Word Translation",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1764843844-jlpzb-english-wbw-translation.db.zip",
+   "fileSizeBytes": 1091543
+  },
+  {
+   "qulId": 179,
+   "type": "translation",
+   "name": "Fadel Soliman, Bridges’ translation",
+   "translatedName": "Fadel Soliman, Bridges’ translation",
+   "author": "Fadel Soliman",
+   "slug": "bridges-translation",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1749761196-we9se-bridges-translation-with-footnote-tags.db.zip",
+   "fileSizeBytes": 458177
+  },
+  {
+   "qulId": 187,
+   "type": "translation",
+   "name": "Maarif-ul-Quran",
+   "translatedName": "Maarif-ul-Quran",
+   "author": "Mufti Muhammad Shafi",
+   "slug": "en-maarif-ul-quran",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1754467295-z1gni-en-maarif-ul-quran-simple.db.zip",
+   "fileSizeBytes": 385821
+  },
+  {
+   "qulId": 282,
+   "type": "translation",
+   "name": "Maulana Wahiduddin Khan",
+   "translatedName": "Maulana Wahiduddin Khan",
+   "author": "Maulana Wahiduddin Khan",
+   "slug": "maulana-wahid-uddin-khan-urdu",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334115-7fa9e-en-maulana-wahiduddin-khan-with-footnote-tags.db.zip",
+   "fileSizeBytes": 468369
+  },
+  {
+   "qulId": 153,
+   "type": "translation",
+   "name": "Mufti Taqi Usmani",
+   "translatedName": "Mufti Taqi Usmani",
+   "author": "Mufti Taqi Usmani",
+   "slug": "en-taqi-usmani",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328286-hvg43-en-taqi-usmani-simple.db.zip",
+   "fileSizeBytes": 389650
+  },
+  {
+   "qulId": 277,
+   "type": "translation",
+   "name": "Muhammad Asad",
+   "translatedName": "Muhammad Asad",
+   "author": null,
+   "slug": "en-asad",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748333656-ji8gi-en-asad-simple.db.zip",
+   "fileSizeBytes": 466931
+  },
+  {
+   "qulId": 269,
+   "type": "translation",
+   "name": "Muhammad Sarwar",
+   "translatedName": "Muhammad Sarwar",
+   "author": null,
+   "slug": "en-sarwar",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-03-01T16:12:52+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1772381640-631y2-en-sarwar-simple.db.zip",
+   "fileSizeBytes": 365908
+  },
+  {
+   "qulId": 301,
+   "type": "translation",
+   "name": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+   "translatedName": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+   "author": "Muhammad Taqi-ud-Din al-Hilali & Muhammad Muhsin Khan",
+   "slug": "en-hilali",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:51+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334735-cbbey-taqi-ud-din-al-hilali-muhsin-khan-with-footnote-tags.db.zip",
+   "fileSizeBytes": 612376
+  },
+  {
+   "qulId": 121,
+   "type": "translation",
+   "name": "Muhsin Khan",
+   "translatedName": "Muhsin Khan",
+   "author": "Muhsin Khan",
+   "slug": "en-muhsin-khan",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2024-08-05T07:26:16+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327713-jvodi-en-muhsin-khan-simple.db.zip",
+   "fileSizeBytes": 462548
+  },
+  {
+   "qulId": 275,
+   "type": "translation",
+   "name": "Professor Shaykh Hasan Al-Fatih Qaribullah",
+   "translatedName": "Professor Shaykh Hasan Al-Fatih Qaribullah",
+   "author": null,
+   "slug": "en-qaribullah",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748333588-onvmb-en-qaribullah-simple.db.zip",
+   "fileSizeBytes": 348634
+  },
+  {
+   "qulId": 212,
+   "type": "translation",
+   "name": "Ruwwad Center",
+   "translatedName": "Ruwwad Center",
+   "author": "Ruwwad Center",
+   "slug": "en-ruwwad",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:50+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330327-x1wja-translation-pioneers-center-simple.db.zip",
+   "fileSizeBytes": 1038097
+  },
+  {
+   "qulId": 195,
+   "type": "translation",
+   "name": "Ruwwad Center",
+   "translatedName": "Ruwwad Center",
+   "author": "Ruwwad Center",
+   "slug": "en-ruwwad",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:50+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329869-m7jet-ruwwad-center-simple.db.zip",
+   "fileSizeBytes": 355723
+  },
+  {
+   "qulId": 193,
+   "type": "translation",
+   "name": "Saheeh International",
+   "translatedName": "Saheeh International",
+   "author": "Saheeh International",
+   "slug": "en-sahih-international",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330184-rmzel-en-sahih-international-with-footnote-tags.db.zip",
+   "fileSizeBytes": 466589
+  },
+  {
+   "qulId": 123,
+   "type": "translation",
+   "name": "Shakir",
+   "translatedName": "Shakir",
+   "author": "Shakir",
+   "slug": "en-shakir",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-19T10:07:49+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327743-wogya-en-shakir-simple.db.zip",
+   "fileSizeBytes": 362878
+  },
+  {
+   "qulId": 192,
+   "type": "translation",
+   "name": "Tafheem-ul-Quran - Abul Ala Maududi",
+   "translatedName": "Tafheem-ul-Quran - Abul Ala Maududi",
+   "author": "Sayyid Abul Ala Maududi",
+   "slug": "en-al-maududi",
+   "language": {
+    "iso": "en",
+    "name": "English",
+    "native": "English",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330282-yj54g-en-al-maududi-with-footnote-tags.db.zip",
+   "fileSizeBytes": 1907617
+  },
+  {
+   "qulId": 268,
+   "type": "tafsir",
+   "name": "Spanish Abridged Explanation of the Quran",
+   "translatedName": "Spanish Abridged Explanation of the Quran",
+   "author": "Tafsir Center for Quranic Studies",
+   "slug": "es-mukhtasar",
+   "language": {
+    "iso": "es",
+    "name": "Spanish",
+    "native": "Español",
+    "direction": "ltr"
+   },
+   "recordsCount": 6232,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748334846-reouo-spanish-mokhtasar.db.zip",
+   "fileSizeBytes": 670447
+  },
+  {
+   "qulId": 176,
+   "type": "translation",
+   "name": "Montada Islamic Foundation",
+   "translatedName": "Montada Islamic Foundation",
+   "author": "Montada Islamic Foundation",
+   "slug": "fr-montada",
+   "language": {
+    "iso": "es",
+    "name": "Spanish",
+    "native": "Español",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329585-9y7tr-montada-islamic-foundation-with-footnote-tags.db.zip",
+   "fileSizeBytes": 1058428
+  },
+  {
+   "qulId": 223,
+   "type": "translation",
+   "name": "Noor International Center",
+   "translatedName": "Noor International Center",
+   "author": "Noor International Center",
+   "slug": "es-montada-la",
+   "language": {
+    "iso": "es",
+    "name": "Spanish",
+    "native": "Español",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330883-xahhn-noor-international-center-with-footnote-tags.db.zip",
+   "fileSizeBytes": 571964
+  },
+  {
+   "qulId": 152,
+   "type": "translation",
+   "name": "Sheikh Isa Garcia",
+   "translatedName": "Sheikh Isa Garcia",
+   "author": "Sheikh Isa Garcia",
+   "slug": "es-isa-garcia",
+   "language": {
+    "iso": "es",
+    "name": "Spanish",
+    "native": "Español",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:51+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328492-mil28-es-isa-garcia-with-footnote-tags.db.zip",
+   "fileSizeBytes": 503477
+  },
+  {
+   "qulId": 126,
+   "type": "translation",
+   "name": "Spanish Translation(Cortes)",
+   "translatedName": "Cortes",
+   "author": "Julio Cortes",
+   "slug": "quran.es.cortes",
+   "language": {
+    "iso": "es",
+    "name": "Spanish",
+    "native": "Español",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327802-tcf2x-quran-es-cortes-simple.db.zip",
+   "fileSizeBytes": 356095
+  },
+  {
+   "qulId": 263,
+   "type": "tafsir",
+   "name": "Persian Al-Mukhtasar in interpreting the Noble Quran",
+   "translatedName": "Persian Al-Mukhtasar in interpreting the Noble Quran",
+   "author": "Tafsir Center",
+   "slug": "fa-mukhtasar",
+   "language": {
+    "iso": "fa",
+    "name": "Persian",
+    "native": "فارسی",
+    "direction": "rtl"
+   },
+   "recordsCount": 6234,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748333348-nh3kj-persian-mokhtasar.db.zip",
+   "fileSizeBytes": 768971
+  },
+  {
+   "qulId": 485,
+   "type": "tafsir",
+   "name": "Tafsir As-Saadi - Persian",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "fa",
+    "name": "Persian",
+    "native": "فارسی",
+    "direction": "rtl"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752059012-v63hj-fr-tafsir-as-saadi.db.zip",
+   "fileSizeBytes": 3357331
+  },
+  {
+   "qulId": 188,
+   "type": "translation",
+   "name": "Hussein Taji Kal Dari",
+   "translatedName": "Hussein Taji Kal Dari",
+   "author": "Hussein Taji Kal Dari",
+   "slug": "fr-hussein-taji",
+   "language": {
+    "iso": "fa",
+    "name": "Persian",
+    "native": "فارسی",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329803-8s9p5-fr-hussein-taji-simple.db.zip",
+   "fileSizeBytes": 471110
+  },
+  {
+   "qulId": 169,
+   "type": "translation",
+   "name": "IslamHouse.com",
+   "translatedName": "IslamHouse.com",
+   "author": "IslamHouse.com",
+   "slug": "fa-ih",
+   "language": {
+    "iso": "fa",
+    "name": "Persian",
+    "native": "فارسی",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:52+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328860-7vg2k-islamhouse-com-simple.db.zip",
+   "fileSizeBytes": 519757
+  },
+  {
+   "qulId": 91,
+   "type": "translation",
+   "name": "Persian wbw translation",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "fa",
+    "name": "Persian",
+    "native": "فارسی",
+    "direction": "rtl"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748325830-qmml0-persian-wbw-translation.db.zip",
+   "fileSizeBytes": 1128007
+  },
+  {
+   "qulId": 534,
+   "type": "tafsir",
+   "name": "Fulani Mokhtasar",
+   "translatedName": "Fulani Mokhtasar",
+   "author": null,
+   "slug": "ff-mokhtasar",
+   "language": {
+    "iso": "ff",
+    "name": "Fulah",
+    "native": "Fulah",
+    "direction": "ltr"
+   },
+   "recordsCount": 6223,
+   "qulUpdatedAt": "2025-02-23T06:00:02+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752262334-1adwq-fulani-mokhtasar.db.zip",
+   "fileSizeBytes": 617175
+  },
+  {
+   "qulId": 435,
+   "type": "translation",
+   "name": "Fulani translation",
+   "translatedName": "Fulani translation",
+   "author": "Rowad Translation Center",
+   "slug": "ff-rowad",
+   "language": {
+    "iso": "ff",
+    "name": "Fulah",
+    "native": "Fulah",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335720-rrh80-rowad-translation-center-simple.db.zip",
+   "fileSizeBytes": 759294
+  },
+  {
+   "qulId": 127,
+   "type": "translation",
+   "name": "Finnish",
+   "translatedName": "Finnish",
+   "author": "Finnish",
+   "slug": "fi-unknown",
+   "language": {
+    "iso": "fi",
+    "name": "Finnish",
+    "native": "Suomi",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327803-2qitp-fi-unknown-simple.db.zip",
+   "fileSizeBytes": 417776
+  },
+  {
+   "qulId": 259,
+   "type": "tafsir",
+   "name": "French Abridged Explanation of the Quran",
+   "translatedName": "French Abridged Explanation of the Quran",
+   "author": "Tafsir Center for Quranic Studies",
+   "slug": "fr-mukhtasar",
+   "language": {
+    "iso": "fr",
+    "name": "French",
+    "native": "Français",
+    "direction": "ltr"
+   },
+   "recordsCount": 6212,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748332893-conps-french-mokhtasar.db.zip",
+   "fileSizeBytes": 718630
+  },
+  {
+   "qulId": 95,
+   "type": "translation",
+   "name": "French wbw translation",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "fr",
+    "name": "French",
+    "native": "Français",
+    "direction": "ltr"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748326461-li8mf-french-wbw-translation.db.zip",
+   "fileSizeBytes": 1102563
+  },
+  {
+   "qulId": 174,
+   "type": "translation",
+   "name": "Montada Islamic Foundation",
+   "translatedName": "Montada Islamic Foundation",
+   "author": "Montada Islamic Foundation",
+   "slug": "fr-montada",
+   "language": {
+    "iso": "fr",
+    "name": "French",
+    "native": "Français",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329218-hp4sl-montada-islamic-foundation-with-footnote-tags.db.zip",
+   "fileSizeBytes": 481561
+  },
+  {
+   "qulId": 227,
+   "type": "translation",
+   "name": "Muhammad Hamidullah",
+   "translatedName": "Muhammad Hamidullah",
+   "author": "Muhammad Hamidullah",
+   "slug": "quran.fr.hamidullah",
+   "language": {
+    "iso": "fr",
+    "name": "French",
+    "native": "Français",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330891-bpkgy-quran-fr-hamidullah-with-footnote-tags.db.zip",
+   "fileSizeBytes": 492748
+  },
+  {
+   "qulId": 295,
+   "type": "translation",
+   "name": "Rashid Maash",
+   "translatedName": "Rashid Maash",
+   "author": "Rashid Maash",
+   "slug": "fr-rashid-maash",
+   "language": {
+    "iso": "fr",
+    "name": "French",
+    "native": "Français",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-06-24T14:20:13+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334474-9ysyb-fr-rashid-maash-with-footnote-tags.db.zip",
+   "fileSizeBytes": 514776
+  },
+  {
+   "qulId": 211,
+   "type": "translation",
+   "name": "Rabila Al-Umry",
+   "translatedName": "Rabila Al-Umry",
+   "author": "Rabila Al-Umry",
+   "slug": "gu-rabila",
+   "language": {
+    "iso": "gu",
+    "name": "Gujarati",
+    "native": "ગુજરાતી",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330336-v0ddy-rabila-al-umry-simple.db.zip",
+   "fileSizeBytes": 552374
+  },
+  {
+   "qulId": 163,
+   "type": "translation",
+   "name": "Abubakar Mahmood Jummi",
+   "translatedName": "Abubakar Mahmood Jummi",
+   "author": "Abubakar Mahmood Jummi",
+   "slug": "ha-gummi",
+   "language": {
+    "iso": "ha",
+    "name": "Hausa",
+    "native": "Hausa",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328790-qlpkr-abubakar-mahmood-jummi-with-footnote-tags.db.zip",
+   "fileSizeBytes": 502308
+  },
+  {
+   "qulId": 128,
+   "type": "translation",
+   "name": "Hausa Translation(Abubakar Gumi)",
+   "translatedName": "Abubakar Gumi",
+   "author": "Abubakar Mahmoud Gumi",
+   "slug": "quran.ha.abubakar",
+   "language": {
+    "iso": "ha",
+    "name": "Hausa",
+    "native": "Hausa",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2020-12-19T09:03:02+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327832-mlc3s-quran-ha-abubakar-simple.db.zip",
+   "fileSizeBytes": 372527
+  },
+  {
+   "qulId": 297,
+   "type": "translation",
+   "name": "Dar Al-Salam Center",
+   "translatedName": "Dar Al-Salam Center",
+   "author": "Dar Al-Salam Center",
+   "slug": "tr-rwwad",
+   "language": {
+    "iso": "he",
+    "name": "Hebrew",
+    "native": "עברית",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:51+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334513-1d3ms-dar-al-salam-center-simple.db.zip",
+   "fileSizeBytes": 1527543
+  },
+  {
+   "qulId": 535,
+   "type": "tafsir",
+   "name": "Hindi Mokhtasar",
+   "translatedName": "Hindi Mokhtasar",
+   "author": null,
+   "slug": "hi-mokhtasar",
+   "language": {
+    "iso": "hi",
+    "name": "Hindi",
+    "native": "हिन्दी",
+    "direction": "ltr"
+   },
+   "recordsCount": 6212,
+   "qulUpdatedAt": "2025-04-10T11:15:50+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752262329-9s2id-hindi-mokhtasar.db.zip",
+   "fileSizeBytes": 993221
+  },
+  {
+   "qulId": 44,
+   "type": "translation",
+   "name": "Hindi wbw translation",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "hi",
+    "name": "Hindi",
+    "native": "हिन्दी",
+    "direction": "ltr"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748289319-pz32p-hindi-wbw-translation.db.zip",
+   "fileSizeBytes": 1110250
+  },
+  {
+   "qulId": 166,
+   "type": "translation",
+   "name": "Maulana Azizul Haque al-Umari",
+   "translatedName": "Maulana Azizul Haque al-Umari",
+   "author": "Maulana Azizul Haque al-Umari",
+   "slug": "hi-omari",
+   "language": {
+    "iso": "hi",
+    "name": "Hindi",
+    "native": "हिन्दी",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:52+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328868-yw3ma-maulana-azizul-haque-al-umari-with-footnote-tags.db.zip",
+   "fileSizeBytes": 772334
+  },
+  {
+   "qulId": 260,
+   "type": "tafsir",
+   "name": "Indoniesua Al-Mukhtasar in Interpreting the Noble Quran",
+   "translatedName": "Indoniesua Al-Mukhtasar in Interpreting the Noble Quran",
+   "author": "Tafsir Center for Quranic Studies",
+   "slug": "id-mukhtasar",
+   "language": {
+    "iso": "id",
+    "name": "Indonesian",
+    "native": "Bahasa Indonesia",
+    "direction": "ltr"
+   },
+   "recordsCount": 6212,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748333041-0fn8c-indonesian-mokhtasar.db.zip",
+   "fileSizeBytes": 703973
+  },
+  {
+   "qulId": 503,
+   "type": "tafsir",
+   "name": "Tafsir As-Saadi - Indonesian",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "id",
+    "name": "Indonesian",
+    "native": "Bahasa Indonesia",
+    "direction": "ltr"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752245651-gdlig-id-tafsir-as-saadi.db.zip",
+   "fileSizeBytes": 2884321
+  },
+  {
+   "qulId": 41,
+   "type": "tafsir",
+   "name": "Tafsir Jalalayn",
+   "translatedName": "Tafsir Jalalayn",
+   "author": null,
+   "slug": "id-tafsir-jalalayn",
+   "language": {
+    "iso": "id",
+    "name": "Indonesian",
+    "native": "Bahasa Indonesia",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-07-14T10:14:14+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748288932-079xs-in-tafsir-jalalayn.db.zip",
+   "fileSizeBytes": 44417
+  },
+  {
+   "qulId": 224,
+   "type": "translation",
+   "name": "Indonesian Islamic affairs ministry",
+   "translatedName": "Indonesian Islamic affairs ministry",
+   "author": "Indonesian Islamic affairs ministry",
+   "slug": "quran.id",
+   "language": {
+    "iso": "id",
+    "name": "Indonesian",
+    "native": "Bahasa Indonesia",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-06-23T08:44:29+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1782206703-3uluj-quran-id-with-footnote-tags.db.zip",
+   "fileSizeBytes": 474001
+  },
+  {
+   "qulId": 96,
+   "type": "translation",
+   "name": "Indonesian wbw translation",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "id",
+    "name": "Indonesian",
+    "native": "Bahasa Indonesia",
+    "direction": "ltr"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748326822-yrgjz-indonesian-word-by-word-translation.db.zip",
+   "fileSizeBytes": 1071830
+  },
+  {
+   "qulId": 173,
+   "type": "translation",
+   "name": "King Fahad Quran Complex",
+   "translatedName": "King Fahad Quran Complex",
+   "author": "King Fahad Quran Complex",
+   "slug": "id-complex",
+   "language": {
+    "iso": "id",
+    "name": "Indonesian",
+    "native": "Bahasa Indonesia",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329552-gf5dm-king-fahad-quran-complex-with-footnote-tags.db.zip",
+   "fileSizeBytes": 518177
+  },
+  {
+   "qulId": 194,
+   "type": "translation",
+   "name": "The Sabiq company",
+   "translatedName": "The Sabiq company",
+   "author": "The Sabiq company",
+   "slug": "id-sabiq",
+   "language": {
+    "iso": "id",
+    "name": "Indonesian",
+    "native": "Bahasa Indonesia",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330247-2mon3-the-sabiq-company-with-footnote-tags.db.zip",
+   "fileSizeBytes": 479369
+  },
+  {
+   "qulId": 100,
+   "type": "translation",
+   "name": "Ingush wbw translation",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "inh",
+    "name": "Ingush",
+    "native": "ʁəlʁɑj mot",
+    "direction": "ltr"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327226-en4mp-ingush-wbw-translation.db.zip",
+   "fileSizeBytes": 1000116
+  },
+  {
+   "qulId": 253,
+   "type": "tafsir",
+   "name": "Italian Al-Mukhtasar in interpreting the Noble Quran",
+   "translatedName": "Italian Al-Mukhtasar in interpreting the Noble Quran",
+   "author": "Tafsir Center",
+   "slug": "it-mukhtasar",
+   "language": {
+    "iso": "it",
+    "name": "Italian",
+    "native": "Italiano",
+    "direction": "ltr"
+   },
+   "recordsCount": 6212,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748332263-2beno-italian-mokhtasar.db.zip",
+   "fileSizeBytes": 677235
+  },
+  {
+   "qulId": 181,
+   "type": "translation",
+   "name": "Hamza Roberto Piccardo",
+   "translatedName": "Hamza Roberto Piccardo",
+   "author": "Hamza Roberto Piccardo",
+   "slug": "hamza-roberto-piccardo",
+   "language": {
+    "iso": "it",
+    "name": "Italian",
+    "native": "Italiano",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329710-y9hz7-hamza-roberto-piccardo-with-footnote-tags.db.zip",
+   "fileSizeBytes": 911909
+  },
+  {
+   "qulId": 198,
+   "type": "translation",
+   "name": "Othman al-Sharif",
+   "translatedName": "Othman al-Sharif",
+   "author": "Othman al-Sharif",
+   "slug": "it-othman",
+   "language": {
+    "iso": "it",
+    "name": "Italian",
+    "native": "Italiano",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329964-yf13f-othman-al-sharif-simple.db.zip",
+   "fileSizeBytes": 363172
+  },
+  {
+   "qulId": 265,
+   "type": "tafsir",
+   "name": "Japanese Abridged Explanation of the Quran",
+   "translatedName": "Japanese Abridged Explanation of the Quran",
+   "author": "Tafsir Center of Quranic Studies",
+   "slug": "ja-mukhtasar",
+   "language": {
+    "iso": "ja",
+    "name": "Japanese",
+    "native": "日本語",
+    "direction": "ltr"
+   },
+   "recordsCount": 6211,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748333741-ogh6m-japanese-mokhtasar.db.zip",
+   "fileSizeBytes": 667848
+  },
+  {
+   "qulId": 189,
+   "type": "translation",
+   "name": "Ryoichi Mita",
+   "translatedName": "Ryoichi Mita",
+   "author": "Ryoichi Mita",
+   "slug": "ja-ryoichi-mita",
+   "language": {
+    "iso": "ja",
+    "name": "Japanese",
+    "native": "日本語",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329808-s1sa1-ja-ryoichi-mita-simple.db.zip",
+   "fileSizeBytes": 446121
+  },
+  {
+   "qulId": 202,
+   "type": "translation",
+   "name": "Saeed Sato",
+   "translatedName": "Saeed Sato",
+   "author": "Saeed Sato",
+   "slug": "ja-saeed",
+   "language": {
+    "iso": "ja",
+    "name": "Japanese",
+    "native": "日本語",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-06-24T14:20:14+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330061-4ixjo-saeed-sato-simple.db.zip",
+   "fileSizeBytes": 512832
+  },
+  {
+   "qulId": 433,
+   "type": "translation",
+   "name": "Georgian Translation",
+   "translatedName": "Georgian Translation",
+   "author": "Ruwwad Center",
+   "slug": "ka-rwwad",
+   "language": {
+    "iso": "ka",
+    "name": "Georgian",
+    "native": "ქართული",
+    "direction": "ltr"
+   },
+   "recordsCount": 899,
+   "qulUpdatedAt": "2025-01-04T22:15:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335677-w1mla-georgian-translation-simple.db.zip",
+   "fileSizeBytes": 113722
+  },
+  {
+   "qulId": 208,
+   "type": "translation",
+   "name": "Khalifa Altay",
+   "translatedName": "Khalifa Altay",
+   "author": "Khalifa Altay",
+   "slug": "kk-altai",
+   "language": {
+    "iso": "kk",
+    "name": "Kazakh",
+    "native": "Қазақ",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330247-v6y4k-khalifa-altay-simple.db.zip",
+   "fileSizeBytes": 440343
+  },
+  {
+   "qulId": 257,
+   "type": "tafsir",
+   "name": "Khmer Abridged Explanation of the Quran",
+   "translatedName": "Khmer Abridged Explanation of the Quran",
+   "author": "Tafsir Center of Quranic Studies",
+   "slug": "km-mukhtasar",
+   "language": {
+    "iso": "km",
+    "name": "Central Khmer",
+    "native": "Central Khmer",
+    "direction": "ltr"
+   },
+   "recordsCount": 6211,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748332780-f6drg-khmer-mokhtasar.db.zip",
+   "fileSizeBytes": 1126101
+  },
+  {
+   "qulId": 171,
+   "type": "translation",
+   "name": "Cambodian Muslim Community Development",
+   "translatedName": "Cambodian Muslim Community Development",
+   "author": "Cambodian Muslim Community Development",
+   "slug": "km-cambodian",
+   "language": {
+    "iso": "km",
+    "name": "Central Khmer",
+    "native": "Central Khmer",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329040-dx0j9-cambodian-muslim-community-development-simple.db.zip",
+   "fileSizeBytes": 607332
+  },
+  {
+   "qulId": 235,
+   "type": "translation",
+   "name": "Kannada Translation",
+   "translatedName": "Kannada Translation",
+   "author": "Kannada Translation",
+   "slug": "kannada-quran",
+   "language": {
+    "iso": "kn",
+    "name": "Kannada",
+    "native": "Kannada",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330962-27rxb-kannada-quran-with-footnote-tags.db.zip",
+   "fileSizeBytes": 1168285
+  },
+  {
+   "qulId": 204,
+   "type": "translation",
+   "name": "Hamed Choi",
+   "translatedName": "Hamed Choi",
+   "author": "Hamed Choi",
+   "slug": "ko-hamed",
+   "language": {
+    "iso": "ko",
+    "name": "Korean",
+    "native": "한국어",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330091-hnklu-hamed-choi-simple.db.zip",
+   "fileSizeBytes": 405762
+  },
+  {
+   "qulId": 129,
+   "type": "translation",
+   "name": "Korean",
+   "translatedName": "Korean",
+   "author": "Korean",
+   "slug": "ko-unknown",
+   "language": {
+    "iso": "ko",
+    "name": "Korean",
+    "native": "한국어",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327862-p65bj-ko-unknown-simple.db.zip",
+   "fileSizeBytes": 410364
+  },
+  {
+   "qulId": 273,
+   "type": "translation",
+   "name": "Bayanul Furqan(Koshur Quran)",
+   "translatedName": "Bayanul Furqan(Koshur Quran)",
+   "author": "Mirwaiz Yusuf Shah",
+   "slug": "ks-koshur",
+   "language": {
+    "iso": "ks",
+    "name": "Kashmiri",
+    "native": "Kashmiri",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748333520-z6jus-bayanul-furqan-koshur-quran-simple.db.zip",
+   "fileSizeBytes": 888868
+  },
+  {
+   "qulId": 542,
+   "type": "tafsir",
+   "name": "Kurdish Mokhtasar",
+   "translatedName": "Kurdish Mokhtasar",
+   "author": null,
+   "slug": "ku-mokhtasar",
+   "language": {
+    "iso": "ku",
+    "name": "Kurdish",
+    "native": "Kurdî",
+    "direction": "ltr"
+   },
+   "recordsCount": 6227,
+   "qulUpdatedAt": "2025-04-09T11:52:35+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752260936-hfnaf-kurdish-mokhtasar.db.zip",
+   "fileSizeBytes": 1896844
+  },
+  {
+   "qulId": 40,
+   "type": "tafsir",
+   "name": "Rebar Kurdish Tafsir",
+   "translatedName": "Rebar Kurdish Tafsir",
+   "author": "Rebar Kurdish Tafsir",
+   "slug": "kurd-tafsir-rebar",
+   "language": {
+    "iso": "ku",
+    "name": "Kurdish",
+    "native": "Kurdî",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748329456-p63bo-kurd-tafsir-rebar.db.zip",
+   "fileSizeBytes": 1590869
+  },
+  {
+   "qulId": 144,
+   "type": "translation",
+   "name": "Burhan Muhammad-Amin",
+   "translatedName": "Burhan Muhammad-Amin",
+   "author": "Burhan Muhammad-Amin",
+   "slug": "ku-burhan-muhammad",
+   "language": {
+    "iso": "ku",
+    "name": "Kurdish",
+    "native": "Kurdî",
+    "direction": "ltr"
+   },
+   "recordsCount": 6235,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328077-85lu1-ku-burhan-muhammad-simple.db.zip",
+   "fileSizeBytes": 692683
+  },
+  {
+   "qulId": 177,
+   "type": "translation",
+   "name": "Muhammad Saleh Bamoki",
+   "translatedName": "Muhammad Saleh Bamoki",
+   "author": "Muhammad Saleh Bamoki",
+   "slug": "ku-saleh",
+   "language": {
+    "iso": "ku",
+    "name": "Kurdish",
+    "native": "Kurdî",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329280-0wqfi-muhammad-saleh-bamoki-simple.db.zip",
+   "fileSizeBytes": 516695
+  },
+  {
+   "qulId": 536,
+   "type": "tafsir",
+   "name": "Kyrgyz Mokhtasar",
+   "translatedName": "Kyrgyz Mokhtasar",
+   "author": null,
+   "slug": "ky-mokhtasar",
+   "language": {
+    "iso": "ky",
+    "name": "Kyrgyz, Kirghiz",
+    "native": "Kyrgyz, Kirghiz",
+    "direction": "ltr"
+   },
+   "recordsCount": 6212,
+   "qulUpdatedAt": "2025-07-13T04:57:19+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752262252-ntd03-kyrgyz-mokhtasar.db.zip",
+   "fileSizeBytes": 769665
+  },
+  {
+   "qulId": 217,
+   "type": "translation",
+   "name": "African Development Foundation",
+   "translatedName": "African Development Foundation",
+   "author": "African Development Foundation",
+   "slug": "lg-african-development",
+   "language": {
+    "iso": "lg",
+    "name": "Ganda",
+    "native": "Ganda",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:52+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330442-g769z-african-development-foundation-simple.db.zip",
+   "fileSizeBytes": 394202
+  },
+  {
+   "qulId": 279,
+   "type": "translation",
+   "name": "Lithuanian Translation",
+   "translatedName": "Lithuanian Translation",
+   "author": null,
+   "slug": "lt-rwwad",
+   "language": {
+    "iso": "lt",
+    "name": "Lithuanian",
+    "native": "Lietuvių",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748333959-2v4a7-lithuanian-translation-with-footnote-tags.db.zip",
+   "fileSizeBytes": 501142
+  },
+  {
+   "qulId": 289,
+   "type": "translation",
+   "name": "Macedonian scholars",
+   "translatedName": "Macedonian scholars",
+   "author": "Macedonian scholars",
+   "slug": "mk-macedonian",
+   "language": {
+    "iso": "mk",
+    "name": "Macedonian",
+    "native": "Македонски",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334346-w0ieh-macedonian-scholars-with-footnote-tags.db.zip",
+   "fileSizeBytes": 476476
+  },
+  {
+   "qulId": 256,
+   "type": "tafsir",
+   "name": "Malayalam Abridged Explanation of the Quran",
+   "translatedName": "Malayalam Abridged Explanation of the Quran",
+   "author": "Tafsir Center of Quranic Studies",
+   "slug": "ml-mukhtasar",
+   "language": {
+    "iso": "ml",
+    "name": "Malayalam",
+    "native": "മലയാളം",
+    "direction": "ltr"
+   },
+   "recordsCount": 6214,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748332430-nnm50-malayalam-mokhtasar.db.zip",
+   "fileSizeBytes": 1095105
+  },
+  {
+   "qulId": 209,
+   "type": "translation",
+   "name": "Abdul-Hamid Haidar & Kanhi Muhammad",
+   "translatedName": "Abdul-Hamid Haidar & Kanhi Muhammad",
+   "author": "Abdul-Hamid Haidar & Kanhi Muhammad",
+   "slug": "ml-kunhi",
+   "language": {
+    "iso": "ml",
+    "name": "Malayalam",
+    "native": "മലയാളം",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330249-rc1xm-abdul-hamid-haidar-kanhi-muhammad-simple.db.zip",
+   "fileSizeBytes": 607410
+  },
+  {
+   "qulId": 130,
+   "type": "translation",
+   "name": "Malay Translation(Abdul Hameed and Kunhi)",
+   "translatedName": "Abdul Hameed and Kunhi",
+   "author": "Abdul Hameed and Kunhi Mohammed",
+   "slug": "quran.ml.abdul.hameed",
+   "language": {
+    "iso": "ml",
+    "name": "Malayalam",
+    "native": "മലയാളം",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2020-12-19T09:03:03+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327853-3syi9-quran-ml-abdul-hameed-simple.db.zip",
+   "fileSizeBytes": 611369
+  },
+  {
+   "qulId": 151,
+   "type": "translation",
+   "name": "Muhammad Karakunnu and Vanidas Elayavoor",
+   "translatedName": "Muhammad Karakunnu and Vanidas Elayavoor",
+   "author": "Muhammad Karakunnu and Vanidas Elayavoor",
+   "slug": "ml-karakunnu",
+   "language": {
+    "iso": "ml",
+    "name": "Malayalam",
+    "native": "മലയാളം",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328256-r4ifw-ml-karakunnu-simple.db.zip",
+   "fileSizeBytes": 576856
+  },
+  {
+   "qulId": 213,
+   "type": "translation",
+   "name": "Muhammad Shafi’i Ansari",
+   "translatedName": "Muhammad Shafi’i Ansari",
+   "author": "Muhammad Shafi’i Ansari",
+   "slug": "mr-shafi-ansari",
+   "language": {
+    "iso": "mr",
+    "name": "Marathi",
+    "native": "मराठी",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330353-ortvo-muhammad-shafi-i-ansari-simple.db.zip",
+   "fileSizeBytes": 579807
+  },
+  {
+   "qulId": 131,
+   "type": "translation",
+   "name": "Maranao",
+   "translatedName": "Maranao",
+   "author": "Unknown",
+   "slug": "mrw-maranao",
+   "language": {
+    "iso": "mrw",
+    "name": "Maranao",
+    "native": "Maranao",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-25T12:16:07+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327891-e20lf-mrn-unknown-simple.db.zip",
+   "fileSizeBytes": 379409
+  },
+  {
+   "qulId": 292,
+   "type": "translation",
+   "name": "Abdullah Basamia",
+   "translatedName": "Abdullah Basamia",
+   "author": "Abdullah Basamia",
+   "slug": "ms-basmeih",
+   "language": {
+    "iso": "ms",
+    "name": "Malay",
+    "native": "Bahasa Melayu",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334248-wtugn-abdullah-basamia-simple.db.zip",
+   "fileSizeBytes": 508696
+  },
+  {
+   "qulId": 311,
+   "type": "translation",
+   "name": "Il-Qoran Imqaddes",
+   "translatedName": "Il-Qoran Imqaddes",
+   "author": "World Islamic Call Society",
+   "slug": "qoran-imqaddes",
+   "language": {
+    "iso": "mt",
+    "name": "Maltese",
+    "native": "Maltese",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2024-12-29T20:20:23+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335043-f2maj-qoran-imqaddes-simple.db.zip",
+   "fileSizeBytes": 433636
+  },
+  {
+   "qulId": 158,
+   "type": "translation",
+   "name": "Ahl Al-Hadith Central Society of Nepal",
+   "translatedName": "Ahl Al-Hadith Central Society of Nepal",
+   "author": "Ahl Al-Hadith Central Society of Nepal",
+   "slug": "ne-ahl-hadith-central",
+   "language": {
+    "iso": "ne",
+    "name": "Nepali",
+    "native": "नेपाली",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328461-rnrcf-ahl-al-hadith-central-society-of-nepal-simple.db.zip",
+   "fileSizeBytes": 600872
+  },
+  {
+   "qulId": 219,
+   "type": "translation",
+   "name": "Malak Faris Abdalsalaam",
+   "translatedName": "Malak Faris Abdalsalaam",
+   "author": "Malak Faris Abdalsalaam",
+   "slug": "nl-abdalsalaam",
+   "language": {
+    "iso": "nl",
+    "name": "Dutch",
+    "native": "Nederlands",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330458-s32l6-nl-abdalsalaam-simple.db.zip",
+   "fileSizeBytes": 413472
+  },
+  {
+   "qulId": 178,
+   "type": "translation",
+   "name": "Sofian S. Siregar",
+   "translatedName": "Sofian S. Siregar",
+   "author": "Sofian S. Siregar",
+   "slug": "nl_sofian_s._siregar",
+   "language": {
+    "iso": "nl",
+    "name": "Dutch",
+    "native": "Nederlands",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329345-zfdjy-nl-sofian-s-siregar-simple.db.zip",
+   "fileSizeBytes": 391159
+  },
+  {
+   "qulId": 132,
+   "type": "translation",
+   "name": "Norwegian",
+   "translatedName": "Norwegian",
+   "author": "Norwegian",
+   "slug": "no-unknown",
+   "language": {
+    "iso": "no",
+    "name": "Norwegian",
+    "native": "Norsk",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327894-7mtop-no-unknown-simple.db.zip",
+   "fileSizeBytes": 347305
+  },
+  {
+   "qulId": 450,
+   "type": "translation",
+   "name": "Chewa translation",
+   "translatedName": "Chewa translation",
+   "author": "Khaled Ibrahim Betala",
+   "slug": "ny-ibrahim",
+   "language": {
+    "iso": "ny",
+    "name": "Chichewa, Chewa, Nyanja",
+    "native": "Chichewa, Chewa, Nyanja",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748336029-h6fl6-chewa-translation-simple.db.zip",
+   "fileSizeBytes": 430145
+  },
+  {
+   "qulId": 160,
+   "type": "translation",
+   "name": "Ghali Apapur Apaghuna",
+   "translatedName": "Ghali Apapur Apaghuna",
+   "author": "Ghali Apapur Apaghuna",
+   "slug": "om-ghali",
+   "language": {
+    "iso": "om",
+    "name": "Oromo",
+    "native": "Oromo",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:52+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328528-nuqye-ghali-apapur-apaghuna-simple.db.zip",
+   "fileSizeBytes": 376817
+  },
+  {
+   "qulId": 133,
+   "type": "translation",
+   "name": "Józef Bielawski",
+   "translatedName": "Józef Bielawski",
+   "author": "Józef Bielawski",
+   "slug": "pl-jozef-bielawski",
+   "language": {
+    "iso": "pl",
+    "name": "Polish",
+    "native": "Polski",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327920-wlx3b-pl-jozef-bielawski-simple.db.zip",
+   "fileSizeBytes": 390093
+  },
+  {
+   "qulId": 291,
+   "type": "translation",
+   "name": "Mawlawi Muhammad Anwar Badkhashani",
+   "translatedName": "Mawlawi Muhammad Anwar Badkhashani",
+   "author": "Mawlawi Muhammad Anwar Badkhashani",
+   "slug": "prs-mawlawi",
+   "language": {
+    "iso": "prs",
+    "name": "Dari",
+    "native": "دری",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334181-b962c-mawlawi-muhammad-anwar-badkhashani-simple.db.zip",
+   "fileSizeBytes": 467196
+  },
+  {
+   "qulId": 533,
+   "type": "tafsir",
+   "name": "Pashto Mokhtasar",
+   "translatedName": "Pashto Mokhtasar",
+   "author": null,
+   "slug": "ps-mokhtasar",
+   "language": {
+    "iso": "ps",
+    "name": "Pashto",
+    "native": "پښتو",
+    "direction": "rtl"
+   },
+   "recordsCount": 6226,
+   "qulUpdatedAt": "2025-03-13T08:09:24+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752262343-97g21-pashto-mokhtasar.db.zip",
+   "fileSizeBytes": 830093
+  },
+  {
+   "qulId": 440,
+   "type": "translation",
+   "name": "Pashto - Sarfaraz",
+   "translatedName": "Pashto - Sarfaraz",
+   "author": null,
+   "slug": "ps-sarfaraz",
+   "language": {
+    "iso": "ps",
+    "name": "Pashto",
+    "native": "پښتو",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2025-02-23T06:00:02+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335864-brt1q-pashto-sarfaraz-simple.db.zip",
+   "fileSizeBytes": 454274
+  },
+  {
+   "qulId": 164,
+   "type": "translation",
+   "name": "Zakaria Abulsalam",
+   "translatedName": "Zakaria Abulsalam",
+   "author": "Zakaria Abulsalam",
+   "slug": "ps-zakaria",
+   "language": {
+    "iso": "ps",
+    "name": "Pashto",
+    "native": "پښتو",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328625-3cw9m-zakaria-abulsalam-simple.db.zip",
+   "fileSizeBytes": 477030
+  },
+  {
+   "qulId": 228,
+   "type": "translation",
+   "name": "Helmi Nasr",
+   "translatedName": "Helmi Nasr",
+   "author": "Helmi Nasr",
+   "slug": "pt-helmi",
+   "language": {
+    "iso": "pt",
+    "name": "Portuguese",
+    "native": "Português",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:51+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330561-pnjqf-helmi-nasr-simple.db.zip",
+   "fileSizeBytes": 359801
+  },
+  {
+   "qulId": 134,
+   "type": "translation",
+   "name": "Portuguese Translation( Samir )",
+   "translatedName": "Samir El Hayek",
+   "author": "Samir El-Hayek",
+   "slug": "quran,pt.samir",
+   "language": {
+    "iso": "pt",
+    "name": "Portuguese",
+    "native": "Português",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327950-64rcc-quran-pt-samir-simple.db.zip",
+   "fileSizeBytes": 382033
+  },
+  {
+   "qulId": 135,
+   "type": "translation",
+   "name": "Grigore",
+   "translatedName": "Grigore",
+   "author": "George Grigore",
+   "slug": "ro-grigore",
+   "language": {
+    "iso": "ro",
+    "name": "Romanian",
+    "native": "Română",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327941-91ho0-ro-grigore-simple.db.zip",
+   "fileSizeBytes": 360858
+  },
+  {
+   "qulId": 293,
+   "type": "translation",
+   "name": "Islamic and Cultural League",
+   "translatedName": "Islamic and Cultural League",
+   "author": "Islamic and Cultural League",
+   "slug": "ro-islamic",
+   "language": {
+    "iso": "ro",
+    "name": "Romanian",
+    "native": "Română",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334544-qvsd7-islamic-and-cultural-league-with-footnote-tags.db.zip",
+   "fileSizeBytes": 660456
+  },
+  {
+   "qulId": 465,
+   "type": "translation",
+   "name": "Romanian translation",
+   "translatedName": "Romanian translation",
+   "author": null,
+   "slug": "ro-romanian-project",
+   "language": {
+    "iso": "ro",
+    "name": "Romanian",
+    "native": "Română",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2025-06-12T22:08:04+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1749766040-oa3gc-romanian-translation-simple.db.zip",
+   "fileSizeBytes": 411846
+  },
+  {
+   "qulId": 262,
+   "type": "tafsir",
+   "name": "Russian Al-Mukhtasar",
+   "translatedName": "Russian Al-Mukhtasar",
+   "author": "Tafsir Center for Quranic Studies",
+   "slug": "ru-mukhtasar",
+   "language": {
+    "iso": "ru",
+    "name": "Russian",
+    "native": "Русский",
+    "direction": "ltr"
+   },
+   "recordsCount": 6215,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748333035-73x1e-russian-mokhtasar.db.zip",
+   "fileSizeBytes": 847428
+  },
+  {
+   "qulId": 36,
+   "type": "tafsir",
+   "name": "Tafseer Al Saadi - Russian",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "ru",
+    "name": "Russian",
+    "native": "Русский",
+    "direction": "ltr"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748289098-3wtv7-ru-tafseer-al-saddi.db.zip",
+   "fileSizeBytes": 2335835
+  },
+  {
+   "qulId": 310,
+   "type": "tafsir",
+   "name": "Tafsir As-Saadi",
+   "translatedName": null,
+   "author": null,
+   "slug": "ur-tafsir-as-saadi",
+   "language": {
+    "iso": "ru",
+    "name": "Russian",
+    "native": "Русский",
+    "direction": "ltr"
+   },
+   "recordsCount": 1740,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748335155-t0x3z-tafsir-as-saadi-russian.db.zip",
+   "fileSizeBytes": 2812111
+  },
+  {
+   "qulId": 307,
+   "type": "tafsir",
+   "name": "Tafsir Ibne Kathir",
+   "translatedName": null,
+   "author": null,
+   "slug": "ru-tafsir-ibne-kahtir",
+   "language": {
+    "iso": "ru",
+    "name": "Russian",
+    "native": "Русский",
+    "direction": "ltr"
+   },
+   "recordsCount": 6223,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748259274-vdv19-ru-tafsir-ibne-kahtir.db.zip",
+   "fileSizeBytes": 4642978
+  },
+  {
+   "qulId": 150,
+   "type": "translation",
+   "name": "Abu Adel",
+   "translatedName": "Abu Adel",
+   "author": "Abu Adel",
+   "slug": "ru-abu-adel",
+   "language": {
+    "iso": "ru",
+    "name": "Russian",
+    "native": "Русский",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328224-qkuk9-ru-abu-adel-simple.db.zip",
+   "fileSizeBytes": 831212
+  },
+  {
+   "qulId": 274,
+   "type": "translation",
+   "name": "Gordy Semyonovich Sablukov",
+   "translatedName": "Gordy Semyonovich Sablukov",
+   "author": null,
+   "slug": "ru-gordy",
+   "language": {
+    "iso": "ru",
+    "name": "Russian",
+    "native": "Русский",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748333554-sk8rn-ru-gordy-simple.db.zip",
+   "fileSizeBytes": 452206
+  },
+  {
+   "qulId": 271,
+   "type": "translation",
+   "name": "Magomed-Nuri Osmanovich Osmanov",
+   "translatedName": "Magomed-Nuri Osmanovich Osmanov",
+   "author": null,
+   "slug": "ru-nuri",
+   "language": {
+    "iso": "ru",
+    "name": "Russian",
+    "native": "Русский",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748333450-arns1-ru-nuri-simple.db.zip",
+   "fileSizeBytes": 485258
+  },
+  {
+   "qulId": 149,
+   "type": "translation",
+   "name": "Ministry of Awqaf, Egypt",
+   "translatedName": "Ministry of Awqaf, Egypt",
+   "author": "Ministry of Awqaf, Egypt",
+   "slug": "ru-ministry-of-awqaf",
+   "language": {
+    "iso": "ru",
+    "name": "Russian",
+    "native": "Русский",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328204-s05jz-ru-ministry-of-awqaf-simple.db.zip",
+   "fileSizeBytes": 906000
+  },
+  {
+   "qulId": 136,
+   "type": "translation",
+   "name": "Russian Translation ( Elmir Kuliev )",
+   "translatedName": "Elmir Kuliev",
+   "author": "Elmir Kuliev",
+   "slug": "quran.ru.kuliev",
+   "language": {
+    "iso": "ru",
+    "name": "Russian",
+    "native": "Русский",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327980-5x46u-quran-ru-kuliev-simple.db.zip",
+   "fileSizeBytes": 452661
+  },
+  {
+   "qulId": 296,
+   "type": "translation",
+   "name": "The Rwanda Muslims Association team",
+   "translatedName": "The Rwanda Muslims Association team",
+   "author": "The Rwanda Muslims Association team",
+   "slug": "rw-rwanda",
+   "language": {
+    "iso": "rw",
+    "name": "Kinyarwanda",
+    "native": "Ikinyarwanda",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334638-gxl97-the-rwanda-muslims-association-team-with-footnote-tags.db.zip",
+   "fileSizeBytes": 424675
+  },
+  {
+   "qulId": 222,
+   "type": "translation",
+   "name": "Taj Mehmood Amroti",
+   "translatedName": "Taj Mehmood Amroti",
+   "author": "Taj Mehmood Amroti",
+   "slug": "sd-mehmood-amroti",
+   "language": {
+    "iso": "sd",
+    "name": "Sindhi",
+    "native": "Sindhi",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330519-j8w69-taj-mehmood-amroti-simple.db.zip",
+   "fileSizeBytes": 439093
+  },
+  {
+   "qulId": 453,
+   "type": "tafsir",
+   "name": "Sinhalese Mokhtasar",
+   "translatedName": "Sinhalese Mokhtasar",
+   "author": null,
+   "slug": "si-mokhtasar",
+   "language": {
+    "iso": "si",
+    "name": "Sinhala, Sinhalese",
+    "native": "සිංහල",
+    "direction": "ltr"
+   },
+   "recordsCount": 6218,
+   "qulUpdatedAt": "2025-03-16T19:10:43+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748337226-k3w1x-sinhalese-mokhtasar.db.zip",
+   "fileSizeBytes": 1018514
+  },
+  {
+   "qulId": 290,
+   "type": "translation",
+   "name": "Abdullah Hassan Yacoub",
+   "translatedName": "Abdullah Hassan Yacoub",
+   "author": "Abdullah Hassan Yacoub",
+   "slug": "so-hassan",
+   "language": {
+    "iso": "so",
+    "name": "Somali",
+    "native": "Somali",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:52+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334285-llqqk-abdullah-hassan-yacoub-with-footnote-tags.db.zip",
+   "fileSizeBytes": 500488
+  },
+  {
+   "qulId": 231,
+   "type": "translation",
+   "name": "Mahmud Muhammad Abduh",
+   "translatedName": "Mahmud Muhammad Abduh",
+   "author": "Mahmud Muhammad Abduh",
+   "slug": "so-mahmud-abduh",
+   "language": {
+    "iso": "so",
+    "name": "Somali",
+    "native": "Somali",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330616-1w5mx-so-mahmud-abduh-simple.db.zip",
+   "fileSizeBytes": 364824
+  },
+  {
+   "qulId": 283,
+   "type": "tafsir",
+   "name": "Tafsir As-Saadi",
+   "translatedName": null,
+   "author": null,
+   "slug": "ur-tafsir-as-saadi",
+   "language": {
+    "iso": "sq",
+    "name": "Albanian",
+    "native": "Shqip",
+    "direction": "ltr"
+   },
+   "recordsCount": 1740,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748336035-y83dh-sq-saadi.db.zip",
+   "fileSizeBytes": 2896727
+  },
+  {
+   "qulId": 137,
+   "type": "translation",
+   "name": "Albanian",
+   "translatedName": "Albanian",
+   "author": "Albanian",
+   "slug": "sq-unknown",
+   "language": {
+    "iso": "sq",
+    "name": "Albanian",
+    "native": "Shqip",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2022-04-05T07:32:42+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328006-766hh-sq-unknown-simple.db.zip",
+   "fileSizeBytes": 424939
+  },
+  {
+   "qulId": 155,
+   "type": "translation",
+   "name": "Albanian Translation",
+   "translatedName": "Albanian Translation",
+   "author": "Sherif Ahmeti\t",
+   "slug": "quran.al.ahmeti",
+   "language": {
+    "iso": "sq",
+    "name": "Albanian",
+    "native": "Shqip",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328334-8pryo-quran-al-ahmeti-simple.db.zip",
+   "fileSizeBytes": 421083
+  },
+  {
+   "qulId": 303,
+   "type": "translation",
+   "name": "Hasan Efendi Nahi",
+   "translatedName": "Hasan Efendi Nahi",
+   "author": "Hasan Efendi Nahi",
+   "slug": "al-hasan-efendi",
+   "language": {
+    "iso": "sq",
+    "name": "Albanian",
+    "native": "Shqip",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334851-epp5s-al-hasan-efendi-with-footnote-tags.db.zip",
+   "fileSizeBytes": 447196
+  },
+  {
+   "qulId": 298,
+   "type": "translation",
+   "name": "Ruwwad Center",
+   "translatedName": "Ruwwad Center",
+   "author": "Ruwwad Center",
+   "slug": "en-ruwwad",
+   "language": {
+    "iso": "sq",
+    "name": "Albanian",
+    "native": "Shqip",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:50+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334549-x40fa-translation-pioneers-center-simple.db.zip",
+   "fileSizeBytes": 1348453
+  },
+  {
+   "qulId": 543,
+   "type": "tafsir",
+   "name": "Serbian Mokhtasar",
+   "translatedName": "Serbian Mokhtasar",
+   "author": null,
+   "slug": "sr-mokhtasar",
+   "language": {
+    "iso": "sr",
+    "name": "Serbian",
+    "native": "Српски",
+    "direction": "ltr"
+   },
+   "recordsCount": 6224,
+   "qulUpdatedAt": "2025-02-23T06:00:02+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752260981-k37y4-serbian-mokhtasar.db.zip",
+   "fileSizeBytes": 816468
+  },
+  {
+   "qulId": 299,
+   "type": "translation",
+   "name": "Dar Al-Salam Center",
+   "translatedName": "Dar Al-Salam Center",
+   "author": "Dar Al-Salam Center",
+   "slug": "tr-rwwad",
+   "language": {
+    "iso": "sr",
+    "name": "Serbian",
+    "native": "Српски",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:51+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334606-8raw0-dar-al-salam-center-simple.db.zip",
+   "fileSizeBytes": 1968522
+  },
+  {
+   "qulId": 138,
+   "type": "translation",
+   "name": "Knut Bernström",
+   "translatedName": "Knut Bernström",
+   "author": "Knut Bernström",
+   "slug": "sv-knut",
+   "language": {
+    "iso": "sv",
+    "name": "Swedish",
+    "native": "Svenska",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328011-f4stg-sv-knut-simple.db.zip",
+   "fileSizeBytes": 448800
+  },
+  {
+   "qulId": 139,
+   "type": "translation",
+   "name": "Ali Muhsin Al-Barwani",
+   "translatedName": "Ali Muhsin Al-Barwani",
+   "author": "Ali Muhsin Al-Barwani",
+   "slug": "sw-ali-muhsin",
+   "language": {
+    "iso": "sw",
+    "name": "Swahili",
+    "native": "Kiswahili",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328036-t9keg-sw-ali-muhsin-simple.db.zip",
+   "fileSizeBytes": 344674
+  },
+  {
+   "qulId": 216,
+   "type": "translation",
+   "name": "Dr. Abdullah Muhammad Abu Bakr and Sheikh Nasir Khamis",
+   "translatedName": "Dr. Abdullah Muhammad Abu Bakr and Sheikh Nasir Khamis",
+   "author": "Dr. Abdullah Muhammad Abu Bakr and Sheikh Nasir Khamis",
+   "slug": "sw-abdullah-nasir",
+   "language": {
+    "iso": "sw",
+    "name": "Swahili",
+    "native": "Kiswahili",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:52+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330401-n603b-dr-abdullah-muhammad-abu-bakr-and-sheikh-nasir-khamis-simple.db.zip",
+   "fileSizeBytes": 670867
+  },
+  {
+   "qulId": 466,
+   "type": "translation",
+   "name": "Swahili translation - Rowad Translation Center",
+   "translatedName": "Swahili translation - Rowad Translation Center",
+   "author": null,
+   "slug": "sw-rwwad",
+   "language": {
+    "iso": "sw",
+    "name": "Swahili",
+    "native": "Kiswahili",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:52+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1749766976-b4699-swahili-translation-rowad-translation-center-simple.db.zip",
+   "fileSizeBytes": 343548
+  },
+  {
+   "qulId": 554,
+   "type": "tafsir",
+   "name": "Tamil Mokhtasar",
+   "translatedName": "Tamil Mokhtasar",
+   "author": null,
+   "slug": "ta-mokhtasar",
+   "language": {
+    "iso": "ta",
+    "name": "Tamil",
+    "native": "தமிழ்",
+    "direction": "ltr"
+   },
+   "recordsCount": 6223,
+   "qulUpdatedAt": "2025-03-16T19:18:21+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752271465-2h3kd-tamil-mokhtasar.db.zip",
+   "fileSizeBytes": 961105
+  },
+  {
+   "qulId": 172,
+   "type": "translation",
+   "name": "Abdul Hameed Baqavi",
+   "translatedName": "Abdul Hameed Baqavi",
+   "author": "Abdul Hameed Baqavi",
+   "slug": "ta-hameed",
+   "language": {
+    "iso": "ta",
+    "name": "Tamil",
+    "native": "தமிழ்",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328987-gh1pa-abdul-hameed-baqavi-simple.db.zip",
+   "fileSizeBytes": 715199
+  },
+  {
+   "qulId": 140,
+   "type": "translation",
+   "name": "Jan Trust Foundation",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "ta",
+    "name": "Tamil",
+    "native": "தமிழ்",
+    "direction": "ltr"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1777970096-u1ywl-ta-jan-trust-simple.db.zip",
+   "fileSizeBytes": 678415
+  },
+  {
+   "qulId": 214,
+   "type": "translation",
+   "name": "Sheikh Omar Sharif bin Abdul Salam",
+   "translatedName": "Sheikh Omar Sharif bin Abdul Salam",
+   "author": "Sheikh Omar Sharif bin Abdul Salam",
+   "slug": "ta-sheikh-omar",
+   "language": {
+    "iso": "ta",
+    "name": "Tamil",
+    "native": "தமிழ்",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330404-1y3lt-sheikh-omar-sharif-bin-abdul-salam-simple.db.zip",
+   "fileSizeBytes": 681398
+  },
+  {
+   "qulId": 98,
+   "type": "translation",
+   "name": "Tamil wbw translation",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "ta",
+    "name": "Tamil",
+    "native": "தமிழ்",
+    "direction": "ltr"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327104-4rs91-tamil-wbw-translation.db.zip",
+   "fileSizeBytes": 1058521
+  },
+  {
+   "qulId": 540,
+   "type": "tafsir",
+   "name": "Telugu Mokhtasar",
+   "translatedName": "Telugu Mokhtasar",
+   "author": null,
+   "slug": "te-mokhtasar",
+   "language": {
+    "iso": "te",
+    "name": "Telugu",
+    "native": "తెలుగు",
+    "direction": "ltr"
+   },
+   "recordsCount": 6221,
+   "qulUpdatedAt": "2025-02-23T06:00:03+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752261089-n27br-telugu-mokhtasar.db.zip",
+   "fileSizeBytes": 998945
+  },
+  {
+   "qulId": 210,
+   "type": "translation",
+   "name": "Maulana Abder-Rahim ibn Muhammad",
+   "translatedName": "Maulana Abder-Rahim ibn Muhammad",
+   "author": "Maulana Abder-Rahim ibn Muhammad",
+   "slug": "te-abder",
+   "language": {
+    "iso": "te",
+    "name": "Telugu",
+    "native": "తెలుగు",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330292-pocfe-maulana-abder-rahim-ibn-muhammad-simple.db.zip",
+   "fileSizeBytes": 606019
+  },
+  {
+   "qulId": 576,
+   "type": "translation",
+   "name": "Muhammad Azeez ur Rahman",
+   "translatedName": "Muhammad Azeez ur Rahman",
+   "author": "Muhammad Azeez ur Rahman",
+   "slug": "te-azeez-ur-rahman",
+   "language": {
+    "iso": "te",
+    "name": "Telugu",
+    "native": "తెలుగు",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T21:28:23+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1778621802-l3qrx-muhammad-azeez-ur-rahman-simple.db.zip",
+   "fileSizeBytes": 509763
+  },
+  {
+   "qulId": 175,
+   "type": "translation",
+   "name": "Khawaja Mirof & Khawaja Mir",
+   "translatedName": "Khawaja Mirof & Khawaja Mir",
+   "author": "Khawaja Mirof & Khawaja Mir",
+   "slug": "tg-mirof-mir",
+   "language": {
+    "iso": "tg",
+    "name": "Tajik",
+    "native": "Tajik",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329345-yeozq-khawaja-mirof-khawaja-mir-with-footnote-tags.db.zip",
+   "fileSizeBytes": 745504
+  },
+  {
+   "qulId": 206,
+   "type": "translation",
+   "name": "Pioneers of Translation Center",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "tg",
+    "name": "Tajik",
+    "native": "Tajik",
+    "direction": "ltr"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330184-3j200-pioneers-of-translation-center-simple.db.zip",
+   "fileSizeBytes": 534309
+  },
+  {
+   "qulId": 146,
+   "type": "translation",
+   "name": "Tajik",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "tg",
+    "name": "Tajik",
+    "native": "Tajik",
+    "direction": "ltr"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328142-zaflt-tg-ayati-simple.db.zip",
+   "fileSizeBytes": 424610
+  },
+  {
+   "qulId": 541,
+   "type": "tafsir",
+   "name": "Thai Mokhtasar",
+   "translatedName": "Thai Mokhtasar",
+   "author": null,
+   "slug": "th-mokhtasar",
+   "language": {
+    "iso": "th",
+    "name": "Thai",
+    "native": "ภาษาไทย",
+    "direction": "ltr"
+   },
+   "recordsCount": 6212,
+   "qulUpdatedAt": "2025-07-13T17:39:24+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752261084-o0hn3-thai-mokhtasar.db.zip",
+   "fileSizeBytes": 1042968
+  },
+  {
+   "qulId": 215,
+   "type": "translation",
+   "name": "Society of Institutes and Universities",
+   "translatedName": "Society of Institutes and Universities",
+   "author": "Society of Institutes and Universities",
+   "slug": "th-society",
+   "language": {
+    "iso": "th",
+    "name": "Thai",
+    "native": "ภาษาไทย",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330399-ndn34-society-of-institutes-and-universities-simple.db.zip",
+   "fileSizeBytes": 545279
+  },
+  {
+   "qulId": 232,
+   "type": "translation",
+   "name": "Thai Translatio (King Fahad Quran Complex)",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "th",
+    "name": "Thai",
+    "native": "ภาษาไทย",
+    "direction": "ltr"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330683-ymwv5-quran-th-quran-complex-simple.db.zip",
+   "fileSizeBytes": 555602
+  },
+  {
+   "qulId": 577,
+   "type": "translation",
+   "name": "Kurany Kerim Türkmen Dilinde",
+   "translatedName": null,
+   "author": "Türkmenistanyň Müftüsiniň Müdiriýeti",
+   "slug": "tk-kurany",
+   "language": {
+    "iso": "tk",
+    "name": "Turkmen",
+    "native": "Turkmen",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-07-08T12:15:25+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1783513010-78oq5-tk-kurany-simple.db.zip",
+   "fileSizeBytes": 426087
+  },
+  {
+   "qulId": 254,
+   "type": "tafsir",
+   "name": "Filipino (Tagalog) Al-Mukhtasar in interpreting the Noble Quran",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "tl",
+    "name": "Tagalog",
+    "native": "Tagalog",
+    "direction": "ltr"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748332056-me5h8-tagalog-mokhtasar.db.zip",
+   "fileSizeBytes": 721672
+  },
+  {
+   "qulId": 199,
+   "type": "translation",
+   "name": "Dar Al-Salam Center",
+   "translatedName": "Dar Al-Salam Center",
+   "author": "Dar Al-Salam Center",
+   "slug": "tr-rwwad",
+   "language": {
+    "iso": "tl",
+    "name": "Tagalog",
+    "native": "Tagalog",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:51+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329966-e1ndb-dar-al-salam-center-simple.db.zip",
+   "fileSizeBytes": 795133
+  },
+  {
+   "qulId": 484,
+   "type": "tafsir",
+   "name": "Tafsir As-Saadi - Turkish",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "tr",
+    "name": "Turkish",
+    "native": "Türkçe",
+    "direction": "ltr"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752058824-5qfwu-tafsir-as-saadi.db.zip",
+   "fileSizeBytes": 2493898
+  },
+  {
+   "qulId": 306,
+   "type": "tafsir",
+   "name": "Tafsir Ibne Kathir",
+   "translatedName": null,
+   "author": null,
+   "slug": "ru-tafsir-ibne-kahtir",
+   "language": {
+    "iso": "tr",
+    "name": "Turkish",
+    "native": "Türkçe",
+    "direction": "ltr"
+   },
+   "recordsCount": 6223,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748422929-2tnsa-tr-tafsir-ibne-kathir.db.zip",
+   "fileSizeBytes": 377864
+  },
+  {
+   "qulId": 258,
+   "type": "tafsir",
+   "name": "Turkish Al-Mukhtasar in Interpreting the Noble Quran",
+   "translatedName": "Turkish Al-Mukhtasar in Interpreting the Noble Quran",
+   "author": "Tafsir Center",
+   "slug": "tr-mukhtasar",
+   "language": {
+    "iso": "tr",
+    "name": "Turkish",
+    "native": "Türkçe",
+    "direction": "ltr"
+   },
+   "recordsCount": 6222,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748332708-kud15-turkish-mokhtasar.db.zip",
+   "fileSizeBytes": 701778
+  },
+  {
+   "qulId": 196,
+   "type": "translation",
+   "name": "Dar Al-Salam Center",
+   "translatedName": "Dar Al-Salam Center",
+   "author": "Dar Al-Salam Center",
+   "slug": "tr-rwwad",
+   "language": {
+    "iso": "tr",
+    "name": "Turkish",
+    "native": "Türkçe",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:51+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329899-trisk-dar-al-salam-center-simple.db.zip",
+   "fileSizeBytes": 393919
+  },
+  {
+   "qulId": 233,
+   "type": "translation",
+   "name": "Elmalili Hamdi Yazir",
+   "translatedName": "Elmalili Hamdi Yazir",
+   "author": "Elmalili Hamdi Yazir\t",
+   "slug": "tr-hamdi",
+   "language": {
+    "iso": "tr",
+    "name": "Turkish",
+    "native": "Türkçe",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330724-ndds9-tr-hamdi-simple.db.zip",
+   "fileSizeBytes": 402771
+  },
+  {
+   "qulId": 157,
+   "type": "translation",
+   "name": "Muslim Shahin",
+   "translatedName": "Muslim Shahin",
+   "author": "Muslim Shahin",
+   "slug": "tr-shahin",
+   "language": {
+    "iso": "tr",
+    "name": "Turkish",
+    "native": "Türkçe",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328396-bpkz8-muslim-shahin-simple.db.zip",
+   "fileSizeBytes": 412528
+  },
+  {
+   "qulId": 161,
+   "type": "translation",
+   "name": "Shaban Britch",
+   "translatedName": "Shaban Britch",
+   "author": "Shaban Britch",
+   "slug": "tr-shaban",
+   "language": {
+    "iso": "tr",
+    "name": "Turkish",
+    "native": "Türkçe",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328553-ztkf7-shaban-britch-simple.db.zip",
+   "fileSizeBytes": 373850
+  },
+  {
+   "qulId": 148,
+   "type": "translation",
+   "name": "Turkish Translation(Diyanet)",
+   "translatedName": "Diyanet",
+   "author": "Diyanet Isleri",
+   "slug": "quran.tr.diyanet",
+   "language": {
+    "iso": "tr",
+    "name": "Turkish",
+    "native": "Türkçe",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328192-0sxy6-quran-tr-diyanet-simple.db.zip",
+   "fileSizeBytes": 364507
+  },
+  {
+   "qulId": 99,
+   "type": "translation",
+   "name": "Turkish wbw translation",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "tr",
+    "name": "Turkish",
+    "native": "Türkçe",
+    "direction": "ltr"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327354-1or77-turkish-wbw-translation.db.zip",
+   "fileSizeBytes": 947795
+  },
+  {
+   "qulId": 141,
+   "type": "translation",
+   "name": "Tatar",
+   "translatedName": "Tatar",
+   "author": "Tatar",
+   "slug": "tt-unknow",
+   "language": {
+    "iso": "tt",
+    "name": "Tatar",
+    "native": "Tatar",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328067-yr3zi-tt-unknow-simple.db.zip",
+   "fileSizeBytes": 620466
+  },
+  {
+   "qulId": 285,
+   "type": "translation",
+   "name": "Sheikh Haroun Ismaeel",
+   "translatedName": "Sheikh Haroun Ismaeel",
+   "author": "Sheikh Haroun Ismaeel",
+   "slug": "tw-haroun",
+   "language": {
+    "iso": "tw",
+    "name": "Asante",
+    "native": "Asante",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334020-pitwl-rowad-translation-center-simple.db.zip",
+   "fileSizeBytes": 397206
+  },
+  {
+   "qulId": 539,
+   "type": "tafsir",
+   "name": "Uyghur Mokhtasar",
+   "translatedName": "Uyghur Mokhtasar",
+   "author": null,
+   "slug": "ug-mokhtasar",
+   "language": {
+    "iso": "ug",
+    "name": "Uighur, Uyghur",
+    "native": "Uighur, Uyghur",
+    "direction": "rtl"
+   },
+   "recordsCount": 6163,
+   "qulUpdatedAt": "2025-03-16T19:21:10+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752252549-febfx-uyghur-mokhtasar.db.zip",
+   "fileSizeBytes": 825871
+  },
+  {
+   "qulId": 304,
+   "type": "translation",
+   "name": "Muhammad Saleh",
+   "translatedName": "Muhammad Saleh",
+   "author": "Muhammad Saleh",
+   "slug": "ug-saleh",
+   "language": {
+    "iso": "ug",
+    "name": "Uighur, Uyghur",
+    "native": "Uighur, Uyghur",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:52+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334773-djn4r-ug-saleh-simple.db.zip",
+   "fileSizeBytes": 554938
+  },
+  {
+   "qulId": 203,
+   "type": "translation",
+   "name": "Dr. Mikhailo Yaqubovic",
+   "translatedName": "Dr. Mikhailo Yaqubovic",
+   "author": "Dr. Mikhailo Yaqubovic",
+   "slug": "uk-mikhailo",
+   "language": {
+    "iso": "uk",
+    "name": "Ukrainian",
+    "native": "Українська",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330060-nofmt-dr-mikhailo-yaqubovic-simple.db.zip",
+   "fileSizeBytes": 422350
+  },
+  {
+   "qulId": 438,
+   "type": "translation",
+   "name": "Amharic Translation - Zain",
+   "translatedName": "Amharic Translation - Zain",
+   "author": null,
+   "slug": "am-zain",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2025-02-23T06:00:02+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335791-mqctu-amharic-translation-zain-simple.db.zip",
+   "fileSizeBytes": 461175
+  },
+  {
+   "qulId": 443,
+   "type": "translation",
+   "name": "Bisayan Translation - Rowwad Center",
+   "translatedName": "Bisayan Translation - Rowwad Center",
+   "author": null,
+   "slug": "bi-rwwad",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:52+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335896-vqpp0-bisayan-translation-rowwad-center-simple.db.zip",
+   "fileSizeBytes": 460384
+  },
+  {
+   "qulId": 439,
+   "type": "translation",
+   "name": "Chinese Translation - Basair",
+   "translatedName": "Chinese Translation - Basair",
+   "author": null,
+   "slug": "zh-mayolong",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2025-02-23T06:00:01+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335830-mkpg3-chinese-translation-basair-simple.db.zip",
+   "fileSizeBytes": 349169
+  },
+  {
+   "qulId": 428,
+   "type": "translation",
+   "name": "Chinese suliman",
+   "translatedName": "Chinese suliman",
+   "author": null,
+   "slug": "zh-suliman",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:52+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335591-josp1-chinese-suliman-simple.db.zip",
+   "fileSizeBytes": 355676
+  },
+  {
+   "qulId": 436,
+   "type": "translation",
+   "name": "Croatian translation - rwwad",
+   "translatedName": "Croatian translation - rwwad",
+   "author": null,
+   "slug": "hr-rwwad",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2025-06-08T06:00:02+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335756-8kgsg-croatian-translation-rwwad-simple.db.zip",
+   "fileSizeBytes": 369365
+  },
+  {
+   "qulId": 437,
+   "type": "translation",
+   "name": "Dutch Islamic Center",
+   "translatedName": "Dutch Islamic Center",
+   "author": null,
+   "slug": "nl-dutch—center",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:51+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335765-nsglv-dutch-islamic-center-simple.db.zip",
+   "fileSizeBytes": 425566
+  },
+  {
+   "qulId": 441,
+   "type": "translation",
+   "name": "Filipino Iranionian translation",
+   "translatedName": "Filipino Iranionian translation",
+   "author": null,
+   "slug": "fil-iranun-sarro",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2025-07-13T06:00:01+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335826-5t89c-filipino-iranionian-translation-simple.db.zip",
+   "fileSizeBytes": 408502
+  },
+  {
+   "qulId": 272,
+   "type": "translation",
+   "name": "Ikirundi gehiti",
+   "translatedName": "Ikirundi gehiti",
+   "author": null,
+   "slug": "rn-ikirundi-gehiti",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2025-01-25T00:27:20+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748333485-12f30-ikirundi-gehiti-simple.db.zip",
+   "fileSizeBytes": 559617
+  },
+  {
+   "qulId": 442,
+   "type": "translation",
+   "name": "Kannada translation - Bashir Missouri",
+   "translatedName": "Kannada translation - Bashir Missouri",
+   "author": null,
+   "slug": "kn-bashir",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2025-06-29T06:00:02+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335862-0588g-kannada-translation-bashir-missouri-simple.db.zip",
+   "fileSizeBytes": 562259
+  },
+  {
+   "qulId": 425,
+   "type": "translation",
+   "name": "Khmer translation - Rwwad translation center",
+   "translatedName": "Khmer translation - Rwwad translation center",
+   "author": null,
+   "slug": "km-rwwad",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:52+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335557-2rbe1-khmer-translation-rwwad-translation-center-simple.db.zip",
+   "fileSizeBytes": 621055
+  },
+  {
+   "qulId": 430,
+   "type": "translation",
+   "name": "Korean Translation - Rowwad Translation Center",
+   "translatedName": "Korean Translation - Rowwad Translation Center",
+   "author": null,
+   "slug": "ko-rwwad",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 3691,
+   "qulUpdatedAt": "2026-05-12T22:38:52+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335615-rm5jx-korean-translation-rowwad-translation-center-simple.db.zip",
+   "fileSizeBytes": 240973
+  },
+  {
+   "qulId": 434,
+   "type": "translation",
+   "name": "Kurdish Kurmanji Translation",
+   "translatedName": "Kurdish Kurmanji Translation",
+   "author": null,
+   "slug": "ku-ismail",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2025-02-23T06:00:02+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335723-c2v2i-kurdish-kurmanji-translation-simple.db.zip",
+   "fileSizeBytes": 570408
+  },
+  {
+   "qulId": 427,
+   "type": "translation",
+   "name": "Kurdish Translation - Salahuddin",
+   "translatedName": "Kurdish Translation - Salahuddin",
+   "author": null,
+   "slug": "ku-salahuddin",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2025-02-23T06:00:02+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335584-9byu9-kurdish-translation-salahuddin-simple.db.zip",
+   "fileSizeBytes": 1555979
+  },
+  {
+   "qulId": 448,
+   "type": "translation",
+   "name": "Kyrgyz hakimov",
+   "translatedName": "Kyrgyz hakimov",
+   "author": null,
+   "slug": "ky-hakimov",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2025-02-23T06:00:01+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335970-6agha-kyrgyz-hakimov-simple.db.zip",
+   "fileSizeBytes": 534948
+  },
+  {
+   "qulId": 431,
+   "type": "translation",
+   "name": "Lingala translation",
+   "translatedName": "Lingala translation",
+   "author": null,
+   "slug": "ln-zakariya",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-06-16T21:06:47+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335650-ayhsz-lingala-translation-simple.db.zip",
+   "fileSizeBytes": 338854
+  },
+  {
+   "qulId": 444,
+   "type": "translation",
+   "name": "Luhya translation",
+   "translatedName": "Luhya translation",
+   "author": null,
+   "slug": "luy-center",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2025-02-23T06:00:02+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335898-0j7so-luhya-translation-simple.db.zip",
+   "fileSizeBytes": 357481
+  },
+  {
+   "qulId": 445,
+   "type": "translation",
+   "name": "Maguindanao - rwwad",
+   "translatedName": "Maguindanao - rwwad",
+   "author": null,
+   "slug": "mdh-rwwad",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:52+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335932-tpc4m-maguindanao-rwwad-simple.db.zip",
+   "fileSizeBytes": 378665
+  },
+  {
+   "qulId": 432,
+   "type": "translation",
+   "name": "Malagasy translation - Rowad",
+   "translatedName": "Malagasy translation - Rowad",
+   "author": null,
+   "slug": "mg-rwwad",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2025-02-23T06:00:02+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335685-op9yx-malagasy-translation-rowad-simple.db.zip",
+   "fileSizeBytes": 391143
+  },
+  {
+   "qulId": 424,
+   "type": "translation",
+   "name": "Muhammad Baba Gutubu",
+   "translatedName": "Muhammad Baba Gutubu",
+   "author": null,
+   "slug": "dag-baba-gutubu",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335520-368ds-muhammad-baba-gutubu-simple.db.zip",
+   "fileSizeBytes": 401568
+  },
+  {
+   "qulId": 429,
+   "type": "translation",
+   "name": "Muhammad Hamza Battur",
+   "translatedName": "Muhammad Hamza Battur",
+   "author": null,
+   "slug": "kn-hamza",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2025-01-24T19:24:09+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335652-8zqwp-muhammad-hamza-battur-simple.db.zip",
+   "fileSizeBytes": 531043
+  },
+  {
+   "qulId": 449,
+   "type": "translation",
+   "name": "Pashto Translation - Rowwad Translation Center",
+   "translatedName": "Pashto Translation - Rowwad Translation Center",
+   "author": null,
+   "slug": "ps-rwwad",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2025-01-25T00:17:52+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335988-fbbix-pashto-translation-rowwad-translation-center-simple.db.zip",
+   "fileSizeBytes": 461415
+  },
+  {
+   "qulId": 423,
+   "type": "translation",
+   "name": "Punjabi arif",
+   "translatedName": "Punjabi arif",
+   "author": null,
+   "slug": "pa-arif",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:52+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335525-blq5i-punjabi-arif-simple.db.zip",
+   "fileSizeBytes": 606554
+  },
+  {
+   "qulId": 446,
+   "type": "translation",
+   "name": "Russian translation - Aboadel",
+   "translatedName": "Russian translation - Aboadel",
+   "author": null,
+   "slug": "ru-aboadel",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:51+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335934-1ztqc-russian-translation-aboadel-simple.db.zip",
+   "fileSizeBytes": 704476
+  },
+  {
+   "qulId": 452,
+   "type": "translation",
+   "name": "Shaikh Mahmud Abdulkader Hamza",
+   "translatedName": "Shaikh Mahmud Abdulkader Hamza",
+   "author": null,
+   "slug": "aa-abdulkader",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748336028-kouuh-shaikh-mahmud-abdulkader-hamza-simple.db.zip",
+   "fileSizeBytes": 485617
+  },
+  {
+   "qulId": 447,
+   "type": "translation",
+   "name": "Uzbek Translation - Rowwad Translation Center",
+   "translatedName": "Uzbek Translation - Rowwad Translation Center",
+   "author": null,
+   "slug": "uz-rowwad",
+   "language": {
+    "iso": "un",
+    "name": "Unknown",
+    "native": "Unknown",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748335971-x0kot-uzbek-translation-rowwad-translation-center-simple.db.zip",
+   "fileSizeBytes": 431251
+  },
+  {
+   "qulId": 28,
+   "type": "tafsir",
+   "name": "Fi Zilal al-Quran",
+   "translatedName": "Fi Zilal al-Quran",
+   "author": "Sayyid Ibrahim Qutb",
+   "slug": "tafsir-fe-zalul-quran-syed-qatab",
+   "language": {
+    "iso": "ur",
+    "name": "Urdu",
+    "native": "اردو",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748288587-u5m0w-tafsir-fe-zalul-quran-syed-qatab.db.zip",
+   "fileSizeBytes": 5791936
+  },
+  {
+   "qulId": 309,
+   "type": "tafsir",
+   "name": "Tafsir As-Saadi - Urdu",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "ur",
+    "name": "Urdu",
+    "native": "اردو",
+    "direction": "rtl"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1776892502-magd0-tafsir-as-saadi.db.zip",
+   "fileSizeBytes": 3347623
+  },
+  {
+   "qulId": 29,
+   "type": "tafsir",
+   "name": "Tafsir Bayan ul Quran",
+   "translatedName": "Tafsir Bayan ul Quran",
+   "author": "Dr. Israr Ahmad",
+   "slug": "tafsir-bayan-ul-quran",
+   "language": {
+    "iso": "ur",
+    "name": "Urdu",
+    "native": "اردو",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748288702-olyu2-tafsir-bayan-ul-quran.db.zip",
+   "fileSizeBytes": 2411739
+  },
+  {
+   "qulId": 30,
+   "type": "tafsir",
+   "name": "Tafsir Ibn Kathir",
+   "translatedName": "Tafsir Ibn Kathir",
+   "author": "Hafiz Ibn Kathir",
+   "slug": "en-tafisr-ibn-kathir",
+   "language": {
+    "iso": "ur",
+    "name": "Urdu",
+    "native": "اردو",
+    "direction": "rtl"
+   },
+   "recordsCount": 1915,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748288495-1rkl1-tafseer-ibn-e-kaseer-urdu.db.zip",
+   "fileSizeBytes": 4501197
+  },
+  {
+   "qulId": 43,
+   "type": "tafsir",
+   "name": "Tazkirul Quran(Maulana Wahiduddin Khan)",
+   "translatedName": "Tazkirul Quran(Maulana Wahiduddin Khan)",
+   "author": "Maulana Wahid Uddin Khan",
+   "slug": "tazkirul-quran-en",
+   "language": {
+    "iso": "ur",
+    "name": "Urdu",
+    "native": "اردو",
+    "direction": "rtl"
+   },
+   "recordsCount": 1952,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748289555-gtmu3-tazkiru-quran-ur.db.zip",
+   "fileSizeBytes": 942880
+  },
+  {
+   "qulId": 281,
+   "type": "translation",
+   "name": "Abul Ala Maududi(Roman Urdu)",
+   "translatedName": "Abul Ala Maududi(Roman Urdu)",
+   "author": "Abul Ala Maududi",
+   "slug": "maududi-roman-urdu",
+   "language": {
+    "iso": "ur",
+    "name": "Urdu",
+    "native": "اردو",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748333836-1cxxl-maududi-roman-urdu-simple.db.zip",
+   "fileSizeBytes": 471779
+  },
+  {
+   "qulId": 183,
+   "type": "translation",
+   "name": "Bayan-ul-Quran",
+   "translatedName": "Bayan-ul-Quran",
+   "author": "Dr. Israr Ahmad",
+   "slug": "bayan-ul-quran",
+   "language": {
+    "iso": "ur",
+    "name": "Urdu",
+    "native": "اردو",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329583-u7ysb-bayan-ul-quran-simple.db.zip",
+   "fileSizeBytes": 474743
+  },
+  {
+   "qulId": 218,
+   "type": "translation",
+   "name": "Fatah Muhammad Jalandhari",
+   "translatedName": "Fatah Muhammad Jalandhari",
+   "author": "Fatah Muhammad Jalandhari",
+   "slug": "ur-fatah-muhammad-jalandhari",
+   "language": {
+    "iso": "ur",
+    "name": "Urdu",
+    "native": "اردو",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330457-nnd2i-ur-fatah-muhammad-jalandhari-simple.db.zip",
+   "fileSizeBytes": 454491
+  },
+  {
+   "qulId": 182,
+   "type": "translation",
+   "name": "Fe Zilal al-Qur'an",
+   "translatedName": "Fe Zilal al-Qur'an",
+   "author": "Sayyid Ibrahim Qutb",
+   "slug": "urdu-sayyid-qatab",
+   "language": {
+    "iso": "ur",
+    "name": "Urdu",
+    "native": "اردو",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329521-dayio-urdu-sayyid-qatab-simple.db.zip",
+   "fileSizeBytes": 495278
+  },
+  {
+   "qulId": 305,
+   "type": "translation",
+   "name": "Maulana Muhammad Junagarhi",
+   "translatedName": "Maulana Muhammad Junagarhi",
+   "author": "Maulana Muhammad Junagarhi",
+   "slug": "ur-junagarri",
+   "language": {
+    "iso": "ur",
+    "name": "Urdu",
+    "native": "اردو",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:52+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334972-l3m3a-ur-junagarri-with-footnote-tags.db.zip",
+   "fileSizeBytes": 1828636
+  },
+  {
+   "qulId": 284,
+   "type": "translation",
+   "name": "Maulana Wahiduddin Khan",
+   "translatedName": "Maulana Wahiduddin Khan",
+   "author": "Maulana Wahiduddin Khan",
+   "slug": "maulana-wahid-uddin-khan-urdu",
+   "language": {
+    "iso": "ur",
+    "name": "Urdu",
+    "native": "اردو",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748333984-oowjr-maulana-wahid-uddin-khan-urdu-simple.db.zip",
+   "fileSizeBytes": 398879
+  },
+  {
+   "qulId": 180,
+   "type": "translation",
+   "name": "Shaykh al-Hind Mahmud al-Hasan(with Tafsir E Usmani)",
+   "translatedName": "Shaykh al-Hind Mahmud al-Hasan(with Tafsir E Usmani)",
+   "author": "Shaykh al-Hind Mahmud al-Hasan",
+   "slug": "tafsir-e-usmani",
+   "language": {
+    "iso": "ur",
+    "name": "Urdu",
+    "native": "اردو",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329868-aktlt-tafsir-e-usmani-with-footnote-tags.db.zip",
+   "fileSizeBytes": 2258016
+  },
+  {
+   "qulId": 302,
+   "type": "translation",
+   "name": "Tafheem e Qur'an - Syed Abu Ali Maududi",
+   "translatedName": "Tafheem e Qur'an - Syed Abu Ali Maududi",
+   "author": "Syed Abu Ali Maududi",
+   "slug": "ur-al-maududi",
+   "language": {
+    "iso": "ur",
+    "name": "Urdu",
+    "native": "اردو",
+    "direction": "rtl"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:36+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334899-dw3jk-ur-al-maududi-with-footnote-tags.db.zip",
+   "fileSizeBytes": 3499440
+  },
+  {
+   "qulId": 93,
+   "type": "translation",
+   "name": "Urdu wbw translation",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "ur",
+    "name": "Urdu",
+    "native": "اردو",
+    "direction": "rtl"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748326154-d7hjd-urud-wbw.db.zip",
+   "fileSizeBytes": 1177528
+  },
+  {
+   "qulId": 538,
+   "type": "tafsir",
+   "name": "Uzbek Mokhtasar",
+   "translatedName": "Uzbek Mokhtasar",
+   "author": null,
+   "slug": "uz-mokhtasar",
+   "language": {
+    "iso": "uz",
+    "name": "Uzbek",
+    "native": "Uzbek",
+    "direction": "ltr"
+   },
+   "recordsCount": 6212,
+   "qulUpdatedAt": "2025-03-13T08:07:34+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1752427390-4cxjh-uzbek-mokhtasar.db.zip",
+   "fileSizeBytes": 762364
+  },
+  {
+   "qulId": 225,
+   "type": "translation",
+   "name": "Alauddin Mansour",
+   "translatedName": "Alauddin Mansour",
+   "author": "Alauddin Mansour",
+   "slug": "uz-alauddin",
+   "language": {
+    "iso": "uz",
+    "name": "Uzbek",
+    "native": "Uzbek",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330850-ist6a-alauddin-mansour-with-footnote-tags.db.zip",
+   "fileSizeBytes": 714525
+  },
+  {
+   "qulId": 168,
+   "type": "translation",
+   "name": "Muhammad Sodik Muhammad Yusuf",
+   "translatedName": "Muhammad Sodik Muhammad Yusuf",
+   "author": "Muhammad Sodik Muhammad Yusuf",
+   "slug": "uz-sodiq-yusuf",
+   "language": {
+    "iso": "uz",
+    "name": "Uzbek",
+    "native": "Uzbek",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329053-tleeu-muhammad-sodik-muhammad-yusuf-with-footnote-tags.db.zip",
+   "fileSizeBytes": 739103
+  },
+  {
+   "qulId": 142,
+   "type": "translation",
+   "name": "Muhammad Sodiq Muhammad Yusuf (Latin)",
+   "translatedName": "Muhammad Sodiq Muhammad Yusuf (Latin)",
+   "author": "Muhammad Sodiq Muhammad Yusuf",
+   "slug": "quran.uz.sodik",
+   "language": {
+    "iso": "uz",
+    "name": "Uzbek",
+    "native": "Uzbek",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328269-i5bck-quran-uz-sodik-with-footnote-tags.db.zip",
+   "fileSizeBytes": 622114
+  },
+  {
+   "qulId": 261,
+   "type": "tafsir",
+   "name": "Vietnamese Al-Mukhtasar in interpreting the Noble Quran",
+   "translatedName": "Vietnamese Al-Mukhtasar in interpreting the Noble Quran",
+   "author": "Tafsir Center",
+   "slug": "vi-mukhtasar",
+   "language": {
+    "iso": "vi",
+    "name": "Vietnamese",
+    "native": "Tiếng Việt",
+    "direction": "ltr"
+   },
+   "recordsCount": 6221,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748333340-mwbgf-vietnamese-mokhtasar.db.zip",
+   "fileSizeBytes": 788585
+  },
+  {
+   "qulId": 205,
+   "type": "translation",
+   "name": "Hasan Abdul-Karim",
+   "translatedName": "Hasan Abdul-Karim",
+   "author": "Hasan Abdul-Karim",
+   "slug": "vi-hasan",
+   "language": {
+    "iso": "vi",
+    "name": "Vietnamese",
+    "native": "Tiếng Việt",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330177-5wrim-hasan-abdul-karim-simple.db.zip",
+   "fileSizeBytes": 468733
+  },
+  {
+   "qulId": 207,
+   "type": "translation",
+   "name": "Ruwwad Center",
+   "translatedName": "Ruwwad Center",
+   "author": "Ruwwad Center",
+   "slug": "en-ruwwad",
+   "language": {
+    "iso": "vi",
+    "name": "Vietnamese",
+    "native": "Tiếng Việt",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:50+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330524-orpsd-translation-pioneers-center-with-footnote-tags.db.zip",
+   "fileSizeBytes": 522659
+  },
+  {
+   "qulId": 270,
+   "type": "translation",
+   "name": "Moore rwwad",
+   "translatedName": "Moore rwwad",
+   "author": null,
+   "slug": "moore-rwwad",
+   "language": {
+    "iso": "wi",
+    "name": "With footnotes",
+    "native": "With footnotes",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2025-01-24T19:30:52+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748333416-yfix1-moore-rwwad-simple.db.zip",
+   "fileSizeBytes": 375460
+  },
+  {
+   "qulId": 286,
+   "type": "translation",
+   "name": "Abdul Hamid Silika",
+   "translatedName": "Abdul Hamid Silika",
+   "author": "Abdul Hamid Silika",
+   "slug": "yuw-hamid",
+   "language": {
+    "iso": "ya",
+    "name": "Yau",
+    "native": "Yau",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-06-24T14:23:14+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334132-sflme-abdul-hamid-silika-with-footnote-tags.db.zip",
+   "fileSizeBytes": 486818
+  },
+  {
+   "qulId": 167,
+   "type": "translation",
+   "name": "Shaykh Abu Rahimah Mikael Aykyuni",
+   "translatedName": "Shaykh Abu Rahimah Mikael Aykyuni",
+   "author": "Shaykh Abu Rahimah Mikael Aykyuni",
+   "slug": "yo-abu-rahimah",
+   "language": {
+    "iso": "yo",
+    "name": "Yoruba",
+    "native": "Yoruba",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-05-12T22:38:52+00:00",
+   "hasFootnotes": true,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328902-an9sj-shaykh-abu-rahimah-mikael-aykyuni-with-footnote-tags.db.zip",
+   "fileSizeBytes": 519151
+  },
+  {
+   "qulId": 220,
+   "type": "translation",
+   "name": "Ramdane At Mansour",
+   "translatedName": "Ramdane At Mansour",
+   "author": "Ramdane At Mansour",
+   "slug": "zgh-ramdane",
+   "language": {
+    "iso": "zgh",
+    "name": "Amazigh",
+    "native": "Tamaziɣt",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330481-vaget-ramdane-at-mansour-simple.db.zip",
+   "fileSizeBytes": 311358
+  },
+  {
+   "qulId": 264,
+   "type": "tafsir",
+   "name": "Chinese Abridged Explanation of the Quran",
+   "translatedName": "Chinese Abridged Explanation of the Quran",
+   "author": "Tafsir Center of Quranic Studies",
+   "slug": "zh-mukhtasar",
+   "language": {
+    "iso": "zh",
+    "name": "Chinese",
+    "native": "中文",
+    "direction": "ltr"
+   },
+   "recordsCount": 6214,
+   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748335008-vb43w-chinese-mokhtasar.db.zip",
+   "fileSizeBytes": 575513
+  },
+  {
+   "qulId": 143,
+   "type": "translation",
+   "name": "Chinese Translation (Simplified) - Ma Jain",
+   "translatedName": null,
+   "author": null,
+   "slug": null,
+   "language": {
+    "iso": "zh",
+    "name": "Chinese",
+    "native": "中文",
+    "direction": "ltr"
+   },
+   "recordsCount": null,
+   "qulUpdatedAt": null,
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328098-8u9v7-quran-zh-ma-jain-simple.db.zip",
+   "fileSizeBytes": 357442
+  },
+  {
+   "qulId": 159,
+   "type": "translation",
+   "name": "Muhammad Makin",
+   "translatedName": "Muhammad Makin",
+   "author": "Muhammad Makin",
+   "slug": "zh-makin",
+   "language": {
+    "iso": "zh",
+    "name": "Chinese",
+    "native": "中文",
+    "direction": "ltr"
+   },
+   "recordsCount": 6236,
+   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
+   "hasFootnotes": false,
+   "fileFormat": "sqlite",
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328522-1w4g0-muhammad-makin-simple.db.zip",
+   "fileSizeBytes": 353227
+  }
+ ]
+}
