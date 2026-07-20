@@ -1,13 +1,25 @@
 # fuKhushu ↔ QUL compatibility report
 
-Generated: 2026-07-20T12:18:45.716664+00:00
+Generated: 2026-07-20T16:57:23.026312+00:00
 
 ## Included in the catalog
 
-- **294** compatible resources (186 translations, 108 tafsirs)
+- **289** downloadable resources (184 translations, 105 tafsirs)
 - 37 translations with footnotes
 - 79 right-to-left
-- 82 languages
+- 81 languages
+
+## Already bundled — shipped by default, not offered as downloads
+
+**5** QUL exports are already in the app's bundled DB (kept out of the catalog to avoid duplicates; the Japanese ones also keep their bundled furigana, which the QUL exports lack):
+
+| type | id | slug | name |
+|---|---|---|---|
+| tafsir | 266 | en-mukhtasar | English Al-Mukhtasar |
+| tafsir | 265 | ja-mukhtasar | Japanese Abridged Explanation of the Quran |
+| tafsir | 35 | en-tafisr-ibn-kathir | Tafsir Ibn Kathir |
+| translation | 189 | ja-ryoichi-mita | Ryoichi Mita |
+| translation | 202 | ja-saeed | Saeed Sato |
 
 ## Excluded — incompatible
 

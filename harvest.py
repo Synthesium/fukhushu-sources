@@ -50,6 +50,21 @@ BASE = "https://qul.tarteel.ai"
 SESSION_COOKIE_NAME = "_quran_com-community_session"
 SCHEMA_VERSION = 1
 
+# QUL exports already shipped in the app's bundled DB → never offered as
+# downloads (redundant, and the Japanese ones would lose the app's bundled
+# furigana). Keyed by DownloadableResource (listing) id — the precise identity
+# of THIS export. NOT by slug/name: QUL has several same-named "Tafsir Ibn
+# Kathir" entries (35 English = ours, but 22 Arabic / 30 Urdu / 31 Bengali are
+# distinct sources we DO want in the catalog). The two non-QUL bundled sources
+# (clear-quran, yasashii) aren't downloadable anyway.
+BUNDLED_QUL_IDS = {
+    35:  "en-tafisr-ibn-kathir — Tafsir Ibn Kathir (bundled id 4)",
+    266: "en-mukhtasar — Abridged Explanation (bundled id 5)",
+    265: "ja-mukhtasar — Japanese Mokhtasar tafsir (bundled id 2)",
+    202: "ja-saeed — Saeed Sato translation (bundled id 1)",
+    189: "ja-ryoichi-mita — Ryoichi Mita translation (bundled id 3)",
+}
+
 
 # ── Listing (authenticated HTML) ──────────────────────────────────────────
 
@@ -209,6 +224,7 @@ def harvest(session: requests.Session, delay: float, limit, deep: bool) -> tuple
 
     resources = []
     incompatible = []
+    bundled = []
     for kind in ("translation", "tafsir"):
         listing = parse_listing(session, kind)
         if limit:
@@ -218,9 +234,16 @@ def harvest(session: requests.Session, delay: float, limit, deep: bool) -> tuple
             name = item["name"]
             print(f"[{kind} {i}/{len(listing)}] {name[:42]} ... ", end="", flush=True)
 
+            api = api_index[kind].get(name.strip().lower(), {})
+            # Already in the app bundle → don't offer as a download.
+            if item["id"] in BUNDLED_QUL_IDS:
+                bundled.append({"type": kind, "qulId": item["id"],
+                                "name": name, "slug": api.get("slug")})
+                print("BUNDLED (already shipped by default)")
+                continue
+
             classify = classify_translation if kind == "translation" else classify_tafsir
             href, has_footnotes, status, reason = classify(item["variants"])
-            api = api_index[kind].get(name.strip().lower(), {})
             api_lang = api.get("language") or api.get("language_name")
             language = language_entry(lang_index, item["langs"], api_lang)
 
@@ -282,7 +305,7 @@ def harvest(session: requests.Session, delay: float, limit, deep: bool) -> tuple
         "generatedAt": datetime.now(tz=timezone.utc).isoformat(),
         "resources": resources,
     }
-    return manifest, incompatible
+    return manifest, incompatible, bundled
 
 
 def deep_check(session: requests.Session, kind: str, url: str) -> tuple[bool, str]:
@@ -327,9 +350,12 @@ def deep_check(session: requests.Session, kind: str, url: str) -> tuple[bool, st
             db.close()
 
 
-def write_compat_report(path: str, manifest: dict, incompatible: list) -> None:
-    """Emit a markdown compatibility report: what's in the catalog and, more
-    importantly, every resource excluded and why. Regenerated each run."""
+def write_compat_report(
+    path: str, manifest: dict, incompatible: list, bundled: list
+) -> None:
+    """Emit a markdown compatibility report: what's in the catalog, what's
+    already shipped by default, and every resource excluded and why.
+    Regenerated each run."""
     res = manifest["resources"]
     from collections import Counter
     by_reason = Counter(x["reason"] for x in incompatible)
@@ -340,17 +366,31 @@ def write_compat_report(path: str, manifest: dict, incompatible: list) -> None:
         "",
         "## Included in the catalog",
         "",
-        f"- **{len(res)}** compatible resources "
+        f"- **{len(res)}** downloadable resources "
         f"({sum(1 for r in res if r['type']=='translation')} translations, "
         f"{sum(1 for r in res if r['type']=='tafsir')} tafsirs)",
         f"- {sum(1 for r in res if r['hasFootnotes'])} translations with footnotes",
         f"- {sum(1 for r in res if r['language']['direction']=='rtl')} right-to-left",
         f"- {len({r['language']['name'] for r in res})} languages",
         "",
+        "## Already bundled — shipped by default, not offered as downloads",
+        "",
+        f"**{len(bundled)}** QUL exports are already in the app's bundled DB "
+        "(kept out of the catalog to avoid duplicates; the Japanese ones also "
+        "keep their bundled furigana, which the QUL exports lack):" if bundled
+        else "None.",
+        "",
+    ]
+    if bundled:
+        lines += ["| type | id | slug | name |", "|---|---|---|---|"]
+        for x in sorted(bundled, key=lambda r: (r["type"], r["name"])):
+            lines.append(f"| {x['type']} | {x['qulId']} | {x.get('slug')} | {x['name']} |")
+        lines.append("")
+    lines += [
         "## Excluded — incompatible",
         "",
         f"**{len(incompatible)}** resources cannot be used by the app:" if incompatible
-        else "None — every QUL resource is compatible. 🎉",
+        else "None — every other QUL resource is compatible. 🎉",
         "",
     ]
     for reason, count in by_reason.most_common():
@@ -442,14 +482,15 @@ def main() -> int:
     session.cookies.set(SESSION_COOKIE_NAME, cookie, domain="qul.tarteel.ai")
     session.headers["User-Agent"] = "fukhushu-harvest/1.0"
 
-    manifest, incompatible = harvest(
+    manifest, incompatible, bundled = harvest(
         session, delay=args.delay, limit=args.limit, deep=args.deep
     )
     with open(args.output, "w") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=1)
-    write_compat_report(args.report, manifest, incompatible)
-    print(f"\nWrote {args.output}: {len(manifest['resources'])} compatible resources")
-    print(f"Wrote {args.report}: {len(incompatible)} incompatible")
+    write_compat_report(args.report, manifest, incompatible, bundled)
+    print(f"\nWrote {args.output}: {len(manifest['resources'])} downloadable resources")
+    print(f"Wrote {args.report}: {len(bundled)} already-bundled, "
+          f"{len(incompatible)} incompatible")
     if incompatible:
         from collections import Counter
         for reason, count in Counter(x["reason"] for x in incompatible).most_common():

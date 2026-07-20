@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-20T12:18:45.716664+00:00",
+ "generatedAt": "2026-07-20T16:57:23.026312+00:00",
  "resources": [
   {
    "qulId": 234,
@@ -1743,26 +1743,6 @@
    "fileSizeBytes": 696182
   },
   {
-   "qulId": 266,
-   "type": "tafsir",
-   "name": "English Al-Mukhtasar",
-   "translatedName": "English Al-Mukhtasar",
-   "author": "Tafsir Center of Quranic Studies",
-   "slug": "en-mukhtasar",
-   "language": {
-    "iso": "en",
-    "name": "English",
-    "native": "English",
-    "direction": "ltr"
-   },
-   "recordsCount": 6211,
-   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
-   "hasFootnotes": false,
-   "fileFormat": "sqlite",
-   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1750676694-9yqjf-abridged-explanation-of-the-quran.db.zip",
-   "fileSizeBytes": 657615
-  },
-  {
    "qulId": 34,
    "type": "tafsir",
    "name": "Maarif-ul-Quran",
@@ -1801,26 +1781,6 @@
    "fileFormat": "sqlite",
    "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1777315357-760fx-tafsir-al-jalalayn.db.zip",
    "fileSizeBytes": 921720
-  },
-  {
-   "qulId": 35,
-   "type": "tafsir",
-   "name": "Tafsir Ibn Kathir",
-   "translatedName": "Tafsir Ibn Kathir",
-   "author": "Hafiz Ibn Kathir",
-   "slug": "en-tafisr-ibn-kathir",
-   "language": {
-    "iso": "en",
-    "name": "English",
-    "native": "English",
-    "direction": "ltr"
-   },
-   "recordsCount": 1915,
-   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
-   "hasFootnotes": false,
-   "fileFormat": "sqlite",
-   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748288847-99a1f-en-tafisr-ibn-kathir.db.zip",
-   "fileSizeBytes": 3855680
   },
   {
    "qulId": 42,
@@ -2901,66 +2861,6 @@
    "fileFormat": "sqlite",
    "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329964-yf13f-othman-al-sharif-simple.db.zip",
    "fileSizeBytes": 363172
-  },
-  {
-   "qulId": 265,
-   "type": "tafsir",
-   "name": "Japanese Abridged Explanation of the Quran",
-   "translatedName": "Japanese Abridged Explanation of the Quran",
-   "author": "Tafsir Center of Quranic Studies",
-   "slug": "ja-mukhtasar",
-   "language": {
-    "iso": "ja",
-    "name": "Japanese",
-    "native": "日本語",
-    "direction": "ltr"
-   },
-   "recordsCount": 6211,
-   "qulUpdatedAt": "2026-01-21T15:12:44+00:00",
-   "hasFootnotes": false,
-   "fileFormat": "sqlite",
-   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748333741-ogh6m-japanese-mokhtasar.db.zip",
-   "fileSizeBytes": 667848
-  },
-  {
-   "qulId": 189,
-   "type": "translation",
-   "name": "Ryoichi Mita",
-   "translatedName": "Ryoichi Mita",
-   "author": "Ryoichi Mita",
-   "slug": "ja-ryoichi-mita",
-   "language": {
-    "iso": "ja",
-    "name": "Japanese",
-    "native": "日本語",
-    "direction": "ltr"
-   },
-   "recordsCount": 6236,
-   "qulUpdatedAt": "2026-01-21T15:12:37+00:00",
-   "hasFootnotes": false,
-   "fileFormat": "sqlite",
-   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748329808-s1sa1-ja-ryoichi-mita-simple.db.zip",
-   "fileSizeBytes": 446121
-  },
-  {
-   "qulId": 202,
-   "type": "translation",
-   "name": "Saeed Sato",
-   "translatedName": "Saeed Sato",
-   "author": "Saeed Sato",
-   "slug": "ja-saeed",
-   "language": {
-    "iso": "ja",
-    "name": "Japanese",
-    "native": "日本語",
-    "direction": "ltr"
-   },
-   "recordsCount": 6236,
-   "qulUpdatedAt": "2026-06-24T14:20:14+00:00",
-   "hasFootnotes": false,
-   "fileFormat": "sqlite",
-   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330061-4ixjo-saeed-sato-simple.db.zip",
-   "fileSizeBytes": 512832
   },
   {
    "qulId": 433,
