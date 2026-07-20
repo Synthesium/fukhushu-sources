@@ -5,8 +5,33 @@ catalog the app's **Settings → Translations & Tafsirs** page fetches — from
 [QUL](https://qul.tarteel.ai). The app reads
 `https://raw.githubusercontent.com/Synthesium/fukhushu-sources/main/manifest.json`.
 
-Layout: `harvest.py` (the tool), `manifest.json` (the published catalog, once
-generated), `.env` (your session cookie — **git-ignored**, see `.env.example`).
+Layout: `harvest.py` (the tool), `manifest.json` (the published catalog),
+`compatibility-report.md` (what's included/excluded and why — regenerated each
+run), `.env` (your session cookie — **git-ignored**, see `.env.example`).
+
+## Compatibility checking
+
+Not every QUL resource fits fuKhushu's ayah-by-ayah model. Each run classifies
+every resource and **only compatible ones go in `manifest.json`**; the rest are
+listed in `compatibility-report.md` with the reason. This is decided cheaply
+from the export variants each resource offers (no downloads):
+
+- **Translations** need `simple.sqlite` or the *with-footnote-tags* export
+  (ayah-level `sura, ayah, text`). Resources that only ship the generic
+  `sqlite` are **word-by-word** (a `word_translation` word-level table the app
+  can't render) → excluded.
+- **Tafsirs** need any `sqlite` export (grouped `tafsir` table or a flat
+  `translation`-shaped one — the app converts both).
+- Anything with no SQLite export at all (JSON/DOCX only) → excluded.
+
+`--deep` additionally downloads every export and validates its actual SQLite
+schema against what the app converts (the same table/column checks as
+`qul_converter.dart`) — slower, but catches shape surprises the labels miss.
+Run it occasionally as a full audit:
+
+```bash
+.venv/bin/python harvest.py --deep -o manifest.json
+```
 
 ## Why this exists
 

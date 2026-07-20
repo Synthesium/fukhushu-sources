@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-20T08:36:42.426272+00:00",
+ "generatedAt": "2026-07-20T12:18:45.716664+00:00",
  "resources": [
   {
    "qulId": 234,
@@ -1403,26 +1403,6 @@
    "fileSizeBytes": 352492
   },
   {
-   "qulId": 94,
-   "type": "translation",
-   "name": "Bengali wbw translation",
-   "translatedName": null,
-   "author": null,
-   "slug": null,
-   "language": {
-    "iso": "bn",
-    "name": "Bengali",
-    "native": "বাংলা",
-    "direction": "ltr"
-   },
-   "recordsCount": null,
-   "qulUpdatedAt": null,
-   "hasFootnotes": false,
-   "fileFormat": "sqlite",
-   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748326370-qcgc1-bangali-word-by-word-translation.db.zip",
-   "fileSizeBytes": 1305276
-  },
-  {
    "qulId": 200,
    "type": "translation",
    "name": "Dr. Abu Bakr Muhammad Zakaria",
@@ -1943,26 +1923,6 @@
    "fileSizeBytes": 416623
   },
   {
-   "qulId": 564,
-   "type": "translation",
-   "name": "Colored English wbw translation",
-   "translatedName": null,
-   "author": null,
-   "slug": null,
-   "language": {
-    "iso": "en",
-    "name": "English",
-    "native": "English",
-    "direction": "ltr"
-   },
-   "recordsCount": null,
-   "qulUpdatedAt": null,
-   "hasFootnotes": false,
-   "fileFormat": "sqlite",
-   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1769196879-q8s33-colored-english-wbw-translation.db.zip",
-   "fileSizeBytes": 1333480
-  },
-  {
    "qulId": 122,
    "type": "translation",
    "name": "Dr. Ghali",
@@ -2041,26 +2001,6 @@
    "fileFormat": "sqlite",
    "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328130-byyzi-quran-en-pickthall-simple.db.zip",
    "fileSizeBytes": 370678
-  },
-  {
-   "qulId": 92,
-   "type": "translation",
-   "name": "English Word by Word Translation",
-   "translatedName": null,
-   "author": null,
-   "slug": null,
-   "language": {
-    "iso": "en",
-    "name": "English",
-    "native": "English",
-    "direction": "ltr"
-   },
-   "recordsCount": null,
-   "qulUpdatedAt": null,
-   "hasFootnotes": false,
-   "fileFormat": "sqlite",
-   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1764843844-jlpzb-english-wbw-translation.db.zip",
-   "fileSizeBytes": 1091543
   },
   {
    "qulId": 179,
@@ -2523,26 +2463,6 @@
    "fileSizeBytes": 519757
   },
   {
-   "qulId": 91,
-   "type": "translation",
-   "name": "Persian wbw translation",
-   "translatedName": null,
-   "author": null,
-   "slug": null,
-   "language": {
-    "iso": "fa",
-    "name": "Persian",
-    "native": "فارسی",
-    "direction": "rtl"
-   },
-   "recordsCount": null,
-   "qulUpdatedAt": null,
-   "hasFootnotes": false,
-   "fileFormat": "sqlite",
-   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748325830-qmml0-persian-wbw-translation.db.zip",
-   "fileSizeBytes": 1128007
-  },
-  {
    "qulId": 534,
    "type": "tafsir",
    "name": "Fulani Mokhtasar",
@@ -2621,26 +2541,6 @@
    "fileFormat": "sqlite",
    "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/tafsir/1748332893-conps-french-mokhtasar.db.zip",
    "fileSizeBytes": 718630
-  },
-  {
-   "qulId": 95,
-   "type": "translation",
-   "name": "French wbw translation",
-   "translatedName": null,
-   "author": null,
-   "slug": null,
-   "language": {
-    "iso": "fr",
-    "name": "French",
-    "native": "Français",
-    "direction": "ltr"
-   },
-   "recordsCount": null,
-   "qulUpdatedAt": null,
-   "hasFootnotes": false,
-   "fileFormat": "sqlite",
-   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748326461-li8mf-french-wbw-translation.db.zip",
-   "fileSizeBytes": 1102563
   },
   {
    "qulId": 174,
@@ -2803,26 +2703,6 @@
    "fileSizeBytes": 993221
   },
   {
-   "qulId": 44,
-   "type": "translation",
-   "name": "Hindi wbw translation",
-   "translatedName": null,
-   "author": null,
-   "slug": null,
-   "language": {
-    "iso": "hi",
-    "name": "Hindi",
-    "native": "हिन्दी",
-    "direction": "ltr"
-   },
-   "recordsCount": null,
-   "qulUpdatedAt": null,
-   "hasFootnotes": false,
-   "fileFormat": "sqlite",
-   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748289319-pz32p-hindi-wbw-translation.db.zip",
-   "fileSizeBytes": 1110250
-  },
-  {
    "qulId": 166,
    "type": "translation",
    "name": "Maulana Azizul Haque al-Umari",
@@ -2923,26 +2803,6 @@
    "fileSizeBytes": 474001
   },
   {
-   "qulId": 96,
-   "type": "translation",
-   "name": "Indonesian wbw translation",
-   "translatedName": null,
-   "author": null,
-   "slug": null,
-   "language": {
-    "iso": "id",
-    "name": "Indonesian",
-    "native": "Bahasa Indonesia",
-    "direction": "ltr"
-   },
-   "recordsCount": null,
-   "qulUpdatedAt": null,
-   "hasFootnotes": false,
-   "fileFormat": "sqlite",
-   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748326822-yrgjz-indonesian-word-by-word-translation.db.zip",
-   "fileSizeBytes": 1071830
-  },
-  {
    "qulId": 173,
    "type": "translation",
    "name": "King Fahad Quran Complex",
@@ -2981,26 +2841,6 @@
    "fileFormat": "sqlite",
    "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748330247-2mon3-the-sabiq-company-with-footnote-tags.db.zip",
    "fileSizeBytes": 479369
-  },
-  {
-   "qulId": 100,
-   "type": "translation",
-   "name": "Ingush wbw translation",
-   "translatedName": null,
-   "author": null,
-   "slug": null,
-   "language": {
-    "iso": "inh",
-    "name": "Ingush",
-    "native": "ʁəlʁɑj mot",
-    "direction": "ltr"
-   },
-   "recordsCount": null,
-   "qulUpdatedAt": null,
-   "hasFootnotes": false,
-   "fileFormat": "sqlite",
-   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327226-en4mp-ingush-wbw-translation.db.zip",
-   "fileSizeBytes": 1000116
   },
   {
    "qulId": 253,
@@ -4503,26 +4343,6 @@
    "fileSizeBytes": 681398
   },
   {
-   "qulId": 98,
-   "type": "translation",
-   "name": "Tamil wbw translation",
-   "translatedName": null,
-   "author": null,
-   "slug": null,
-   "language": {
-    "iso": "ta",
-    "name": "Tamil",
-    "native": "தமிழ்",
-    "direction": "ltr"
-   },
-   "recordsCount": null,
-   "qulUpdatedAt": null,
-   "hasFootnotes": false,
-   "fileFormat": "sqlite",
-   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327104-4rs91-tamil-wbw-translation.db.zip",
-   "fileSizeBytes": 1058521
-  },
-  {
    "qulId": 540,
    "type": "tafsir",
    "name": "Telugu Mokhtasar",
@@ -4921,26 +4741,6 @@
    "fileFormat": "sqlite",
    "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748328192-0sxy6-quran-tr-diyanet-simple.db.zip",
    "fileSizeBytes": 364507
-  },
-  {
-   "qulId": 99,
-   "type": "translation",
-   "name": "Turkish wbw translation",
-   "translatedName": null,
-   "author": null,
-   "slug": null,
-   "language": {
-    "iso": "tr",
-    "name": "Turkish",
-    "native": "Türkçe",
-    "direction": "ltr"
-   },
-   "recordsCount": null,
-   "qulUpdatedAt": null,
-   "hasFootnotes": false,
-   "fileFormat": "sqlite",
-   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748327354-1or77-turkish-wbw-translation.db.zip",
-   "fileSizeBytes": 947795
   },
   {
    "qulId": 141,
@@ -5801,26 +5601,6 @@
    "fileFormat": "sqlite",
    "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748334899-dw3jk-ur-al-maududi-with-footnote-tags.db.zip",
    "fileSizeBytes": 3499440
-  },
-  {
-   "qulId": 93,
-   "type": "translation",
-   "name": "Urdu wbw translation",
-   "translatedName": null,
-   "author": null,
-   "slug": null,
-   "language": {
-    "iso": "ur",
-    "name": "Urdu",
-    "native": "اردو",
-    "direction": "rtl"
-   },
-   "recordsCount": null,
-   "qulUpdatedAt": null,
-   "hasFootnotes": false,
-   "fileFormat": "sqlite",
-   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/translation/1748326154-d7hjd-urud-wbw.db.zip",
-   "fileSizeBytes": 1177528
   },
   {
    "qulId": 538,

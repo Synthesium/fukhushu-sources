@@ -85,30 +85,38 @@ def parse_listing(session: requests.Session, kind: str) -> list[dict]:
     return out
 
 
-def pick_translation_variant(variants: dict) -> tuple[str | None, bool]:
-    """Prefer the SQLite *with-footnote-tags* export (footnotes column +
-    `<sup foot_note>` markers); else the plain simple/generic SQLite.
+def _find(variants: dict, pred):
+    for label, href in variants.items():
+        if pred(label.lower()):
+            return href
+    return None
 
-    Returns (href, has_footnotes). Skips word-by-word `chunk` files and the
-    `inline-footnote` variant (a different, unsupported footnote encoding)."""
-    def find(pred):
-        for label, href in variants.items():
-            if pred(label.lower()):
-                return href
-        return None
 
-    ft = find(lambda l: "sqlite" in l and "footnote-tags" in l)
+def classify_translation(variants: dict) -> tuple[str | None, bool, str, str]:
+    """Decide which translation variant (if any) the app can consume.
+
+    Returns (href, has_footnotes, status, reason) where status is 'ok' or
+    'incompatible'. The app renders ayah-by-ayah text, so it needs the
+    *with-footnote-tags* export (footnotes column + `<sup foot_note>` markers)
+    or the plain `simple.sqlite`. A resource that only ships the generic
+    `sqlite` is word-by-word (a `word_translation` word-level table the app
+    can't render); JSON/DOCX-only resources have no SQLite at all."""
+    ft = _find(variants, lambda l: "sqlite" in l and "footnote-tags" in l)
     if ft:
-        return ft, True
-    plain = find(
-        lambda l: "sqlite" in l and "chunk" not in l and "inline-footnote" not in l
-    )
-    return plain, False
+        return ft, True, "ok", "translation with footnotes"
+    simple = _find(variants, lambda l: "simple.sqlite" in l)
+    if simple:
+        return simple, False, "ok", "plain translation"
+    if _find(variants, lambda l: "sqlite" in l):
+        return None, False, "incompatible", \
+            "word-by-word data (word-level rows, not ayah-by-ayah)"
+    return None, False, "incompatible", "no SQLite export (JSON/other only)"
 
 
-def pick_tafsir_variant(variants: dict) -> str | None:
-    """Prefer the grouped `sqlite` export (passage ranges preserved); fall
-    back to `simple.sqlite` (flat, one entry per ayah — the app handles both)."""
+def classify_tafsir(variants: dict) -> tuple[str | None, bool, str, str]:
+    """Decide which tafsir variant the app can consume. Prefers the grouped
+    `sqlite` export (passage ranges preserved), else `simple.sqlite` (flat,
+    one entry per ayah — the app handles both). No SQLite → incompatible."""
     generic = simple = None
     for label, href in variants.items():
         ll = label.lower()
@@ -118,7 +126,10 @@ def pick_tafsir_variant(variants: dict) -> str | None:
             simple = simple or href
         else:
             generic = generic or href
-    return generic or simple
+    href = generic or simple
+    if href:
+        return href, False, "ok", "tafsir"
+    return None, False, "incompatible", "no SQLite export (JSON/other only)"
 
 
 def resolve_and_size(
@@ -187,7 +198,9 @@ def iso_from_epoch(epoch) -> str | None:
 
 # ── Harvest ───────────────────────────────────────────────────────────────
 
-def harvest(session: requests.Session, delay: float, limit) -> dict:
+def harvest(session: requests.Session, delay: float, limit, deep: bool) -> tuple[dict, list]:
+    """Returns (manifest, incompatible). Only compatible resources go in the
+    manifest; incompatible ones are collected for the compatibility report."""
     lang_index = build_language_index(session)
     api_index = {
         "translation": build_api_index(session, "translation"),
@@ -195,7 +208,7 @@ def harvest(session: requests.Session, delay: float, limit) -> dict:
     }
 
     resources = []
-    skipped = []
+    incompatible = []
     for kind in ("translation", "tafsir"):
         listing = parse_listing(session, kind)
         if limit:
@@ -205,23 +218,46 @@ def harvest(session: requests.Session, delay: float, limit) -> dict:
             name = item["name"]
             print(f"[{kind} {i}/{len(listing)}] {name[:42]} ... ", end="", flush=True)
 
-            if kind == "translation":
-                href, has_footnotes = pick_translation_variant(item["variants"])
-            else:
-                href, has_footnotes = pick_tafsir_variant(item["variants"]), False
-            if not href:
-                skipped.append((kind, item["id"], name, "no sqlite variant"))
-                print("SKIP (no sqlite)")
+            classify = classify_translation if kind == "translation" else classify_tafsir
+            href, has_footnotes, status, reason = classify(item["variants"])
+            api = api_index[kind].get(name.strip().lower(), {})
+            api_lang = api.get("language") or api.get("language_name")
+            language = language_entry(lang_index, item["langs"], api_lang)
+
+            if status != "ok":
+                incompatible.append({
+                    "type": kind, "qulId": item["id"], "name": name,
+                    "language": language["name"], "reason": reason,
+                    "offers": sorted(item["variants"].keys()),
+                })
+                print(f"INCOMPATIBLE ({reason})")
                 continue
 
             location, size = resolve_and_size(session, href)
             if not location:
-                skipped.append((kind, item["id"], name, "redirect failed — logged in?"))
+                incompatible.append({
+                    "type": kind, "qulId": item["id"], "name": name,
+                    "language": language["name"],
+                    "reason": "download redirect failed (session expired?)",
+                    "offers": sorted(item["variants"].keys()),
+                })
                 print("SKIP (redirect failed)")
                 continue
 
-            api = api_index[kind].get(name.strip().lower(), {})
-            api_lang = api.get("language") or api.get("language_name")
+            deep_note = ""
+            if deep:
+                ok, detail = deep_check(session, kind, location)
+                if not ok:
+                    incompatible.append({
+                        "type": kind, "qulId": item["id"], "name": name,
+                        "language": language["name"],
+                        "reason": f"deep check: {detail}",
+                        "offers": sorted(item["variants"].keys()),
+                    })
+                    print(f"INCOMPATIBLE (deep: {detail})")
+                    continue
+                deep_note = f", deep✓ {detail}"
+
             resources.append({
                 "qulId": item["id"],
                 "type": kind,
@@ -229,7 +265,7 @@ def harvest(session: requests.Session, delay: float, limit) -> dict:
                 "translatedName": (api.get("translated_name") or {}).get("name"),
                 "author": api.get("author_name"),
                 "slug": api.get("slug"),
-                "language": language_entry(lang_index, item["langs"], api_lang),
+                "language": language,
                 "recordsCount": api.get("records_count"),
                 "qulUpdatedAt": iso_from_epoch(api.get("updated_at")),
                 "hasFootnotes": has_footnotes,
@@ -237,20 +273,99 @@ def harvest(session: requests.Session, delay: float, limit) -> dict:
                 "fileUrl": location,
                 "fileSizeBytes": size,
             })
-            print(f"ok ({size or '?'}B{', footnotes' if has_footnotes else ''})")
+            print(f"ok ({size or '?'}B{', footnotes' if has_footnotes else ''}{deep_note})")
             time.sleep(delay)  # be polite to QUL
 
     resources.sort(key=lambda r: (r["language"]["iso"], r["type"], r["name"]))
-    if skipped:
-        print(f"\nSkipped {len(skipped)}:")
-        for kind, rid, name, reason in skipped:
-            print(f"  - {kind} {rid} {name[:40]}: {reason}")
-
-    return {
+    manifest = {
         "schemaVersion": SCHEMA_VERSION,
         "generatedAt": datetime.now(tz=timezone.utc).isoformat(),
         "resources": resources,
     }
+    return manifest, incompatible
+
+
+def deep_check(session: requests.Session, kind: str, url: str) -> tuple[bool, str]:
+    """Download + unzip the export and confirm its SQLite schema is one the app
+    actually converts (the same table/column checks as qul_converter.dart).
+    Optional (`--deep`) because it downloads every file."""
+    import io
+    import sqlite3
+    import tempfile
+    import zipfile
+    try:
+        blob = requests.get(url, timeout=120).content
+        with zipfile.ZipFile(io.BytesIO(blob)) as z:
+            inner = next(n for n in z.namelist() if n.endswith((".db", ".sqlite")))
+            data = z.read(inner)
+    except (requests.RequestException, zipfile.BadZipFile, StopIteration) as e:
+        return False, f"unreadable export ({type(e).__name__})"
+    with tempfile.NamedTemporaryFile(suffix=".db") as tf:
+        tf.write(data)
+        tf.flush()
+        db = sqlite3.connect(tf.name)
+        try:
+            tables = {r[0] for r in db.execute(
+                "SELECT name FROM sqlite_master WHERE type='table'")}
+            def cols(t):
+                return {r[1] for r in db.execute(f"PRAGMA table_info({t})")}
+            if kind == "translation":
+                t = "translation" if "translation" in tables else (
+                    "translations" if "translations" in tables else None)
+                if not t or not {"sura", "ayah", "text"} <= cols(t):
+                    return False, f"schema {sorted(tables)} not ayah-level translation"
+                n = db.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0]
+                return True, f"{n} verses"
+            if "tafsir" in tables and {"ayah_key", "text"} <= cols("tafsir"):
+                n = db.execute("SELECT COUNT(*) FROM tafsir").fetchone()[0]
+                return True, f"{n} grouped rows"
+            if "translation" in tables and {"sura", "ayah", "text"} <= cols("translation"):
+                n = db.execute("SELECT COUNT(*) FROM translation").fetchone()[0]
+                return True, f"{n} flat rows"
+            return False, f"schema {sorted(tables)} not a tafsir/translation table"
+        finally:
+            db.close()
+
+
+def write_compat_report(path: str, manifest: dict, incompatible: list) -> None:
+    """Emit a markdown compatibility report: what's in the catalog and, more
+    importantly, every resource excluded and why. Regenerated each run."""
+    res = manifest["resources"]
+    from collections import Counter
+    by_reason = Counter(x["reason"] for x in incompatible)
+    lines = [
+        "# fuKhushu ↔ QUL compatibility report",
+        "",
+        f"Generated: {manifest['generatedAt']}",
+        "",
+        "## Included in the catalog",
+        "",
+        f"- **{len(res)}** compatible resources "
+        f"({sum(1 for r in res if r['type']=='translation')} translations, "
+        f"{sum(1 for r in res if r['type']=='tafsir')} tafsirs)",
+        f"- {sum(1 for r in res if r['hasFootnotes'])} translations with footnotes",
+        f"- {sum(1 for r in res if r['language']['direction']=='rtl')} right-to-left",
+        f"- {len({r['language']['name'] for r in res})} languages",
+        "",
+        "## Excluded — incompatible",
+        "",
+        f"**{len(incompatible)}** resources cannot be used by the app:" if incompatible
+        else "None — every QUL resource is compatible. 🎉",
+        "",
+    ]
+    for reason, count in by_reason.most_common():
+        lines.append(f"### {reason} ({count})")
+        lines.append("")
+        lines.append("| type | id | language | name |")
+        lines.append("|---|---|---|---|")
+        for x in sorted(incompatible, key=lambda r: (r["type"], r["name"])):
+            if x["reason"] == reason:
+                lines.append(
+                    f"| {x['type']} | {x['qulId']} | {x['language']} | {x['name']} |"
+                )
+        lines.append("")
+    with open(path, "w") as f:
+        f.write("\n".join(lines))
 
 
 def validate(manifest_path: str, sample: int) -> int:
@@ -299,10 +414,15 @@ def load_dotenv(path: str) -> None:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("-o", "--output", default="manifest.json")
+    ap.add_argument("--report", default="compatibility-report.md",
+                    help="where to write the compatibility report")
     ap.add_argument("--delay", type=float, default=0.5,
                     help="seconds between resource downloads (default 0.5)")
     ap.add_argument("--limit", type=int, default=None,
                     help="only process the first N of each type (for testing)")
+    ap.add_argument("--deep", action="store_true",
+                    help="also download + validate each SQLite schema (slow; "
+                         "catches shape surprises the variant labels miss)")
     ap.add_argument("--validate", metavar="MANIFEST",
                     help="spot-check file URLs in an existing manifest and exit")
     ap.add_argument("--sample", type=int, default=5,
@@ -322,10 +442,18 @@ def main() -> int:
     session.cookies.set(SESSION_COOKIE_NAME, cookie, domain="qul.tarteel.ai")
     session.headers["User-Agent"] = "fukhushu-harvest/1.0"
 
-    manifest = harvest(session, delay=args.delay, limit=args.limit)
+    manifest, incompatible = harvest(
+        session, delay=args.delay, limit=args.limit, deep=args.deep
+    )
     with open(args.output, "w") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=1)
-    print(f"\nWrote {args.output}: {len(manifest['resources'])} resources")
+    write_compat_report(args.report, manifest, incompatible)
+    print(f"\nWrote {args.output}: {len(manifest['resources'])} compatible resources")
+    print(f"Wrote {args.report}: {len(incompatible)} incompatible")
+    if incompatible:
+        from collections import Counter
+        for reason, count in Counter(x["reason"] for x in incompatible).most_common():
+            print(f"  {count:3}  {reason}")
     return 0
 
 
