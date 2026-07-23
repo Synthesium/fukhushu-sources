@@ -1,0 +1,1710 @@
+{
+ "schemaVersion": 1,
+ "generatedAt": "2026-07-23T12:30:42.408791+00:00",
+ "source": "qul.tarteel.ai",
+ "recitations": [
+  {
+   "qulId": 377,
+   "name": "Abdallah Abdal",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335388-ag2n0-surah-recitation-abdallah-abdal.db.zip",
+   "fileSizeBytes": 1873,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 115,
+   "name": "Abdul Basit Abdul Samad",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "ayah",
+   "hasSegments": true,
+   "recordsCount": 6236,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748327586-l3uw1-ayah-recitation-abdul-basit-abdul-samad-murattal-hafs-950.db.zip",
+   "fileSizeBytes": 508746,
+   "audioHost": "audio-cdn.tarteel.ai"
+  },
+  {
+   "qulId": 114,
+   "name": "Abdul Basit Abdul Samad",
+   "tags": [
+    "Hafs",
+    "Mujawwad",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "ayah",
+   "hasSegments": true,
+   "recordsCount": 6236,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748327552-md8fq-ayah-recitation-abdul-basit-abdul-samad-mujawwad-hafs-949.db.zip",
+   "fileSizeBytes": 542550,
+   "audioHost": "audio-cdn.tarteel.ai"
+  },
+  {
+   "qulId": 116,
+   "name": "Abdul Rahman Al-Sudais",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "ayah",
+   "hasSegments": true,
+   "recordsCount": 6236,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748327619-imbkq-ayah-recitation-abdul-rahman-al-sudais-murattal-hafs-951.db.zip",
+   "fileSizeBytes": 483032,
+   "audioHost": "audio-cdn.tarteel.ai"
+  },
+  {
+   "qulId": 359,
+   "name": "Abdul-Mun'im Abdul-Mubdi'",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335342-3xdjs-surah-recitation-abdul-mun-im-abdul-mubdi.db.zip",
+   "fileSizeBytes": 1929,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 326,
+   "name": "AbdulBaset AbdulSamad with Ibrahim Walk [Saheeh Intl Translation]",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335200-942yz-surah-recitation-abdulbaset-abdulsamad-with-ibrahim-walk-saheeh-intl-translation.db.zip",
+   "fileSizeBytes": 2019,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 323,
+   "name": "AbdulBaset AbdulSamad with Naeem Sultan [Pickthall Translation]",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335181-x6dqe-surah-recitation-abdulbaset-abdulsamad-with-naeem-sultan-pickthall-translation.db.zip",
+   "fileSizeBytes": 2021,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 357,
+   "name": "AbdulKareem Al Hazmi",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335329-tcm8b-surah-recitation-abdulkareem-al-hazmi.db.zip",
+   "fileSizeBytes": 1900,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 404,
+   "name": "Abdullah Ali Jabir",
+   "tags": [
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747742352-k27dk-surah-recitation-abdullah-ali-jabir.db.zip",
+   "fileSizeBytes": 72683,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 338,
+   "name": "Abdullah Ali Jabir",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335239-e3hte-surah-recitation-abdullah-ali-jabir.db.zip",
+   "fileSizeBytes": 1914,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 385,
+   "name": "Abdullah Ali Jabir [Taraweeh]",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335414-ms61v-surah-recitation-abdullah-ali-jabir-taraweeh.db.zip",
+   "fileSizeBytes": 1889,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 415,
+   "name": "Abdullah Awad al-Juhani",
+   "tags": [
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747742414-hqfgi-surah-recitation-abdullah-awad-al-juhani.db.zip",
+   "fileSizeBytes": 73270,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 416,
+   "name": "Abdullah Basfar",
+   "tags": [
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747742445-biyfb-surah-recitation-abdullah-basfar.db.zip",
+   "fileSizeBytes": 73676,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 331,
+   "name": "Abdullah Basfar with Ibrahim Walk [Saheeh Intl Translation]",
+   "tags": [
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747742223-jarsi-surah-recitation-abdullah-basfar-with-ibrahim-walk-saheeh-intl-translation.db.zip",
+   "fileSizeBytes": 73337,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 340,
+   "name": "Abdullah Khayat",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335252-naenb-surah-recitation-abdullah-khayat.db.zip",
+   "fileSizeBytes": 1798,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 409,
+   "name": "Abdullah Matroud",
+   "tags": [
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747741545-z86hf-surah-recitation-abdullah-matroud.db.zip",
+   "fileSizeBytes": 73017,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 410,
+   "name": "AbdulWadood Haneef",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335471-4hj9c-surah-recitation-abdulwadood-haneef.db.zip",
+   "fileSizeBytes": 1910,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 413,
+   "name": "AbdulWadud Haneef",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335480-chian-surah-recitation-abdulwadud-haneef.db.zip",
+   "fileSizeBytes": 1889,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 102,
+   "name": "Abdur-Rahman as-Sudais Recitation",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "ayah",
+   "hasSegments": true,
+   "recordsCount": 6236,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748327321-5m8lp-ayah-recitation-abdur-rahman-as-sudais-recitation.db.zip",
+   "fileSizeBytes": 572228,
+   "audioHost": "audio.qurancdn.com"
+  },
+  {
+   "qulId": 360,
+   "name": "Abdur-Rashid Sufi [Abi al-Haarith an al-Kasaa'ee]",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335349-8y40c-surah-recitation-abdur-rashid-sufi-abi-al-haarith-an-al-kasaa-ee.db.zip",
+   "fileSizeBytes": 1972,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 363,
+   "name": "Abdur-Rashid Sufi [ad-Doori an Abi Amr]",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335349-1klcz-surah-recitation-abdur-rashid-sufi-ad-doori-an-abi-amr.db.zip",
+   "fileSizeBytes": 1932,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 364,
+   "name": "Abdur-Rashid Sufi [Shu'bah an Asim]",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335356-8sjsm-surah-recitation-abdur-rashid-sufi-shu-bah-an-asim.db.zip",
+   "fileSizeBytes": 1950,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 378,
+   "name": "Abdur-Rashid Sufi [Soosi, 2020]",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335388-trtcx-surah-recitation-abdur-rashid-sufi-soosi-2020.db.zip",
+   "fileSizeBytes": 1923,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 328,
+   "name": "Abdur-Rashid Sufi [Soosi]",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335207-0hbta-surah-recitation-abdur-rashid-sufi-soosi.db.zip",
+   "fileSizeBytes": 1907,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 337,
+   "name": "Abdur-Razaq bin Abtan al-Dulaimi [Mujawwad]",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335232-e9e08-surah-recitation-abdur-razaq-bin-abtan-al-dulaimi-mujawwad.db.zip",
+   "fileSizeBytes": 1970,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 117,
+   "name": "Abu Bakr al-Shatri",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "ayah",
+   "hasSegments": true,
+   "recordsCount": 6236,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748327605-wbo6r-ayah-recitation-abu-bakr-al-shatri-murattal-hafs-952.db.zip",
+   "fileSizeBytes": 498173,
+   "audioHost": "audio-cdn.tarteel.ai"
+  },
+  {
+   "qulId": 366,
+   "name": "Abu Bakr al-Shatri [Taraweeh]",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335362-ub29l-surah-recitation-abu-bakr-al-shatri-taraweeh.db.zip",
+   "fileSizeBytes": 1942,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 379,
+   "name": "Adel Kalbani",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 228,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335394-w1ng8-surah-recitation-adel-kalbani.db.zip",
+   "fileSizeBytes": 3419,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 343,
+   "name": "Adel Kalbani",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335265-44mou-surah-recitation-adel-kalbani.db.zip",
+   "fileSizeBytes": 1822,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 471,
+   "name": "Ahmad Alnufais ayah recitation",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation"
+   ],
+   "cardinality": "ayah",
+   "hasSegments": true,
+   "recordsCount": 6236,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1750324683-jnb87-ayah-recitation-alnufais.db.zip",
+   "fileSizeBytes": 578068,
+   "audioHost": "audio-cdn.tarteel.ai"
+  },
+  {
+   "qulId": 461,
+   "name": "Ahmad Alnufais Recitation",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1770148937-0xkol-surah-recitation-ahmad-alnufais.db.zip",
+   "fileSizeBytes": 708195,
+   "audioHost": "audio-cdn.tarteel.ai"
+  },
+  {
+   "qulId": 341,
+   "name": "Ahmad Nauina",
+   "tags": [
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747742638-cdba4-surah-recitation-ahmad-nauina.db.zip",
+   "fileSizeBytes": 72760,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 370,
+   "name": "Akram Al-Alaqmi",
+   "tags": [
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747741515-gka8h-surah-recitation-akram-al-alaqmi.db.zip",
+   "fileSizeBytes": 73119,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 325,
+   "name": "Al-Hussayni Al-'Azazy (with Children)",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335194-waidl-surah-recitation-al-hussayni-al-azazy-with-children.db.zip",
+   "fileSizeBytes": 1945,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 418,
+   "name": "Ali Abdur-Rahman al-Huthaify",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335484-t41e0-surah-recitation-ali-abdur-rahman-al-huthaify.db.zip",
+   "fileSizeBytes": 1889,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 365,
+   "name": "Ali al-Huthaify [Qaloon]",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335356-d3akv-surah-recitation-ali-al-huthaify-qaloon.db.zip",
+   "fileSizeBytes": 1912,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 371,
+   "name": "Ali Hajjaj Alsouasi",
+   "tags": [
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747741453-xooe5-surah-recitation-ali-hajjaj-alsouasi.db.zip",
+   "fileSizeBytes": 72691,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 376,
+   "name": "Asim Abdul Aleem",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335381-vbqqn-surah-recitation-asim-abdul-aleem.db.zip",
+   "fileSizeBytes": 1889,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 321,
+   "name": "Aziz Alili",
+   "tags": [
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747742192-sh1sq-surah-recitation-aziz-alili.db.zip",
+   "fileSizeBytes": 72859,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 388,
+   "name": "Bandar Baleela",
+   "tags": [
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747741576-dvzmj-surah-recitation-bandar-baleela.db.zip",
+   "fileSizeBytes": 72281,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 336,
+   "name": "Fares Abbad",
+   "tags": [
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747742069-yuwxs-surah-recitation-fares-abbad.db.zip",
+   "fileSizeBytes": 72806,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 375,
+   "name": "Fatih Seferagic",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335380-flbie-surah-recitation-fatih-seferagic.db.zip",
+   "fileSizeBytes": 1901,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 421,
+   "name": "Hady Toure",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747742545-9spl0-surah-recitation-hady-toure.db.zip",
+   "fileSizeBytes": 700269,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 330,
+   "name": "Hamad Sinan",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335219-2cb94-surah-recitation-hamad-sinan.db.zip",
+   "fileSizeBytes": 1873,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 333,
+   "name": "Hani ar-Rifai",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 115,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747741907-kll6c-surah-recitation-hani-ar-rifai.db.zip",
+   "fileSizeBytes": 655965,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 104,
+   "name": "Hani ar-Rifai Recitation",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "ayah",
+   "hasSegments": true,
+   "recordsCount": 6236,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748327332-acmfk-ayah-recitation-hani-ar-rifai-recitation-murattal-hafs-68.db.zip",
+   "fileSizeBytes": 533697,
+   "audioHost": "audio.qurancdn.com"
+  },
+  {
+   "qulId": 380,
+   "name": "Hatem Farid - Taraweeh 1430",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335395-f97wc-surah-recitation-hatem-farid-taraweeh-1430.db.zip",
+   "fileSizeBytes": 1933,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 345,
+   "name": "Hatem Farid - Taraweeh 1431",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335277-81ho7-surah-recitation-hatem-farid-taraweeh-1431.db.zip",
+   "fileSizeBytes": 1933,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 344,
+   "name": "Hatem Farid - Taraweeh 1432",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335271-he46w-surah-recitation-hatem-farid-taraweeh-1432.db.zip",
+   "fileSizeBytes": 1935,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 355,
+   "name": "Ibrahim Al Akhdar",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335323-q48is-surah-recitation-ibrahim-al-akhdar.db.zip",
+   "fileSizeBytes": 1894,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 350,
+   "name": "Imad Zuhair Hafez",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335297-y1uov-surah-recitation-imad-zuhair-hafez.db.zip",
+   "fileSizeBytes": 1901,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 420,
+   "name": "Khalid Al-Jalil",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747742507-s0d2s-surah-recitation-khalid-al-jalil.db.zip",
+   "fileSizeBytes": 664628,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 530,
+   "name": "Khalid al-Qahtani",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 116,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1752261095-z7j6b-surah-recitation-khalid-al-qahtani.db.zip",
+   "fileSizeBytes": 1941,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 109,
+   "name": "Khalifa Al Tunaiji",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "ayah",
+   "hasSegments": true,
+   "recordsCount": 6236,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748327454-6ve65-ayah-recitation-khalifa-al-tunaiji-murattal-hafs-958.db.zip",
+   "fileSizeBytes": 500020,
+   "audioHost": "audio-cdn.tarteel.ai"
+  },
+  {
+   "qulId": 389,
+   "name": "Khalifah Taniji",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1770148767-kmd5n-surah-recitation-khalifa-al-tunaiji.db.zip",
+   "fileSizeBytes": 664969,
+   "audioHost": "audio-cdn.tarteel.ai"
+  },
+  {
+   "qulId": 322,
+   "name": "Madinah Taraweeh 1423",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335175-at6gy-surah-recitation-madinah-taraweeh-1423.db.zip",
+   "fileSizeBytes": 1883,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 352,
+   "name": "Madinah Taraweeh 1429",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335303-v6sux-surah-recitation-madinah-taraweeh-1429.db.zip",
+   "fileSizeBytes": 1886,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 353,
+   "name": "Madinah Taraweeh 1430",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335310-k9dpv-surah-recitation-madinah-taraweeh-1430.db.zip",
+   "fileSizeBytes": 1891,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 354,
+   "name": "Madinah Taraweeh 1432",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335316-jxq9r-surah-recitation-madinah-taraweeh-1432.db.zip",
+   "fileSizeBytes": 1892,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 382,
+   "name": "Madinah Taraweeh 1434",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335404-cyqfc-surah-recitation-madinah-taraweeh-1434.db.zip",
+   "fileSizeBytes": 1897,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 369,
+   "name": "Madinah Taraweeh 1435",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335368-okng2-surah-recitation-madinah-taraweeh-1435.db.zip",
+   "fileSizeBytes": 1883,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 386,
+   "name": "Madinah Taraweeh 1436",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335421-8hkp5-surah-recitation-madinah-taraweeh-1436.db.zip",
+   "fileSizeBytes": 1884,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 387,
+   "name": "Madinah Taraweeh 1437",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335420-mlfy6-surah-recitation-madinah-taraweeh-1437.db.zip",
+   "fileSizeBytes": 1885,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 390,
+   "name": "Madinah Taraweeh 1439",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335427-wqyji-surah-recitation-madinah-taraweeh-1439.db.zip",
+   "fileSizeBytes": 1886,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 391,
+   "name": "Madinah Taraweeh 1440",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335429-d49l3-surah-recitation-madinah-taraweeh-1440.db.zip",
+   "fileSizeBytes": 1891,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 392,
+   "name": "Madinah Taraweeh 1441",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335433-02uhv-surah-recitation-madinah-taraweeh-1441.db.zip",
+   "fileSizeBytes": 1889,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 393,
+   "name": "Madinah Taraweeh 1442",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335436-vffzy-surah-recitation-madinah-taraweeh-1442.db.zip",
+   "fileSizeBytes": 1883,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 113,
+   "name": "Maher Al-Mu'aiqly",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "ayah",
+   "hasSegments": true,
+   "recordsCount": 6236,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748327553-q1bwv-ayah-recitation-maher-al-mu-aiqly-murattal-hafs-948.db.zip",
+   "fileSizeBytes": 486060,
+   "audioHost": "audio-cdn.tarteel.ai"
+  },
+  {
+   "qulId": 562,
+   "name": "Maher al-Muaiqly",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1770148903-8y546-surah-recitation-maher-al-muaiqly.db.zip",
+   "fileSizeBytes": 691398,
+   "audioHost": "audio-cdn.tarteel.ai"
+  },
+  {
+   "qulId": 405,
+   "name": "Maher al-Muaiqly",
+   "tags": [
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747742384-fnfmd-surah-recitation-maher-al-muaiqly.db.zip",
+   "fileSizeBytes": 623733,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 372,
+   "name": "Mahmood Ali Al-Bana",
+   "tags": [
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747741484-yfcj9-surah-recitation-mahmood-ali-al-bana.db.zip",
+   "fileSizeBytes": 72523,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 368,
+   "name": "Mahmoud Khaleel Al-Husary",
+   "tags": [
+    "Hafs",
+    "Ijazah",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 228,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747742321-7zkdz-surah-recitation-mahmoud-khaleel-al-husary.db.zip",
+   "fileSizeBytes": 704459,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 381,
+   "name": "Mahmoud Khaleel Al-Husary (Muallam)",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335401-fqx0y-surah-recitation-mahmoud-khaleel-al-husary-muallam.db.zip",
+   "fileSizeBytes": 1923,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 332,
+   "name": "Mahmoud Khaleel Al-Husary (with Children)",
+   "tags": [
+    "Hafs",
+    "Kids repeat",
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335226-dzcl1-surah-recitation-mahmoud-khaleel-al-husary-with-children.db.zip",
+   "fileSizeBytes": 1950,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 112,
+   "name": "Mahmoud Khalil Al-Husary",
+   "tags": [
+    "Hafs",
+    "Muallim",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "ayah",
+   "hasSegments": true,
+   "recordsCount": 6236,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748327520-ygq9q-ayah-recitation-mahmoud-khalil-al-husary-murattal-hafs-957.db.zip",
+   "fileSizeBytes": 521149,
+   "audioHost": "audio-cdn.tarteel.ai"
+  },
+  {
+   "qulId": 110,
+   "name": "Mahmoud Khalil Al-Husary",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "ayah",
+   "hasSegments": true,
+   "recordsCount": 6236,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748327487-a7kj0-ayah-recitation-mahmoud-khalil-al-husary-murattal-hafs-955.db.zip",
+   "fileSizeBytes": 522738,
+   "audioHost": "audio-cdn.tarteel.ai"
+  },
+  {
+   "qulId": 111,
+   "name": "Mahmoud Khalil Al-Husary",
+   "tags": [
+    "Hafs",
+    "Mujawwad",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "ayah",
+   "hasSegments": true,
+   "recordsCount": 6236,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748327497-29wua-ayah-recitation-mahmoud-khalil-al-husary-mujawwad-hafs-956.db.zip",
+   "fileSizeBytes": 551539,
+   "audioHost": "audio-cdn.tarteel.ai"
+  },
+  {
+   "qulId": 367,
+   "name": "Makkah Taraweeh 1434",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335364-dosn6-surah-recitation-makkah-taraweeh-1434.db.zip",
+   "fileSizeBytes": 1881,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 374,
+   "name": "Makkah Taraweeh 1437",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335375-pdr4t-surah-recitation-makkah-taraweeh-1437.db.zip",
+   "fileSizeBytes": 1877,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 394,
+   "name": "Makkah Taraweeh 1438",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335439-hodsl-surah-recitation-makkah-taraweeh-1438.db.zip",
+   "fileSizeBytes": 1889,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 397,
+   "name": "Makkah Taraweeh 1439",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335444-y6bl9-surah-recitation-makkah-taraweeh-1439.db.zip",
+   "fileSizeBytes": 1883,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 398,
+   "name": "Makkah Taraweeh 1440",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335446-uff2n-surah-recitation-makkah-taraweeh-1440.db.zip",
+   "fileSizeBytes": 1883,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 399,
+   "name": "Makkah Taraweeh 1441",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335452-f096k-surah-recitation-makkah-taraweeh-1441.db.zip",
+   "fileSizeBytes": 1883,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 400,
+   "name": "Makkah Taraweeh 1442",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335453-eah8d-surah-recitation-makkah-taraweeh-1442.db.zip",
+   "fileSizeBytes": 1886,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 572,
+   "name": "Mansour al Salimi",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1777054667-ss7fz-surah-recitation-mansour-al-salimi-1444h.db.zip",
+   "fileSizeBytes": 589478,
+   "audioHost": "audio-cdn.tarteel.ai"
+  },
+  {
+   "qulId": 327,
+   "name": "Mishari ibn Rashid al-`Afasy with Ibrahim Walk [Saheeh Intl Translation]",
+   "tags": [
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747742608-0dxsj-surah-recitation-mishari-ibn-rashid-al-afasy-with-ibrahim-walk-saheeh-intl-translation.db.zip",
+   "fileSizeBytes": 73601,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 118,
+   "name": "Mishari Rashid al-`Afasy",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "ayah",
+   "hasSegments": true,
+   "recordsCount": 6236,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748327651-sjf79-ayah-recitation-mishari-rashid-al-afasy-murattal-hafs-953.db.zip",
+   "fileSizeBytes": 501328,
+   "audioHost": "audio-cdn.tarteel.ai"
+  },
+  {
+   "qulId": 414,
+   "name": "Mishari Rashid al-`Afasy Streaming",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747741645-faqtb-surah-recitation-mishari-rashid-al-afasy-streaming.db.zip",
+   "fileSizeBytes": 669762,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 106,
+   "name": "Mohamed al-Tablawi Recitation",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "ayah",
+   "hasSegments": true,
+   "recordsCount": 6236,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748327383-2qdtd-ayah-recitation-mohamed-al-tablawi-recitation-murattal-hafs-73.db.zip",
+   "fileSizeBytes": 549454,
+   "audioHost": "mirrors.quranicaudio.com"
+  },
+  {
+   "qulId": 348,
+   "name": "Mohammad Al-Tablawi",
+   "tags": [
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747741422-0zyzc-surah-recitation-mohammad-al-tablawi.db.zip",
+   "fileSizeBytes": 73047,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 349,
+   "name": "Mohammad Ismaeel Al-Muqaddim",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335290-49ac9-surah-recitation-mohammad-ismaeel-al-muqaddim.db.zip",
+   "fileSizeBytes": 1924,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 346,
+   "name": "Mostafa Ismaeel",
+   "tags": [
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747741392-hm3u9-surah-recitation-mostafa-ismaeel.db.zip",
+   "fileSizeBytes": 72268,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 339,
+   "name": "Muhammad Abdul-Kareem",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335245-va48r-surah-recitation-muhammad-abdul-kareem.db.zip",
+   "fileSizeBytes": 1900,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 383,
+   "name": "Muhammad Ayyoob",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335407-o3m8i-surah-recitation-muhammad-ayyoob.db.zip",
+   "fileSizeBytes": 1898,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 358,
+   "name": "Muhammad Ayyoob [Taraweeh]",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335335-0qj4m-surah-recitation-muhammad-ayyoob-taraweeh.db.zip",
+   "fileSizeBytes": 1912,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 318,
+   "name": "Muhammad Ayyub with Mikaal Waters [Muhsin Khan Translation]",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335162-5fd36-surah-recitation-muhammad-ayyub-with-mikaal-waters-muhsin-khan-translation.db.zip",
+   "fileSizeBytes": 1997,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 342,
+   "name": "Muhammad Hassan",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335258-ifu3o-surah-recitation-muhammad-hassan.db.zip",
+   "fileSizeBytes": 1895,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 419,
+   "name": "Muhammad Jibreel",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747742476-ygyla-surah-recitation-muhammad-jibreel.db.zip",
+   "fileSizeBytes": 73090,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 108,
+   "name": "Muhammad Siddiq Al-Minshawi",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "ayah",
+   "hasSegments": true,
+   "recordsCount": 6236,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748327443-0w7un-ayah-recitation-muhammad-siddiq-al-minshawi-murattal-hafs-959.db.zip",
+   "fileSizeBytes": 504515,
+   "audioHost": "audio-cdn.tarteel.ai"
+  },
+  {
+   "qulId": 396,
+   "name": "Muhammad Siddiq al-Minshawi",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1770148795-awm24-surah-recitation-muhammad-siddiq-al-minshawy-murattal.db.zip",
+   "fileSizeBytes": 670490,
+   "audioHost": "audio-cdn.tarteel.ai"
+  },
+  {
+   "qulId": 314,
+   "name": "Muhammad Siddiq al-Minshawi(with kids)",
+   "tags": [
+    "Hafs",
+    "Kids repeat",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747741293-vw6k8-surah-recitation-muhammad-siddiq-al-minshawi-with-kids.db.zip",
+   "fileSizeBytes": 1106885,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 347,
+   "name": "Muhammad Sulaiman Patel",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335284-ec5ui-surah-recitation-muhammad-sulaiman-patel.db.zip",
+   "fileSizeBytes": 1887,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 417,
+   "name": "Nabil ar-Rifai",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335478-w9mtw-surah-recitation-nabil-ar-rifai.db.zip",
+   "fileSizeBytes": 1871,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 356,
+   "name": "Nasser Al Qatami",
+   "tags": [
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747742290-3tda4-surah-recitation-nasser-al-qatami.db.zip",
+   "fileSizeBytes": 73319,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 401,
+   "name": "Noreen Siddiq [ad-Doori an Abi Amr]",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335459-pl3dw-surah-recitation-noreen-siddiq-ad-doori-an-abi-amr.db.zip",
+   "fileSizeBytes": 1918,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 317,
+   "name": "Sa`ud ash-Shuraym",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1770148844-vixk2-surah-recitation-saud-al-shuraim.db.zip",
+   "fileSizeBytes": 654432,
+   "audioHost": "audio-cdn.tarteel.ai"
+  },
+  {
+   "qulId": 402,
+   "name": "Sa`ud ash-Shuraym [older recitation]",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335462-rdbss-surah-recitation-sa-ud-ash-shuraym-older-recitation.db.zip",
+   "fileSizeBytes": 1942,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 119,
+   "name": "Saad al Ghamdi",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "ayah",
+   "hasSegments": true,
+   "recordsCount": 6236,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748327664-qdmha-ayah-recitation-saad-al-ghamdi-murattal-hafs-954.db.zip",
+   "fileSizeBytes": 493029,
+   "audioHost": "audio-cdn.tarteel.ai"
+  },
+  {
+   "qulId": 329,
+   "name": "Sadaqat `Ali",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335213-789d9-surah-recitation-sadaqat-ali.db.zip",
+   "fileSizeBytes": 1831,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 361,
+   "name": "Sahl Yasin",
+   "tags": [
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747742100-clhib-surah-recitation-sahl-yasin.db.zip",
+   "fileSizeBytes": 72782,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 320,
+   "name": "Salah al-Budair",
+   "tags": [
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747742161-9uojt-surah-recitation-salah-al-budair.db.zip",
+   "fileSizeBytes": 73338,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 362,
+   "name": "Salah Bukhatir",
+   "tags": [
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747742130-k711d-surah-recitation-salah-bukhatir.db.zip",
+   "fileSizeBytes": 72822,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 107,
+   "name": "Saud Al-Shuraim",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "ayah",
+   "hasSegments": true,
+   "recordsCount": 6236,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748327421-ziqgk-ayah-recitation-saud-al-shuraim-murattal-hafs-960.db.zip",
+   "fileSizeBytes": 469967,
+   "audioHost": "audio-cdn.tarteel.ai"
+  },
+  {
+   "qulId": 319,
+   "name": "Shakir Qasami with Aslam Athar [Pickthall Translation]",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335168-vh9ug-surah-recitation-shakir-qasami-with-aslam-athar-pickthall-translation.db.zip",
+   "fileSizeBytes": 1979,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 403,
+   "name": "Sudais and Shuraym [older recitation]",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335465-lsneo-surah-recitation-sudais-and-shuraym-older-recitation.db.zip",
+   "fileSizeBytes": 1950,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 412,
+   "name": "Sudais and Shuraym with Aslam Athar [Pickthall Translation]",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335471-4jnqc-surah-recitation-sudais-and-shuraym-with-aslam-athar-pickthall-translation.db.zip",
+   "fileSizeBytes": 1978,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 324,
+   "name": "Sudais and Shuraym with Naeem Sultan [Pickthall Translation]",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335187-yzos7-surah-recitation-sudais-and-shuraym-with-naeem-sultan-pickthall-translation.db.zip",
+   "fileSizeBytes": 1985,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 384,
+   "name": "Tawfeeq ibn Sa`id as-Sawa'igh",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335412-et7l1-surah-recitation-tawfeeq-ibn-sa-id-as-sawa-igh.db.zip",
+   "fileSizeBytes": 1934,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 373,
+   "name": "Wadee Hammadi Al Yamani",
+   "tags": [
+    "Recitation"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748335372-7k35c-surah-recitation-wadee-hammadi-al-yamani.db.zip",
+   "fileSizeBytes": 1935,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 422,
+   "name": "Yasser ad-Dussary",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1770148877-kisbo-surah-recitation-yasser-al-dosari.db.zip",
+   "fileSizeBytes": 706860,
+   "audioHost": "audio-cdn.tarteel.ai"
+  },
+  {
+   "qulId": 351,
+   "name": "Yasser ad-Dussary",
+   "tags": [
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "surah",
+   "hasSegments": true,
+   "recordsCount": 114,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1747742254-tbjut-surah-recitation-yasser-ad-dussary.db.zip",
+   "fileSizeBytes": 72734,
+   "audioHost": "download.quranicaudio.com"
+  },
+  {
+   "qulId": 103,
+   "name": "Yasser Al-Dosari",
+   "tags": [
+    "Hafs",
+    "Murattal",
+    "Recitation",
+    "With segments"
+   ],
+   "cardinality": "ayah",
+   "hasSegments": true,
+   "recordsCount": 6236,
+   "fileUrl": "https://s3.us-east-1.wasabisys.com/static-cdn.tarteel.ai/qul-exports/recitation/1748327278-hogt0-ayah-recitation-yasser-al-dosari-murattal-hafs-961.db.zip",
+   "fileSizeBytes": 501066,
+   "audioHost": "audio-cdn.tarteel.ai"
+  }
+ ]
+}

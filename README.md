@@ -100,6 +100,21 @@ selectors in `parse_listing()`.
 git add manifest.json && git commit -m "Update catalog" && git push
 ```
 
+## Recitations (audio) catalog
+
+`recitations-manifest.json` powers the app's reciter catalog the same way.
+Each QUL recitation's sqlite export (a small DB of audio URLs + timings — the
+audio itself lives on public CDNs) is downloaded, shape-checked
+(`verses` = ayah-by-ayah · `surah_list`+`segments` = gapless), and its audio
+host is verified to answer anonymously; recitations whose audio isn't public
+are skipped and listed at the end of the run.
+
+```bash
+.venv/bin/python harvest.py --recitations --limit 5 -o /tmp/test.json  # smoke test
+.venv/bin/python harvest.py --recitations                              # full run (~10 min)
+git add recitations-manifest.json && git commit -m "Update recitations" && git push
+```
+
 ## Refresh workflow
 
 File URLs die when QUL re-exports a resource (users will see downloads fail

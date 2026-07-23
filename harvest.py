@@ -435,6 +435,149 @@ def validate(manifest_path: str, sample: int) -> int:
     return 1 if failures else 0
 
 
+# ── Recitations (audio) ───────────────────────────────────────────────────
+#
+# QUL recitation exports are small SQLite DBs of audio URLs + timings (the
+# audio itself lives on public CDNs — audio.qurancdn.com, audio-cdn.tarteel.ai
+# …). Two shapes exist:
+#   ayah-by-ayah:  verses(surah_number, ayah_number, audio_url, duration,
+#                         segments)                      — 6236 rows
+#   gapless:       surah_list(surah_number, audio_url, duration)   — 114 rows
+#                  + segments(surah_number, ayah_number, duration_sec,
+#                             timestamp_from, timestamp_to, segments)
+# Filenames do NOT follow surah:ayah numbering for every reciter (e.g. Sudais
+# 2:255 → 002248.mp3), so URLs are never templated — the app downloads the DB
+# and stores the URL map verbatim.
+
+def inspect_recitation_db(content: bytes) -> dict:
+    """Unzip + open a recitation export and report its shape. Returns
+    {cardinality, rows, hasSegments, sampleAudioUrl} or {error}."""
+    import io
+    import sqlite3
+    import tempfile
+    import zipfile
+
+    try:
+        with zipfile.ZipFile(io.BytesIO(content)) as zf:
+            names = [n for n in zf.namelist()
+                     if n.endswith((".db", ".sqlite")) and not n.endswith("/")]
+            if not names:
+                return {"error": "zip contains no .db"}
+            data = zf.read(names[0])
+    except zipfile.BadZipFile:
+        if content[:16].startswith(b"SQLite format 3"):
+            data = content  # served raw, tolerate it
+        else:
+            return {"error": "not a zip or sqlite file"}
+
+    with tempfile.NamedTemporaryFile(suffix=".db") as tmp:
+        tmp.write(data)
+        tmp.flush()
+        try:
+            con = sqlite3.connect(f"file:{tmp.name}?mode=ro", uri=True)
+            tables = {r[0] for r in con.execute(
+                "SELECT name FROM sqlite_master WHERE type='table'")}
+            if "verses" in tables:
+                rows = con.execute("SELECT COUNT(*) FROM verses").fetchone()[0]
+                sample = con.execute(
+                    "SELECT audio_url, segments FROM verses "
+                    "WHERE audio_url IS NOT NULL LIMIT 1").fetchone()
+                return {
+                    "cardinality": "ayah",
+                    "rows": rows,
+                    "hasSegments": bool(sample and (sample[1] or "").strip("[] ")),
+                    "sampleAudioUrl": sample[0] if sample else None,
+                }
+            if "surah_list" in tables:
+                rows = con.execute(
+                    "SELECT COUNT(*) FROM surah_list").fetchone()[0]
+                sample = con.execute(
+                    "SELECT audio_url FROM surah_list "
+                    "WHERE audio_url IS NOT NULL LIMIT 1").fetchone()
+                return {
+                    "cardinality": "surah",
+                    "rows": rows,
+                    "hasSegments": "segments" in tables,
+                    "sampleAudioUrl": sample[0] if sample else None,
+                }
+            return {"error": f"unexpected tables: {sorted(tables)}"}
+        finally:
+            con.close()
+
+
+def harvest_recitations(session: requests.Session, delay: float, limit):
+    """Returns (manifest, skipped). Every recitation whose sqlite export
+    downloads, parses, and whose audio host answers an anonymous HEAD goes in
+    the manifest (with its cardinality — the app decides what it supports);
+    the rest land in `skipped` with a reason."""
+    listing = parse_listing(session, "recitation")
+    if limit:
+        listing = listing[:limit]
+    print(f"Recitation listing: {len(listing)} entries")
+
+    entries, skipped = [], []
+    for i, res in enumerate(listing):
+        time.sleep(delay + random.uniform(0, 0.3))
+        name = res["name"]
+        href = _find(res["variants"], lambda l: "sqlite" in l)
+        if not href:
+            skipped.append({"id": res["id"], "name": name,
+                            "reason": "no sqlite export"})
+            continue
+        url, size = resolve_and_size(session, href)
+        if not url:
+            skipped.append({"id": res["id"], "name": name,
+                            "reason": "download did not resolve"})
+            continue
+        try:
+            body = requests.get(url, timeout=120)
+            body.raise_for_status()
+        except requests.RequestException as e:
+            skipped.append({"id": res["id"], "name": name,
+                            "reason": f"file fetch failed: {e}"})
+            continue
+        info = inspect_recitation_db(body.content)
+        if "error" in info:
+            skipped.append({"id": res["id"], "name": name,
+                            "reason": info["error"]})
+            continue
+        audio_ok, audio_host = False, None
+        sample = info.get("sampleAudioUrl")
+        if sample:
+            audio_host = sample.split("/")[2] if "://" in sample else None
+            try:
+                audio_ok = requests.head(
+                    sample, timeout=20, allow_redirects=True).ok
+            except requests.RequestException:
+                audio_ok = False
+        if not audio_ok:
+            skipped.append({"id": res["id"], "name": name,
+                            "reason": f"audio not public ({sample})"})
+            continue
+        entries.append({
+            "qulId": res["id"],
+            "name": name,
+            "tags": sorted(t for t in res["langs"] if t != "recitation"),
+            "cardinality": info["cardinality"],
+            "hasSegments": info["hasSegments"],
+            "recordsCount": info["rows"],
+            "fileUrl": url,
+            "fileSizeBytes": size or len(body.content),
+            "audioHost": audio_host,
+        })
+        print(f"  [{i + 1}/{len(listing)}] ok {res['id']:>4} "
+              f"{info['cardinality']:>5} {name}")
+
+    entries.sort(key=lambda e: e["name"].lower())
+    manifest = {
+        "schemaVersion": SCHEMA_VERSION,
+        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "source": "qul.tarteel.ai",
+        "recitations": entries,
+    }
+    return manifest, skipped
+
+
 def load_dotenv(path: str) -> None:
     """Populate os.environ from a KEY=VALUE .env file next to this script (no
     external dependency). An already-exported variable wins over the file."""
@@ -467,6 +610,10 @@ def main() -> int:
                     help="spot-check file URLs in an existing manifest and exit")
     ap.add_argument("--sample", type=int, default=5,
                     help="how many URLs --validate checks (default 5)")
+    ap.add_argument("--recitations", action="store_true",
+                    help="harvest the audio recitations catalog instead of "
+                         "translations/tafsirs (writes recitations-manifest.json "
+                         "unless -o is given)")
     args = ap.parse_args()
 
     if args.validate:
@@ -481,6 +628,23 @@ def main() -> int:
     session = requests.Session()
     session.cookies.set(SESSION_COOKIE_NAME, cookie, domain="qul.tarteel.ai")
     session.headers["User-Agent"] = "fukhushu-harvest/1.0"
+
+    if args.recitations:
+        out = ("recitations-manifest.json"
+               if args.output == "manifest.json" else args.output)
+        manifest, skipped = harvest_recitations(
+            session, delay=args.delay, limit=args.limit
+        )
+        with open(out, "w") as f:
+            json.dump(manifest, f, ensure_ascii=False, indent=1)
+        n = manifest["recitations"]
+        ayah = sum(1 for e in n if e["cardinality"] == "ayah")
+        print(f"\nWrote {out}: {len(n)} recitations "
+              f"({ayah} ayah-by-ayah, {len(n) - ayah} gapless), "
+              f"{len(skipped)} skipped")
+        for s in skipped:
+            print(f"  skip {s['id']:>4}  {s['name']}: {s['reason']}")
+        return 0
 
     manifest, incompatible, bundled = harvest(
         session, delay=args.delay, limit=args.limit, deep=args.deep
