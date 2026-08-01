@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-02T00:00:00+00:00",
+  "dictionaries": [
+    {
+      "id": "jmdict-eng",
+      "name": "Japanese–English (JMdict)",
+      "description": "218,160 JMdict entries + 10,384 KANJIDIC2 kanji, built by fuKhushu scripts/build_japanese_dictionary_db.py from jmdict-simplified 3.6.2+20260727141257",
+      "version": "jmdict-2026-07-27",
+      "entryCount": 218160,
+      "kanjiCount": 10384,
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/japanese-dictionary-v1/japanese-dictionary.db.zip",
+      "fileSizeBytes": 17454879,
+      "dbSizeBytes": 55312384,
+      "license": "CC BY-SA 4.0",
+      "attribution": "JMdict and KANJIDIC2 are the property of the Electronic Dictionary Research and Development Group (EDRDG), used under the Group's licence (CC BY-SA 4.0). https://www.edrdg.org/ — packaged via jmdict-simplified."
+    }
+  ]
+}

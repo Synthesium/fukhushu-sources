@@ -100,6 +100,20 @@ selectors in `parse_listing()`.
 git add manifest.json && git commit -m "Update catalog" && git push
 ```
 
+## Japanese dictionary catalog
+
+`dictionaries-manifest.json` powers the app's tap-to-define Japanese
+dictionary (reader dictionary mode). Unlike the QUL catalogs it is not
+harvested: the database is built in the fuKhushu repo by
+`scripts/build_japanese_dictionary_db.py` (JMdict + KANJIDIC2 via
+[jmdict-simplified](https://github.com/scriptin/jmdict-simplified), EDRDG
+licence CC BY-SA 4.0), zipped, and attached to a release here
+(`japanese-dictionary-v<N>`). To refresh: download the new jmdict-simplified
+release JSONs into fuKhushu `source_data/`, re-run the build script, create
+the next `japanese-dictionary-v<N>` release with the new zip, update
+`fileUrl`/sizes/counts/`version` in `dictionaries-manifest.json`, then commit
+and push.
+
 ## Recitations (audio) catalog
 
 `recitations-manifest.json` powers the app's reciter catalog the same way.
