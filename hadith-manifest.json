@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T00:00:00+00:00",
+  "generatedAt": "2026-08-03T02:00:00+00:00",
   "resources": [
     {
       "id": "hadith-db",
       "name": "Hadith collections + Japanese selection",
-      "description": "36,512 hadiths — Bukhari, Muslim, Abu Dawud, Tirmidhi, Nasa'i, Ibn Majah, Muwatta Malik and the three forty-hadith collections (vocalised Arabic, English, multi-scholar gradings) plus 281 hadiths with Japanese translations and explanations from HadeethEnc.com. Built by fuKhushu scripts/build_hadith_db.py.",
-      "version": "hadith-2026-08-03",
+      "description": "36,512 hadiths — Bukhari, Muslim, Abu Dawud, Tirmidhi, Nasa'i, Ibn Majah, Muwatta Malik and the three forty-hadith collections (vocalised Arabic, English, multi-scholar gradings) plus 281 hadiths with Japanese translations and explanations from HadeethEnc.com. Includes the corpus word index (tap-to-define root candidates + narrator-name statistics). Built by fuKhushu scripts/build_hadith_db.py.",
+      "version": "hadith-2026-08-03-r2",
       "hadithCount": 36512,
-      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/hadith-v1/hadith.db.zip",
-      "fileSizeBytes": 20203462,
-      "dbSizeBytes": 103956480,
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/hadith-v2/hadith.db.zip",
+      "fileSizeBytes": 22154838,
+      "dbSizeBytes": 108388352,
       "attribution": "Hadith text, translations and gradings compiled from fawazahmed0/hadith-api (Unlicense), which credits sunnah.com and the per-edition translators in its References.md. Japanese selection from the Encyclopedia of Translated Prophetic Hadiths, HadeethEnc.com (Rowad Translation Center), reproduced verbatim under its published terms — HadeethEnc API snapshot 2026-08-03."
     }
   ]
