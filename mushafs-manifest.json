@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "mushafs": [
+    {
+      "id": "indopak",
+      "name": "IndoPak — 15 lines",
+      "version": 1,
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/mushaf-indopak-v1/mushaf-indopak-v1.zip",
+      "fileSizeBytes": 104250824,
+      "installedSizeBytes": 103152031,
+      "fileCount": 9950,
+      "sha256": "a1ffb98fda5bfd354897859fb47575587ba8720403d8e4731462c24b6f103399",
+      "attribution": "IndoPak page scans from the open-source quran_android project (github.com/quran/quran_android)."
+    },
+    {
+      "id": "madani",
+      "name": "Madani — 1405H print",
+      "version": 1,
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/mushaf-madani-v1/mushaf-madani-v1.zip",
+      "fileSizeBytes": 57128665,
+      "installedSizeBytes": 100656956,
+      "fileCount": 605,
+      "sha256": "e72e93d3546c33db75a1d149aebffb306ed6aeddc614905b2f377420fe310871",
+      "attribution": "QPC V1 page fonts by the King Fahd Glorious Quran Printing Complex; page layout and word glyph codes from the Quranic Universal Library (qul.tarteel.ai, layout 15, script 57)."
+    }
+  ]
+}

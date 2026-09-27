@@ -129,6 +129,21 @@ are skipped and listed at the end of the run.
 git add recitations-manifest.json && git commit -m "Update recitations" && git push
 ```
 
+## Mushaf packs
+
+`mushafs-manifest.json` lists the downloadable mushafs — the app no longer
+bundles their pages, and fetches one during setup (Settings can add or
+remove the other). Each pack is a zip built in the fuKhushu repo by
+`scripts/build_mushaf_packs.py` (files byte-identical to their sources, plus
+a `pack.json` index) and attached to a release here (`mushaf-<id>-v<N>`).
+The app verifies each download against the manifest's `sha256`.
+
+To update a pack: bump its `VERSION` in the build script, rebuild, create the
+`mushaf-<id>-v<N>` release with the new zip, copy the regenerated
+`mushafs-manifest.json` here, then commit and push. Installed users are
+offered the update. (The app also carries the v1 entries built in, as a
+fallback when this manifest can't be fetched — release assets never move.)
+
 ## Refresh workflow
 
 File URLs die when QUL re-exports a resource (users will see downloads fail
