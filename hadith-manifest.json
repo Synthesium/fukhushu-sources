@@ -22,6 +22,26 @@
       "fileSizeBytes": 5130063,
       "dbSizeBytes": 17543168,
       "attribution": "Narrator records from the Hadith Narrators Dataset (+24K) and chains from the Hadith Dataset, both published on Kaggle by fahd09 (from muslimscholars.info and qaalarasulallah.com), as committed by the sahih-explorer project (github.com/merchantmoh-debug/sahih-explorer, MIT). Verdicts in Arabic are those the records quote from Ibn Ḥajar's Taqrīb al-Tahdhīb. Chains matched to this app's numbering by fuKhushu (scripts/build_hadith_narrators.py)."
+    },
+    {
+      "id": "hadith-books",
+      "name": "Musnad Aḥmad & Sunan al-Dārimī",
+      "description": "Two more collections in vocalised Arabic (29,730 hadiths), linked to the library's narrations and verses. Optional.",
+      "version": "books-2026-09-28-r1",
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/hadith-books-v1/books.db.zip",
+      "fileSizeBytes": 11441494,
+      "dbSizeBytes": 61374464,
+      "attribution": "Musnad Aḥmad and Sunan al-Dārimī from the Open-Hadith-Data project (github.com/mhashim6/Open-Hadith-Data; ODbL 1.0, contents DbCL 1.0), originally from the Islamware / Harf hadith encyclopedia, with its numbering. Runs of 100, chain/text boundaries, verse quotations and related narrations are fuKhushu's (scripts/build_hadith_books.py)."
+    },
+    {
+      "id": "hadith-sharh",
+      "name": "Classical commentary (sharḥ)",
+      "description": "The commentary on 25,314 hadiths of seven collections — Fatḥ al-Bārī, al-Nawawī, ʿAwn al-Maʿbūd, Tuḥfat al-Aḥwadhī, al-Sindī, al-Muntaqā — verbatim. Optional.",
+      "version": "sharh-2026-09-28-r1",
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/hadith-sharh-v1/sharh.db.zip",
+      "fileSizeBytes": 20973924,
+      "dbSizeBytes": 115470336,
+      "attribution": "Commentary from the Open-Hadith-Data project (github.com/mhashim6/Open-Hadith-Data), made available under the Open Database License (ODbL 1.0), contents under the Database Contents License (DbCL 1.0); originally from the Islamware / Harf hadith encyclopedia. The works are identified by fuKhushu from their text; rows matched to this app's numbering by fuKhushu (scripts/build_hadith_sharh.py)."
     }
   ]
 }
