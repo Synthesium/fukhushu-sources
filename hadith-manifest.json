@@ -12,6 +12,16 @@
       "fileSizeBytes": 23751573,
       "dbSizeBytes": 113737728,
       "attribution": "Hadith text, translations and gradings compiled from fawazahmed0/hadith-api (Unlicense), which credits sunnah.com and the per-edition translators in its References.md. Japanese selection from the Encyclopedia of Translated Prophetic Hadiths, HadeethEnc.com (Rowad Translation Center), reproduced verbatim under its published terms — HadeethEnc API snapshot 2026-08-03. Derived links by fuKhushu; verse quotations found against the Tanzil Project's Qur'an text (tanzil.net)."
+    },
+    {
+      "id": "hadith-narrators",
+      "name": "Narrators and chains (isnād)",
+      "description": "24,335 narrators — generation, reliability (with Ibn Ḥajar's verdict), dates, places, teachers and students — and the chains of 32,906 hadiths of the six books, matched to the library's numbering. Optional; built by fuKhushu scripts/build_hadith_narrators.py.",
+      "version": "narrators-2026-09-28-r1",
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/hadith-narrators-v1/narrators.db.zip",
+      "fileSizeBytes": 5130063,
+      "dbSizeBytes": 17543168,
+      "attribution": "Narrator records from the Hadith Narrators Dataset (+24K) and chains from the Hadith Dataset, both published on Kaggle by fahd09 (from muslimscholars.info and qaalarasulallah.com), as committed by the sahih-explorer project (github.com/merchantmoh-debug/sahih-explorer, MIT). Verdicts in Arabic are those the records quote from Ibn Ḥajar's Taqrīb al-Tahdhīb. Chains matched to this app's numbering by fuKhushu (scripts/build_hadith_narrators.py)."
     }
   ]
 }
