@@ -114,6 +114,24 @@ the next `japanese-dictionary-v<N>` release with the new zip, update
 `fileUrl`/sizes/counts/`version` in `dictionaries-manifest.json`, then commit
 and push.
 
+## Dictionary page scans
+
+Two more `dictionaries-manifest.json` entries are printed books shipped as
+page images — one SQLite, `pages(page, image)` keyed by the PRINTED page
+number, plus a `meta` table — so a dictionary citation ("p. 478") opens the
+exact page:
+
+| id | release | built by (fuKhushu) |
+|---|---|---|
+| `penrice-pages` | `penrice-v<N>` | `scripts/build_penrice_db.py` — Penrice (1873), public domain |
+| `amo-pages` | `amo-pages-v<N>` | `scripts/build_amo_pages_db.py` — Abdul Mannan Omar, *Dictionary of the Holy Qur'an* |
+
+To refresh one: rebuild in fuKhushu, create the next release with the new
+zip, update `fileUrl`/sizes/`sha256`/`version` in the manifest, then commit
+and push. AMO's page numbers are calibrated against the 6th-edition PDF
+(printed P = PDF page P + 372) — a different edition needs recalibrating
+before its pages are published.
+
 ## Recitations (audio) catalog
 
 `recitations-manifest.json` powers the app's reciter catalog the same way.
@@ -153,6 +171,11 @@ on the next catalog open; entries whose `qulUpdatedAt` changed show an
 update button for users who already installed them.
 
 ## Licensing note
+
+`amo-pages` is in copyright (© 2003 Noor Foundation International). The
+publisher distributes the book free at islamusa.org; it is mirrored here at
+the app owner's decision (2026-09-29) and credited in the manifest and the
+app.
 
 QUL only exposes download files for resources it may distribute
 (copyright-restricted ones have no files and are skipped automatically).

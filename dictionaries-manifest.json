@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T00:00:00+00:00",
+  "generatedAt": "2026-09-29T00:00:00+00:00",
   "dictionaries": [
     {
       "id": "jmdict-eng",
@@ -25,6 +25,18 @@
       "dbSizeBytes": 60555264,
       "license": "Public domain (author d. 1892)",
       "attribution": "John Penrice, A Dictionary and Glossary of the Kor-ân (1873), public domain. Page-split scans via Qur'an Tools (github.com/andygbannister/qurantools)."
+    },
+    {
+      "id": "amo-pages",
+      "name": "Dictionary of the Holy Qur'an (Abdul Mannan Omar) — printed pages",
+      "description": "Abdul Mannan Omar, Dictionary of the Holy Qur'an (Noor Foundation International, 6th edition) — all 640 printed pages as WebP in one SQLite keyed by printed page, built by fuKhushu scripts/build_amo_pages_db.py from the publisher's digital edition. The Qur'an dictionary index opens every root's printed page from these.",
+      "version": "amo-pages-2026-09-29",
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/amo-pages-v1/amo-pages.db.zip",
+      "fileSizeBytes": 125671685,
+      "dbSizeBytes": 126369792,
+      "sha256": "e0fb45bc1d28040a2d5edfaf62760d0e9707350a95c98d6f610a1f2eb4b4f065",
+      "license": "© 2003 Noor Foundation International (distributed free by the publisher)",
+      "attribution": "Abdul Mannan Omar, Dictionary of the Holy Qur'an. © 2003 Noor Foundation International, which distributes the book free at islamusa.org."
     }
   ]
 }
