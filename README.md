@@ -125,10 +125,14 @@ exact page:
 |---|---|---|
 | `penrice-pages` | `penrice-v<N>` | `scripts/build_penrice_db.py` — Penrice (1873), public domain |
 | `amo-pages` | `amo-pages-v<N>` | `scripts/build_amo_pages_db.py` — Abdul Mannan Omar, *Dictionary of the Holy Qur'an* |
+| `lane-pages-1` … `lane-pages-8` | `lane-pages-v<N>` (8 assets) | `scripts/build_lane_pages_db.py` — Lane's *Arabic-English Lexicon*, one pack per part of the book |
 
 To refresh one: rebuild in fuKhushu, create the next release with the new
 zip, update `fileUrl`/sizes/`sha256`/`version` in the manifest, then commit
-and push. AMO's page numbers are calibrated against the 6th-edition PDF
+and push. Lane's packs are built from the Internet Archive's 300 ppi scans
+(md5-checked); the build reads each scan's page number from the folio printed
+on it and refuses a part whose images do not map to pages by one consistent
+offset. AMO's page numbers are calibrated against the 6th-edition PDF
 (printed P = PDF page P + 372) — a different edition needs recalibrating
 before its pages are published.
 

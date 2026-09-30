@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T00:00:00+00:00",
+  "generatedAt": "2026-09-30T00:00:00+00:00",
   "dictionaries": [
     {
       "id": "jmdict-eng",
@@ -37,6 +37,102 @@
       "sha256": "e0fb45bc1d28040a2d5edfaf62760d0e9707350a95c98d6f610a1f2eb4b4f065",
       "license": "© 2003 Noor Foundation International (distributed free by the publisher)",
       "attribution": "Abdul Mannan Omar, Dictionary of the Holy Qur'an. © 2003 Noor Foundation International, which distributes the book free at islamusa.org."
+    },
+    {
+      "id": "lane-pages-1",
+      "name": "Lane's Lexicon — printed pages, Part 1 (ا – ث)",
+      "description": "Edward William Lane, An Arabic-English Lexicon (1863–93), printed pages 1–368 as WebP in one SQLite keyed by printed page, built by fuKhushu scripts/build_lane_pages_db.py from the Internet Archive's 300 ppi scans. Every Lane entry opens the page it starts on.",
+      "version": "lane-pages-1-2026-09-30",
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/lane-pages-v1/lane-pages-1.db.zip",
+      "fileSizeBytes": 121340032,
+      "dbSizeBytes": 121339904,
+      "sha256": "6d560526c0a4a30b074d046bb8782f8250127c60786d9756238636361f65ce4b",
+      "license": "Public domain (Lane d. 1876; published 1863–93)",
+      "attribution": "Edward William Lane, An Arabic-English Lexicon (Williams & Norgate, 1863–93). Scans: Internet Archive, item ArabicEnglishLexicon.CopiousEasternSources.EnlargedSuppl.Kamoos.Lane.Poole.1863."
+    },
+    {
+      "id": "lane-pages-2",
+      "name": "Lane's Lexicon — printed pages, Part 2 (ج – خ)",
+      "description": "Edward William Lane, An Arabic-English Lexicon (1863–93), printed pages 369–838 as WebP in one SQLite keyed by printed page, built by fuKhushu scripts/build_lane_pages_db.py from the Internet Archive's 300 ppi scans. Every Lane entry opens the page it starts on.",
+      "version": "lane-pages-2-2026-09-30",
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/lane-pages-v1/lane-pages-2.db.zip",
+      "fileSizeBytes": 148717696,
+      "dbSizeBytes": 148717568,
+      "sha256": "8428113333f8e8d398304ffb61646029d80a16d1476c4d52d332c8f698eb726a",
+      "license": "Public domain (Lane d. 1876; published 1863–93)",
+      "attribution": "Edward William Lane, An Arabic-English Lexicon (Williams & Norgate, 1863–93). Scans: Internet Archive, item ArabicEnglishLexicon.CopiousEasternSources.EnlargedSuppl.Kamoos.Lane.Poole.1863."
+    },
+    {
+      "id": "lane-pages-3",
+      "name": "Lane's Lexicon — printed pages, Part 3 (د – ز)",
+      "description": "Edward William Lane, An Arabic-English Lexicon (1863–93), printed pages 839–1280 as WebP in one SQLite keyed by printed page, built by fuKhushu scripts/build_lane_pages_db.py from the Internet Archive's 300 ppi scans. Every Lane entry opens the page it starts on.",
+      "version": "lane-pages-3-2026-09-30",
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/lane-pages-v1/lane-pages-3.db.zip",
+      "fileSizeBytes": 141246592,
+      "dbSizeBytes": 141246464,
+      "sha256": "348eb08247f40c8e97d4df3b6765c08dca7cd325ba038324cc71f1ac47fadd2a",
+      "license": "Public domain (Lane d. 1876; published 1863–93)",
+      "attribution": "Edward William Lane, An Arabic-English Lexicon (Williams & Norgate, 1863–93). Scans: Internet Archive, item ArabicEnglishLexicon.CopiousEasternSources.EnlargedSuppl.Kamoos.Lane.Poole.1863."
+    },
+    {
+      "id": "lane-pages-4",
+      "name": "Lane's Lexicon — printed pages, Part 4 (س – ص)",
+      "description": "Edward William Lane, An Arabic-English Lexicon (1863–93), printed pages 1281–1758 as WebP in one SQLite keyed by printed page, built by fuKhushu scripts/build_lane_pages_db.py from the Internet Archive's 300 ppi scans. Every Lane entry opens the page it starts on.",
+      "version": "lane-pages-4-2026-09-30",
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/lane-pages-v1/lane-pages-4.db.zip",
+      "fileSizeBytes": 149872768,
+      "dbSizeBytes": 149872640,
+      "sha256": "2cfc3dd12fc5d4174b9749d1d3a56438446586197f4a94443f1cd5ba7a362662",
+      "license": "Public domain (Lane d. 1876; published 1863–93)",
+      "attribution": "Edward William Lane, An Arabic-English Lexicon (Williams & Norgate, 1863–93). Scans: Internet Archive, item ArabicEnglishLexicon.CopiousEasternSources.EnlargedSuppl.Kamoos.Lane.Poole.1863."
+    },
+    {
+      "id": "lane-pages-5",
+      "name": "Lane's Lexicon — printed pages, Part 5 (ض – ع)",
+      "description": "Edward William Lane, An Arabic-English Lexicon (1863–93), printed pages 1759–2220 as WebP in one SQLite keyed by printed page, built by fuKhushu scripts/build_lane_pages_db.py from the Internet Archive's 300 ppi scans. Every Lane entry opens the page it starts on.",
+      "version": "lane-pages-5-2026-09-30",
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/lane-pages-v1/lane-pages-5.db.zip",
+      "fileSizeBytes": 143044736,
+      "dbSizeBytes": 143044608,
+      "sha256": "602764d026c5e0019aa3d2eda05d5c1c69450e18898c73e99b5da475e9dc2941",
+      "license": "Public domain (Lane d. 1876; published 1863–93)",
+      "attribution": "Edward William Lane, An Arabic-English Lexicon (Williams & Norgate, 1863–93). Scans: Internet Archive, item ArabicEnglishLexicon.CopiousEasternSources.EnlargedSuppl.Kamoos.Lane.Poole.1863."
+    },
+    {
+      "id": "lane-pages-6",
+      "name": "Lane's Lexicon — printed pages, Part 6 (غ – ف)",
+      "description": "Edward William Lane, An Arabic-English Lexicon (1863–93), printed pages 2221–2476 as WebP in one SQLite keyed by printed page, built by fuKhushu scripts/build_lane_pages_db.py from the Internet Archive's 300 ppi scans. Every Lane entry opens the page it starts on.",
+      "version": "lane-pages-6-2026-09-30",
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/lane-pages-v1/lane-pages-6.db.zip",
+      "fileSizeBytes": 77947008,
+      "dbSizeBytes": 77946880,
+      "sha256": "3dce5eea6677b58a93e4cccba6ffc6534aeb145d3cd0dd6bf792249efbe4253f",
+      "license": "Public domain (Lane d. 1876; published 1863–93)",
+      "attribution": "Edward William Lane, An Arabic-English Lexicon (Williams & Norgate, 1863–93). Scans: Internet Archive, item ArabicEnglishLexicon.CopiousEasternSources.EnlargedSuppl.Kamoos.Lane.Poole.1863."
+    },
+    {
+      "id": "lane-pages-7",
+      "name": "Lane's Lexicon — printed pages, Part 7 (ق – م)",
+      "description": "Edward William Lane, An Arabic-English Lexicon (1863–93), printed pages 2477–2750 as WebP in one SQLite keyed by printed page, built by fuKhushu scripts/build_lane_pages_db.py from the Internet Archive's 300 ppi scans. Every Lane entry opens the page it starts on.",
+      "version": "lane-pages-7-2026-09-30",
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/lane-pages-v1/lane-pages-7.db.zip",
+      "fileSizeBytes": 74002560,
+      "dbSizeBytes": 74002432,
+      "sha256": "48cb95c8ff3e6488fd82c2485e270244035e923aa4c1fdd8b29f464d99b1bc80",
+      "license": "Public domain (Lane d. 1876; published 1863–93)",
+      "attribution": "Edward William Lane, An Arabic-English Lexicon (Williams & Norgate, 1863–93). Scans: Internet Archive, item ArabicEnglishLexicon.CopiousEasternSources.EnlargedSuppl.Kamoos.Lane.Poole.1863."
+    },
+    {
+      "id": "lane-pages-8",
+      "name": "Lane's Lexicon — printed pages, Part 8 (ن – ى, and the Supplement)",
+      "description": "Edward William Lane, An Arabic-English Lexicon (1863–93), printed pages 2751–3064 as WebP in one SQLite keyed by printed page, built by fuKhushu scripts/build_lane_pages_db.py from the Internet Archive's 300 ppi scans. Every Lane entry opens the page it starts on.",
+      "version": "lane-pages-8-2026-09-30",
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/lane-pages-v1/lane-pages-8.db.zip",
+      "fileSizeBytes": 77668480,
+      "dbSizeBytes": 77668352,
+      "sha256": "2935595f7c5bd6a0f04ea57f0797ee74d9907ab6188abe378a617348671185bc",
+      "license": "Public domain (Lane d. 1876; published 1863–93)",
+      "attribution": "Edward William Lane, An Arabic-English Lexicon (Williams & Norgate, 1863–93). Scans: Internet Archive, item ArabicEnglishLexicon.CopiousEasternSources.EnlargedSuppl.Kamoos.Lane.Poole.1863."
     }
   ]
 }
