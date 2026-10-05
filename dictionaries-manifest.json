@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T00:00:00+00:00",
+  "generatedAt": "2026-10-06T00:00:00+00:00",
   "dictionaries": [
     {
       "id": "jmdict-eng",
@@ -146,6 +146,18 @@
       "sha256": "73ac82ab79c37c9a21380728beec17b396b6f98f0f08165fab8de6906ba254e4",
       "license": "CC BY-NC-SA 4.0 (OpenITI); the authors' texts are public domain",
       "attribution": "Ibn Fāris, Maqāyīs al-Lugha, and Ibn Manẓūr, Lisān al-ʿArab, from OpenITI (github.com/OpenITI): 0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1 and 0711IbnManzurIfriqi.LisanCarab.Shamela0001687-ara1, CC BY-NC-SA 4.0. Lane's Lexicon is the app's own."
+    },
+    {
+      "id": "hava-pages",
+      "name": "Hava's Arabic-English Dictionary — printed pages",
+      "description": "J. G. Hava, Arabic-English Dictionary for the Use of Students (Beirut, 1899) — all 915 printed pages as WebP in one SQLite keyed by printed page, built by fuKhushu scripts/build_hava_pages_db.py from archive.org's scans of a complete later printing. Every Qur'anic root opens the page his running heads place it on.",
+      "version": "hava-pages-2026-10-06",
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/hava-pages-v1/hava-pages.db.zip",
+      "fileSizeBytes": 186671228,
+      "dbSizeBytes": 186671104,
+      "sha256": "55738c378f6ceb1dcbdb19c45a0b90659403ec8583404f57ad631bc4d4e6f7c0",
+      "license": "Public domain (published 1899)",
+      "attribution": "J. G. Hava, Arabic-English Dictionary for the Use of Students (Catholic Press, Beirut, 1899). Scans: Internet Archive, item arabicenglishdic0000revj."
     }
   ]
 }
