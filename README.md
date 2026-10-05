@@ -136,6 +136,22 @@ offset. AMO's page numbers are calibrated against the 6th-edition PDF
 (printed P = PDF page P + 372) — a different edition needs recalibrating
 before its pages are published.
 
+## The full lexicon
+
+The `lexicon` entry (release `lexicon-v<N>`) is Ibn Fāris's *Maqāyīs
+al-Lugha* and Ibn Manẓūr's *Lisān al-ʿArab* for the roots the Qurʾān does
+not use — the app bundles both works for the Qurʾān's own roots — beside
+Lane's article where he has one. One read-only SQLite (`roots`, `articles`,
+`meta`), built in fuKhushu by `wbw-web/tools/build_lexicon.py` from the
+OpenITI copies, with the same parse as the bundled works
+(`build_wbw_dictionaries.py` runs first). Licence CC BY-NC-SA 4.0 (OpenITI);
+the authors' texts are public domain.
+
+To refresh: bump `VERSION` in the build script, rebuild, create the next
+`lexicon-v<N>` release with the new zip, update
+`fileUrl`/sizes/`sha256`/`version` here (`version` = the DB's
+`meta.version`, which the app's card shows), then commit and push.
+
 ## Recitations (audio) catalog
 
 `recitations-manifest.json` powers the app's reciter catalog the same way.

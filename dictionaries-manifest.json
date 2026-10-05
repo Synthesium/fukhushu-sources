@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T00:00:00+00:00",
+  "generatedAt": "2026-10-05T00:00:00+00:00",
   "dictionaries": [
     {
       "id": "jmdict-eng",
@@ -133,6 +133,19 @@
       "sha256": "2935595f7c5bd6a0f04ea57f0797ee74d9907ab6188abe378a617348671185bc",
       "license": "Public domain (Lane d. 1876; published 1863–93)",
       "attribution": "Edward William Lane, An Arabic-English Lexicon (Williams & Norgate, 1863–93). Scans: Internet Archive, item ArabicEnglishLexicon.CopiousEasternSources.EnlargedSuppl.Kamoos.Lane.Poole.1863."
+    },
+    {
+      "id": "lexicon",
+      "name": "The full lexicon — Ibn Fāris and Lisān al-ʿArab beyond the Qurʾān",
+      "description": "Ibn Fāris, Maqāyīs al-Lugha, and Ibn Manẓūr, Lisān al-ʿArab, for the 8,584 roots the Qurʾān does not use — 8,165 with an article in one or both works (Lisān 7,702 · Ibn Fāris 3,344), and Lane's article for 3,425 — in one read-only SQLite (roots, articles, meta), built by fuKhushu wbw-web/tools/build_lexicon.py with the same parse and repairs as the app's bundled copies. Unvowelled, as OpenITI gives it; an article is filed under its own heading's letters.",
+      "version": "lexicon-v1",
+      "entryCount": 8584,
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/lexicon-v1/lexicon.db.zip",
+      "fileSizeBytes": 4637601,
+      "dbSizeBytes": 18386944,
+      "sha256": "73ac82ab79c37c9a21380728beec17b396b6f98f0f08165fab8de6906ba254e4",
+      "license": "CC BY-NC-SA 4.0 (OpenITI); the authors' texts are public domain",
+      "attribution": "Ibn Fāris, Maqāyīs al-Lugha, and Ibn Manẓūr, Lisān al-ʿArab, from OpenITI (github.com/OpenITI): 0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1 and 0711IbnManzurIfriqi.LisanCarab.Shamela0001687-ara1, CC BY-NC-SA 4.0. Lane's Lexicon is the app's own."
     }
   ]
 }
