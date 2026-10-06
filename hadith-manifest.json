@@ -5,12 +5,13 @@
     {
       "id": "hadith-db",
       "name": "Hadith collections + Japanese selection",
-      "description": "36,512 hadiths — Bukhari, Muslim, Abu Dawud, Tirmidhi, Nasa'i, Ibn Majah, Muwatta Malik and the three forty-hadith collections (vocalised Arabic, English, multi-scholar gradings) plus 281 hadiths with Japanese translations and explanations from HadeethEnc.com. Includes the corpus word index (tap-to-define root candidates + narrator-name statistics). Includes fuKhushu's derived study layer: chain/text boundaries, Qur'an verse quotations, related narrations across the collections, the hadith-of-the-day pool and a cross-book theme map. Built by fuKhushu scripts/build_hadith_db.py.",
-      "version": "hadith-2026-09-28-r5",
+      "description": "36,512 hadiths — Bukhari, Muslim, Abu Dawud, Tirmidhi, Nasa'i, Ibn Majah, Muwatta Malik and the three forty-hadith collections (vocalised Arabic, English, multi-scholar gradings) plus 281 hadiths with Japanese translations and explanations from HadeethEnc.com. Includes the corpus word index (word frequencies and narrator-name statistics; the app resolves a tapped word's roots itself). Includes fuKhushu's derived study layer: chain/text boundaries, Qur'an verse quotations, related narrations across the collections, the hadith-of-the-day pool and a cross-book theme map. Built by fuKhushu scripts/build_hadith_db.py.",
+      "version": "hadith-2026-10-06-r6",
       "hadithCount": 36512,
-      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/hadith-v5/hadith.db.zip",
-      "fileSizeBytes": 23751573,
-      "dbSizeBytes": 113737728,
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/hadith-v6/hadith.db.zip",
+      "fileSizeBytes": 23108821,
+      "dbSizeBytes": 112193536,
+      "sha256": "8458ae29eeae42dfe7220379d2aa380af7e2e60b1160f5bfcdb46dc913955dbf",
       "attribution": "Hadith text, translations and gradings compiled from fawazahmed0/hadith-api (Unlicense), which credits sunnah.com and the per-edition translators in its References.md. Japanese selection from the Encyclopedia of Translated Prophetic Hadiths, HadeethEnc.com (Rowad Translation Center), reproduced verbatim under its published terms — HadeethEnc API snapshot 2026-08-03. Derived links by fuKhushu; verse quotations found against the Tanzil Project's Qur'an text (tanzil.net)."
     },
     {
