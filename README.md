@@ -126,7 +126,7 @@ exact page:
 | `penrice-pages` | `penrice-v<N>` | `scripts/build_penrice_db.py` — Penrice (1873), public domain |
 | `amo-pages` | `amo-pages-v<N>` | `scripts/build_amo_pages_db.py` — Abdul Mannan Omar, *Dictionary of the Holy Qur'an* |
 | `lane-pages-1` … `lane-pages-8` | `lane-pages-v<N>` (8 assets) | `scripts/build_lane_pages_db.py` — Lane's *Arabic-English Lexicon*, one pack per part of the book |
-| `hava-pages` | `hava-pages-v<N>` | `scripts/build_hava_pages_db.py` — Hava's *Arabic-English Dictionary* (1899), public domain |
+| `hava-pages` | `hava-pages-v<N>` | `scripts/build_hava_pages_db.py` — Hava's *Arabic-English Dictionary*, the revised edition (preface 1915; first published 1899), public domain — v2 adds his front matter |
 
 To refresh one: rebuild in fuKhushu, create the next release with the new
 zip, update `fileUrl`/sizes/`sha256`/`version` in the manifest, then commit

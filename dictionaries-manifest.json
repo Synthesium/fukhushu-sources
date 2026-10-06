@@ -150,14 +150,14 @@
     {
       "id": "hava-pages",
       "name": "Hava's Arabic-English Dictionary — printed pages",
-      "description": "J. G. Hava, Arabic-English Dictionary for the Use of Students (Beirut, 1899) — all 915 printed pages as WebP in one SQLite keyed by printed page, built by fuKhushu scripts/build_hava_pages_db.py from archive.org's scans of a complete later printing. Every Qur'anic root opens the page his running heads place it on.",
-      "version": "hava-pages-2026-10-06",
-      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/hava-pages-v1/hava-pages.db.zip",
-      "fileSizeBytes": 186671228,
-      "dbSizeBytes": 186671104,
-      "sha256": "55738c378f6ceb1dcbdb19c45a0b90659403ec8583404f57ad631bc4d4e6f7c0",
-      "license": "Public domain (published 1899)",
-      "attribution": "J. G. Hava, Arabic-English Dictionary for the Use of Students (Catholic Press, Beirut, 1899). Scans: Internet Archive, item arabicenglishdic0000revj."
+      "description": "J. G. Hava, Arabic-English Dictionary for the Use of Students (Beirut), the revised edition of 1915 — all 915 printed pages and his front matter (preface, conventional signs, abbreviations; pages -9 to -1) as WebP in one SQLite keyed by printed page, built by fuKhushu scripts/build_hava_pages_db.py from archive.org's scans. Its pages are not the 1899 printing's. Every Qur'anic root opens the page his running heads place it on.",
+      "version": "hava-pages-v2-2026-10-06",
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/hava-pages-v2/hava-pages.db.zip",
+      "fileSizeBytes": 187834492,
+      "dbSizeBytes": 187834368,
+      "sha256": "b26476ed86aa4a822f90e3b5cea6a9683925834a08a2dea796a42f4716e918b8",
+      "license": "Public domain (first published 1899; this, the revised edition, 1915)",
+      "attribution": "J. G. Hava, Arabic-English Dictionary for the Use of Students (Catholic Press, Beirut), the revised edition, its preface dated May 1915 (first published 1899). Scans: Internet Archive, item arabicenglishdic0000revj."
     }
   ]
 }
