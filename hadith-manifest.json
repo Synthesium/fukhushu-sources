@@ -27,12 +27,13 @@
     {
       "id": "hadith-books",
       "name": "Musnad Aḥmad & Sunan al-Dārimī",
-      "description": "Two more collections in vocalised Arabic (29,730 hadiths), linked to the library's narrations and verses. Optional.",
-      "version": "books-2026-09-28-r1",
-      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/hadith-books-v1/books.db.zip",
-      "fileSizeBytes": 11441494,
-      "dbSizeBytes": 61374464,
-      "attribution": "Musnad Aḥmad and Sunan al-Dārimī from the Open-Hadith-Data project (github.com/mhashim6/Open-Hadith-Data; ODbL 1.0, contents DbCL 1.0), originally from the Islamware / Harf hadith encyclopedia, with its numbering. Runs of 100, chain/text boundaries, verse quotations and related narrations are fuKhushu's (scripts/build_hadith_books.py)."
+      "description": "Two more collections in vocalised Arabic (29,730 hadiths), linked to the library's narrations and verses, graded: al-Arnaʾūṭ's verdicts on the Musnad, Ḥusayn Salīm Asad's on al-Dārimī. Optional.",
+      "version": "books-2026-10-07-r1",
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/hadith-books-v2/books.db.zip",
+      "fileSizeBytes": 11911911,
+      "dbSizeBytes": 65777664,
+      "sha256": "388cba7fca70b3d4af769d1433572552f720ffe4f0a0d9b59dd6e26106a4a7a7",
+      "attribution": "Musnad Aḥmad and Sunan al-Dārimī from the Open-Hadith-Data project (github.com/mhashim6/Open-Hadith-Data; ODbL 1.0, contents DbCL 1.0), originally from the Islamware / Harf hadith encyclopedia, with its numbering. Gradings: Shuʿayb al-Arnaʾūṭ's verdicts on the Musnad (as appended to the Qurṭuba edition) and Ḥusayn Salīm Asad's on the Sunan (as appended to the Zamarlī–al-ʿIlmī edition), verbatim from the OpenITI corpus (Nigst, Romanov, Savant, Seydi, Verkinderen; release 2025.1.9, doi:10.5281/zenodo.17767721; CC BY-NC-SA 4.0). Runs of 100, the matching of those gradings to this numbering, chain/text boundaries, verse quotations and related narrations are fuKhushu's (scripts/build_hadith_books.py)."
     },
     {
       "id": "hadith-sharh",
