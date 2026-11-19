@@ -185,6 +185,22 @@ To update a pack: bump its `VERSION` in the build script, rebuild, create the
 offered the update. (The app also carries the v1 entries built in, as a
 fallback when this manifest can't be fetched — release assets never move.)
 
+## Source packs (translations and tafsirs)
+
+`source-packs-manifest.json` lists the translations and tafsirs the app no
+longer builds in: the four Japanese sources (Saeed Sato, Ryoichi Mita,
+Yasashii, the Mokhtasar), with furigana generated for fuKhushu, and Tafsir
+Ibn Kathir (English). Each pack is a zip of one SQLite database in the app's
+own schema, built in the fuKhushu repo by `scripts/split_translation_sources.py`
+(rows selected from the former built-in database, text unchanged) and
+attached to a release here (`source-packs-v<N>`). The packs keep their app
+source ids (1, 2, 3, 4, 7), so highlights made in them come back. The app
+verifies each download against the manifest's `sha256`.
+
+To update a pack: bump its version in the script, rebuild, create the
+`source-packs-v<N>` release with the new zips, copy the regenerated manifest
+here, then commit and push.
+
 ## Refresh workflow
 
 File URLs die when QUL re-exports a resource (users will see downloads fail

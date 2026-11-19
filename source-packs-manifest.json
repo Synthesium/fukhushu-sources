@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "packs": [
+    {
+      "sourceId": 1,
+      "name": "saeed-sato",
+      "displayName": "Saeed Sato",
+      "type": "translation",
+      "author": "Saeed Sato",
+      "language": {
+        "iso": "ja",
+        "name": "Japanese",
+        "native": "日本語",
+        "direction": "ltr"
+      },
+      "furigana": true,
+      "version": 1,
+      "recordsCount": 6236,
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/source-packs-v1/saeed-sato-v1.zip",
+      "fileSizeBytes": 1106075,
+      "installedSizeBytes": 4927488,
+      "sha256": "41f30f2667466b77e3339b187d31b2bdcb48c9d06d2b4f0f8a939176a27e6fc7",
+      "attribution": "Text as in the QUL export ja-saeed (Quranic Universal Library, qul.tarteel.ai). Saeed Sato Japanese Quran Translation. Furigana generated for fuKhushu with MeCab and UniDic; not part of the source."
+    },
+    {
+      "sourceId": 2,
+      "name": "japanese-mokhtasar",
+      "displayName": "Mokhtasar Tafsir",
+      "type": "tafsir",
+      "author": null,
+      "language": {
+        "iso": "ja",
+        "name": "Japanese",
+        "native": "日本語",
+        "direction": "ltr"
+      },
+      "furigana": true,
+      "version": 1,
+      "recordsCount": 6236,
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/source-packs-v1/japanese-mokhtasar-v1.zip",
+      "fileSizeBytes": 1428446,
+      "installedSizeBytes": 6582272,
+      "sha256": "e2f9231e00bc79f18802df31babbc8f8b6f97f0ddd76ed2b43846aaa7759e662",
+      "attribution": "Text as in the QUL export ja-mukhtasar (Quranic Universal Library, qul.tarteel.ai). Japanese Mokhtasar Tafsir. Furigana generated for fuKhushu with MeCab and UniDic; not part of the source."
+    },
+    {
+      "sourceId": 3,
+      "name": "ja-ryoichi-mita",
+      "displayName": "Ryoichi Mita",
+      "type": "translation",
+      "author": "Ryoichi Mita",
+      "language": {
+        "iso": "ja",
+        "name": "Japanese",
+        "native": "日本語",
+        "direction": "ltr"
+      },
+      "furigana": true,
+      "version": 1,
+      "recordsCount": 6236,
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/source-packs-v1/ja-ryoichi-mita-v1.zip",
+      "fileSizeBytes": 947263,
+      "installedSizeBytes": 3850240,
+      "sha256": "39eb29b47d63666532143899cd9274d38903e414ac1c69fc5d1cd463a2a717df",
+      "attribution": "Text as in the QUL export ja-ryoichi-mita (Quranic Universal Library, qul.tarteel.ai). Ryoichi Mita Japanese Quran Translation. Furigana generated for fuKhushu with MeCab and UniDic; not part of the source."
+    },
+    {
+      "sourceId": 4,
+      "name": "ibn-kathir",
+      "displayName": "Tafsir Ibn Kathir",
+      "type": "tafsir",
+      "author": "Ibn Kathir",
+      "language": {
+        "iso": "en",
+        "name": "English",
+        "native": "English",
+        "direction": "ltr"
+      },
+      "furigana": false,
+      "version": 1,
+      "recordsCount": 6236,
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/source-packs-v1/ibn-kathir-v1.zip",
+      "fileSizeBytes": 3898703,
+      "installedSizeBytes": 16396288,
+      "sha256": "6223d52a8c1282824c83ba52766fb843f26e9af458e713c0d59e66637c60f433",
+      "attribution": "Text as in the QUL export en-tafisr-ibn-kathir (Quranic Universal Library, qul.tarteel.ai). Tafsir Ibn Kathir English."
+    },
+    {
+      "sourceId": 7,
+      "name": "yasashii",
+      "displayName": "Yasashii",
+      "type": "translation",
+      "author": null,
+      "language": {
+        "iso": "ja",
+        "name": "Japanese",
+        "native": "日本語",
+        "direction": "ltr"
+      },
+      "furigana": true,
+      "version": 1,
+      "recordsCount": 6236,
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/source-packs-v1/yasashii-v1.zip",
+      "fileSizeBytes": 934931,
+      "installedSizeBytes": 4030464,
+      "sha256": "03d490fc877e1a6ceee519e3d0b3f17532e9272ebad2425d7fb54462d81ea7b6",
+      "attribution": "Yasashii Japanese Quran Translation. Furigana generated for fuKhushu with MeCab and UniDic; not part of the source."
+    }
+  ]
+}
