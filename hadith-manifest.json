@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T00:00:00+00:00",
+  "generatedAt": "2026-11-20T00:00:00+00:00",
   "resources": [
+    {
+      "id": "hadith-library",
+      "name": "Hadith library (sunnah.com) + Japanese selection",
+      "description": "43,477 hadiths from sunnah.com — Bukhari, Muslim, Abu Dawud, Tirmidhi, Nasa'i, Ibn Majah, Riyad as-Salihin, Mishkat al-Masabih, al-Adab al-Mufrad, ash-Shama'il, the three forties, Hisn al-Muslim, the Virtues of the Qur'an and the Thulathiyyat (vocalised Arabic, English, books and chapters, sunnah.com's gradings, sunnah.com's numbering) plus 281 hadiths with Japanese translations and explanations from HadeethEnc.com. Verse quotations are sunnah.com's tags, each checked against the Qur'an's text; related narrations, the hadith-of-the-day pool and a cross-book theme map are fuKhushu's. Built by fuKhushu scripts/build_hadith_db.py.",
+      "version": "hadith-2026-11-20-r8",
+      "hadithCount": 43477,
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/hadith-v8/hadith.db.zip",
+      "fileSizeBytes": 28354683,
+      "dbSizeBytes": 132997120,
+      "sha256": "d3077b07ff453d338dc7e193f8bba29fd171bde0bd5bffaded555896a21198e5",
+      "attribution": "Hadith text, translations, books, chapters and gradings from sunnah.com (api.sunnah.com, snapshot 2026-11-20), with the translators and graders it names, fetched with a key granted to the fuKhushu project. Selected hadiths with explanations from the Encyclopedia of Translated Prophetic Hadiths — HadeethEnc.com (Rowad Translation Center). Reproduced verbatim, without modification, under the terms published at HadeethEnc.com. Verse quotations are sunnah.com's tags, checked by fuKhushu against the Tanzil Project's Qurʾān text (tanzil.net) — a tag's range completed or its verse corrected where its quote shows another, and said so — with quotations sunnah.com does not tag found by fuKhushu. Related narrations, the daily pool and the cross-book themes are derived by fuKhushu (scripts/hadith_links.py) — not part of any source. Where the source gives no grade, the forties' compilers' notes and al-Tirmidhī's verdicts are taken from the hadith's own text, and a chain printed under a main hadith shows that hadith's grades, by fuKhushu (scripts/build_hadith_db.py)."
+    },
+    {
+      "id": "hadith-books-sunnah",
+      "name": "Musnad Aḥmad & Sunan al-Dārimī",
+      "description": "Two more collections in vocalised Arabic (29,730 hadiths), linked to the library's narrations and verses, graded: al-Arnaʾūṭ's verdicts on the Musnad, Ḥusayn Salīm Asad's on al-Dārimī. Optional; for the sunnah.com library (hadith-library).",
+      "version": "books-2026-11-20-r2",
+      "hadithCount": 29730,
+      "fileUrl": "https://github.com/Synthesium/fukhushu-sources/releases/download/hadith-books-v3/books.db.zip",
+      "fileSizeBytes": 12235319,
+      "dbSizeBytes": 69513216,
+      "sha256": "9bccf30280a2e119b50d405a00ed4f281d85ae2ede2e386c03435abe8a4d2518",
+      "attribution": "Musnad Aḥmad and Sunan al-Dārimī from the Open-Hadith-Data project (github.com/mhashim6/Open-Hadith-Data; ODbL 1.0, contents DbCL 1.0), originally from the Islamware / Harf hadith encyclopedia, with its numbering. Gradings: Shuʿayb al-Arnaʾūṭ's verdicts on the Musnad (as appended to the Qurṭuba edition) and Ḥusayn Salīm Asad's on the Sunan (as appended to the Zamarlī–al-ʿIlmī edition), verbatim from the OpenITI corpus (Nigst, Romanov, Savant, Seydi, Verkinderen; release 2025.1.9, doi:10.5281/zenodo.17767721; CC BY-NC-SA 4.0). Runs of 100, the matching of those gradings to this numbering, verse quotations and related narrations are fuKhushu's (scripts/build_hadith_books.py)."
+    },
     {
       "id": "hadith-db",
       "name": "Hadith collections + Japanese selection",
