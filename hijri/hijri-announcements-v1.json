@@ -1,0 +1,1124 @@
+{
+ "schemaVersion": 1,
+ "version": 1,
+ "generated": "2026-11-21",
+ "review": "Gathered and checked 2026-11-21: every start has at least one source whose page text was read (a search snippet is only ever an extra, and the note says so); overlapping months cross-checked against the HilalMonths dataset, never resting on it. 'unverified' months do not ship.",
+ "authorities": [
+  {
+   "id": "sa",
+   "name": "Saudi Arabia",
+   "body": "Supreme Court (announced via Royal Court / Saudi Press Agency)",
+   "method": "sighting"
+  },
+  {
+   "id": "tr",
+   "name": "Turkey",
+   "body": "Diyanet İşleri Başkanlığı (Presidency of Religious Affairs)",
+   "method": "calculation"
+  },
+  {
+   "id": "ma",
+   "name": "Morocco",
+   "body": "Ministry of Habous and Islamic Affairs",
+   "method": "sighting"
+  },
+  {
+   "id": "pk",
+   "name": "Pakistan",
+   "body": "Central Ruet-e-Hilal Committee (Ministry of Religious Affairs)",
+   "method": "sighting"
+  },
+  {
+   "id": "my",
+   "name": "Malaysia",
+   "body": "Keeper of the Rulers' Seal / JAKIM",
+   "method": "sighting+calculation (Neo-MABIMS imkanur rukyah)"
+  },
+  {
+   "id": "id",
+   "name": "Indonesia",
+   "body": "Ministry of Religious Affairs (Kemenag) sidang isbat",
+   "method": "sighting+calculation (Neo-MABIMS imkanur rukyah)"
+  },
+  {
+   "id": "eg",
+   "name": "Egypt",
+   "body": "Dar al-Ifta al-Misriyyah",
+   "method": "sighting"
+  },
+  {
+   "id": "uk",
+   "name": "United Kingdom",
+   "body": "No single authority; recorded only where Saudi-following (e.g. East London Mosque) and local-sighting bodies (Wifaqul Ulama, ICOUK) agreed",
+   "method": "mixed"
+  },
+  {
+   "id": "na",
+   "name": "North America",
+   "body": "Fiqh Council of North America / ISNA",
+   "method": "calculation (Dhu al-Hijjah follows Saudi Arafah)"
+  }
+ ],
+ "starts": [
+  {
+   "authority": "eg",
+   "year": 1445,
+   "month": 9,
+   "start": "2024-03-11",
+   "sources": [
+    "https://www.dar-alifta.org/ar/articles/details/9285/",
+    "https://www.ewn.co.za/2024/03/11/muslim-nations-announce-start-of-ramadan-in-shadow-of-gaza-war",
+    "https://www.egypttoday.com/Article/1/130915/Monday-marks-1st-day-of-Ramadan-Egypt's-Grand-Mufti"
+   ],
+   "note": "Official Dar al-Ifta statement dated 10 Mar 2024: crescent sighted; Mon 11 Mar 2024 = 1 Ramadan 1445. Statement text confirmed; EWN (AFP) text confirmed ('Dar al-Ifta ... confirmed Ramadan was beginning on Monday'); Egypt Today seen only in search snippet (403)."
+  },
+  {
+   "authority": "eg",
+   "year": 1445,
+   "month": 10,
+   "start": "2024-04-10",
+   "sources": [
+    "https://www.dar-alifta.org/ar/articles/details/9352/",
+    "https://www.masrawy.com/news/news_egypt/details/2024/4/9/2565300",
+    "https://www.egypttoday.com/Article/1/131494/Egypt-Wednesday-marks-the-1st-day-of-Eid-Al-Fitr"
+   ],
+   "note": "Official Dar al-Ifta statement dated 8 Apr 2024: crescent NOT sighted; Tue 9 Apr completes Ramadan, Wed 10 Apr 2024 = 1 Shawwal. Statement text confirmed. Masrawy (9 Apr 2024) text confirmed but only says 'tomorrow Wednesday is first day of Eid' per the Mufti; Egypt Today seen only in search snippet (403)."
+  },
+  {
+   "authority": "eg",
+   "year": 1445,
+   "month": 12,
+   "start": "2024-06-07",
+   "sources": [
+    "https://www.dar-alifta.org/ar/articles/details/9403/",
+    "https://www.maspero.eg/egypt/2024/06/06/783861/"
+   ],
+   "note": "Official Dar al-Ifta statement dated 6 Jun 2024: Fri 7 Jun 2024 = 1 Dhu al-Hijjah 1445 (Arafah 15 Jun, Eid 16 Jun). Statement text confirmed; Maspero (National Media Authority, state) reproduces the statement, text confirmed. Note: a Khaleej Times roundup (search snippet) listed Egypt Eid as 17 Jun — contradicted by the primary statement; Maspero's copy has a typo '1444' in one line."
+  },
+  {
+   "authority": "eg",
+   "year": 1446,
+   "month": 9,
+   "start": "2025-03-01",
+   "sources": [
+    "https://www.dar-alifta.org/ar/articles/details/10004/",
+    "https://egyptianstreets.com/2025/02/28/saturday-declared-as-the-first-day-of-ramadan-in-egypt/",
+    "https://english.ahram.org.eg/News/541261.aspx"
+   ],
+   "note": "Official Dar al-Ifta statement dated 28 Feb 2025: crescent sighted; Sat 1 Mar 2025 = 1 Ramadan 1446. Statement text confirmed; Egyptian Streets (28 Feb 2025) text confirmed ('Saturday'); Ahram Online seen only in search snippet (403)."
+  },
+  {
+   "authority": "eg",
+   "year": 1446,
+   "month": 10,
+   "start": "2025-03-31",
+   "sources": [
+    "https://www.dar-alifta.org/ar/articles/details/10089/",
+    "https://egyptianstreets.com/2025/03/29/egypt-announces-monday-as-the-first-day-of-eid-al-fitr/"
+   ],
+   "note": "Official Dar al-Ifta statement dated 29 Mar 2025: crescent NOT sighted; Sun 30 Mar completes Ramadan, Mon 31 Mar 2025 = 1 Shawwal. Both texts confirmed. Differs from Saudi (30 Mar) and from Egypt's NRIAG forecast (30 Mar)."
+  },
+  {
+   "authority": "eg",
+   "year": 1446,
+   "month": 12,
+   "start": "2025-05-28",
+   "sources": [
+    "https://www.dar-alifta.org/ar/articles/details/10212/",
+    "https://egyptianstreets.com/2025/05/28/egypt-to-celebrate-eid-al-adha-on-6-june-dar-al-ifta-confirms/"
+   ],
+   "note": "Official Dar al-Ifta statement dated 27 May 2025 (relying on Saudi Supreme Court decision 194): Wed 28 May 2025 = 1 Dhu al-Hijjah 1446. Egyptian Streets: 1 DhH 28 May, Eid Fri 6 Jun. Both texts confirmed."
+  },
+  {
+   "authority": "eg",
+   "year": 1447,
+   "month": 9,
+   "start": "2026-02-19",
+   "sources": [
+    "https://www.dar-alifta.org/ar/articles/details/11039/",
+    "https://egyptianstreets.com/?p=102572",
+    "https://english.ahram.org.eg/News/562560.aspx"
+   ],
+   "note": "Official Dar al-Ifta statement dated 17 Feb 2026: crescent NOT sighted; Wed 18 Feb completes Sha'ban, Thu 19 Feb 2026 = 1 Ramadan 1447. Statement and Egyptian Streets (17 Feb 2026) texts confirmed; Ahram Online seen only in search snippet (403). Saudi started 18 Feb."
+  },
+  {
+   "authority": "eg",
+   "year": 1447,
+   "month": 10,
+   "start": "2026-03-20",
+   "sources": [
+    "https://www.dar-alifta.org/ar/articles/details/11079/",
+    "https://misrconnect.com/en/news/religious-news/egypt-s-dar-al-ifta-announces-friday-as-first-day-of-eid-al-fitr-2026",
+    "https://www.egypttoday.com/Article/1/145795/Dar-Al-Ifta-Friday-is-the-first-day-of-Eid"
+   ],
+   "note": "Official Dar al-Ifta statement dated 19 Mar 2026: crescent sighted; Fri 20 Mar 2026 = 1 Shawwal 1447. Statement and MisrConnect texts confirmed; Egypt Today seen only in search snippet (403)."
+  },
+  {
+   "authority": "eg",
+   "year": 1447,
+   "month": 12,
+   "start": "2026-05-18",
+   "sources": [
+    "https://www.dar-alifta.org/ar/articles/details/11149/",
+    "https://egyptianstreets.com/2026/05/18/egypt-confirms-eid-al-adha-dates-after-moon-sighting/"
+   ],
+   "note": "Official Dar al-Ifta statement dated 17 May 2026 (relying on Saudi Supreme Court decision): Mon 18 May 2026 = 1 Dhu al-Hijjah 1447. Egyptian Streets text confirmed (1 DhH 18 May, Arafah Tue 26 May, Eid Wed 27 May) but it mislabels the year as '1446'."
+  },
+  {
+   "authority": "id",
+   "year": 1445,
+   "month": 9,
+   "start": "2024-03-12",
+   "sources": [
+    "https://setkab.go.id/?p=296553",
+    "https://www.detik.com/jateng/berita/d-7235182/pemerintah-tetapkan-1-ramadhan-1445-h-jatuh-pada-12-maret-2024"
+   ],
+   "note": "Sidang isbat 10 Mar 2024 (Menag Yaqut): '1 Ramadan 1445 Hijriah jatuh pada hari Selasa, tanggal 12 Maret 2024'. setkab.go.id (Cabinet Secretariat) and detik text-confirmed. MUHAMMADIYAH DIFFERED: 1 Ramadan 1445 = Mon 11 Mar 2024 (Maklumat 1/MLM/I.0/E/2024), source https://muhammadiyah.or.id/2024/01/muhammadiyah-tetapkan-awal-puasa-1-ramadan-1445-h-pada-11-maret-2024/ (text-confirmed)."
+  },
+  {
+   "authority": "id",
+   "year": 1445,
+   "month": 10,
+   "start": "2024-04-10",
+   "sources": [
+    "https://setkab.go.id/en/govt-declares-that-1-syawal-1445h-falls-on-wednesday-april-10-2024/",
+    "https://babel.antaranews.com/berita/403089/pemerintah-tetapkan-idul-fitri-1445-hijriah-pada-rabu-10-april-2024"
+   ],
+   "note": "Sidang isbat 9 Apr 2024: '1 Syawal 1445 Hijriah jatuh pada Hari Rabu, 10 April 2024'. Both text-confirmed. Muhammadiyah same date (10 Apr 2024, per muhammadiyah.or.id maklumat article)."
+  },
+  {
+   "authority": "id",
+   "year": 1445,
+   "month": 12,
+   "start": "2024-06-08",
+   "sources": [
+    "https://megapolitan.antaranews.com/berita/292635/pemerintah-umumkan-idul-adha-1445-h-jatuh-pada-senin-17-juni",
+    "https://nu.or.id/nasional/kemenag-ri-tetapkan-idul-adha-jatuh-pada-senin-17-juni-2024-kcNR2"
+   ],
+   "note": "Sidang isbat 7 Jun 2024: '1 Zulhijah 1445 Hijriah jatuh pada hari Sabtu tanggal 8 Juni 2024'; Iduladha Mon 17 Jun. Stated directly. Both text-confirmed. Muhammadiyah same (Arafah 16 Jun, Iduladha 17 Jun 2024 per https://muhammadiyah.or.id/2024/04/muhammadiyah-tetapkan-iduladha-1445-h-jatuh-pada-senin-17-juni-2024/ - search-snippet only; implies 1 Zulhijah 8 Jun)."
+  },
+  {
+   "authority": "id",
+   "year": 1446,
+   "month": 9,
+   "start": "2025-03-01",
+   "sources": [
+    "https://kaltim.antaranews.com/berita/232917/pemerintah-tetapkan-1-ramadhan-1446-h-pada-sabtu",
+    "https://www.detik.com/jateng/berita/d-7800718/pemerintah-tetapkan-1-ramadhan-1446-h-jatuh-pada-1-maret-2025"
+   ],
+   "note": "Sidang isbat 28 Feb 2025 (Menag Nasaruddin Umar): 1 Ramadan 1446 H Saturday 1 Mar 2025. Both text-confirmed. Muhammadiyah same (Maklumat 1/MLM/I.0/E/2025, https://muhammadiyah.or.id/2025/02/maklumat-pimpinan-pusat-muhammadiyah-tentang-penetapan-hasil-hisab-ramadan-syawal-dan-zulhijah-1446-h/). Differs from Malaysia (2 Mar)."
+  },
+  {
+   "authority": "id",
+   "year": 1446,
+   "month": 10,
+   "start": "2025-03-31",
+   "sources": [
+    "https://bali.antaranews.com/berita/374317/pemerintah-tetapkan-hari-raya-idul-fitri-jatuh-pada-senin-31-maret-2025",
+    "https://nu.or.id/nasional/pemerintah-tetapkan-1-syawal-1446-h-jatuh-pada-senin-31-maret-2025-dVBFP"
+   ],
+   "note": "Sidang isbat 29 Mar 2025: '1 Syawal 1446 H jatuh pada hari Senin, 31 Maret 2025'. Both text-confirmed. Muhammadiyah same (31 Mar 2025, maklumat 1446)."
+  },
+  {
+   "authority": "id",
+   "year": 1446,
+   "month": 12,
+   "start": "2025-05-28",
+   "sources": [
+    "https://bali.antaranews.com/berita/379025/pemerintah-umumkan-idul-adha-jatuh-pada-jumat-6-juni-2025",
+    "https://www.kompas.tv/nasional/595949/hasil-sidang-isbat-1-zulhijah-1446-h-jatuh-pada-28-mei-iduladha-dirayakan-6-juni-2025"
+   ],
+   "note": "Sidang isbat 27 May 2025: '1 Dzulhijjah 1446 Hijriah jatuh pada hari Rabu 28 Mei 2025'; Iduladha Fri 6 Jun. Stated directly. Both text-confirmed. Muhammadiyah same (1 Zulhijah 28 May, Iduladha 6 Jun per maklumat 1446). Differs from Malaysia (29 May)."
+  },
+  {
+   "authority": "id",
+   "year": 1447,
+   "month": 9,
+   "start": "2026-02-19",
+   "sources": [
+    "https://ramadhan.antaranews.com/berita/5421030/pemerintah-tetapkan-awal-ramadhan-2026-jatuh-pada-kamis-19-februari",
+    "https://www.kompas.tv/nasional/651294/hasil-sidang-isbat-pemerintah-tetapkan-1-ramadan-2026-pada-kamis-19-februari"
+   ],
+   "note": "Sidang isbat 17 Feb 2026: '1 Ramadan 1447 Hijriah jatuh pada hari Kamis, 19 Februari 2026'. Both text-confirmed (also Kemenag regional mirrors e.g. jatim.kemenag.go.id, seen in search only - server refused fetch). MUHAMMADIYAH DIFFERED: Wed 18 Feb 2026 under KHGT (Maklumat 2/MLM/I.0/E/2025, https://muhammadiyah.or.id/2025/10/maklumat-pp-muhammadiyah-tentang-penetapan-hasil-hisab-ramadan-syawal-dan-zulhijah-1447-h/ text-confirmed; Antara article also states Muhammadiyah began Rabu 18/2)."
+  },
+  {
+   "authority": "id",
+   "year": 1447,
+   "month": 10,
+   "start": "2026-03-21",
+   "sources": [
+    "https://megapolitan.antaranews.com/berita/515206/pemerintah-resmi-tetapkan-hari-raya-idul-fitri-jatuh-pada-sabtu-21-maret-2026",
+    "https://www.metrotvnews.com/read/NgxCaa29-pemerintah-tetapkan-1-syawal-1447-h-jatuh-pada-21-maret-2026"
+   ],
+   "note": "Sidang isbat 19 Mar 2026: '1 Syawal 1447 Hijriah jatuh pada Sabtu 21 Maret 2026' (no hilal seen; Ramadan completed to 30 days). Both text-confirmed. MUHAMMADIYAH DIFFERED: 1 Syawal 1447 = Fri 20 Mar 2026 (Maklumat 2/MLM/I.0/E/2025, muhammadiyah.or.id 1447 maklumat page, text-confirmed)."
+  },
+  {
+   "authority": "id",
+   "year": 1447,
+   "month": 12,
+   "start": "2026-05-18",
+   "sources": [
+    "https://jatim.antaranews.com/berita/1066475/pemerintah-tetapkan-idul-adha-1447-hijriah-jatuh-pada-rabu-27-mei-2026",
+    "https://www.metrotvnews.com/read/NA0CryR3-pemerintah-tetapkan-iduladha-1447-h-jatuh-pada-27-mei-2026"
+   ],
+   "note": "Sidang isbat 17 May 2026: '1 Zulhijah 1447 Hijriah jatuh pada hari Senin, 18 Mei 2026'; Iduladha Wed 27 May. Stated directly. Both text-confirmed. Muhammadiyah same (1 Zulhijah 18 May, Arafah 26 May, Iduladha 27 May per 1447 maklumat)."
+  },
+  {
+   "authority": "ma",
+   "year": 1445,
+   "month": 9,
+   "start": "2024-03-12",
+   "sources": [
+    "https://fr.hespress.com/356667-356667.html",
+    "https://www.bladi.net/maroc-debutera-ramadan-mardi-mars,107286.html",
+    "https://www.challenge.ma/mardi-premier-jour-du-mois-de-ramadan-au-maroc-277680/"
+   ],
+   "note": "Ministry of Habous communique 10 Mar 2024 (29 Sha'ban): crescent not seen, Sha'ban 30 days, 1 Ramadan = Tue 12 Mar 2024. Page text confirmed on all three. Saudi/Egypt started 11 Mar."
+  },
+  {
+   "authority": "ma",
+   "year": 1445,
+   "month": 10,
+   "start": "2024-04-10",
+   "sources": [
+    "https://www.fnh.ma/article/actualite-economique/aid-fitr-maroc-2024",
+    "https://www.bladi.net/officiel-aid-fitr-celebre-mercredi-avril-maroc,107803.html",
+    "https://en.yabiladi.com/articles/details/148526/al-fitr-celebrated-wednesday-morocco.html"
+   ],
+   "note": "Ministry communique 9 Apr 2024: crescent of Shawwal seen on 29 Ramadan (9 Apr); Eid al-Fitr Wed 10 Apr 2024. Page text confirmed."
+  },
+  {
+   "authority": "ma",
+   "year": 1445,
+   "month": 12,
+   "start": "2024-06-08",
+   "sources": [
+    "https://fr.hespress.com/371808-371808.html",
+    "https://www.bladi.net/officiel-aid-adha-aura-lieu-lundi-juin-maroc,108798.html",
+    "https://www.challenge.ma/aid-al-adha-voici-la-date-officielle-de-celebration-au-maroc-282697/"
+   ],
+   "note": "Ministry communique 7 Jun 2024: crescent seen; 1 Dhu al-Hijjah = Sat 8 Jun 2024, Eid al-Adha Mon 17 Jun (consistent, +9). Stated directly. Page text confirmed."
+  },
+  {
+   "authority": "ma",
+   "year": 1446,
+   "month": 9,
+   "start": "2025-03-02",
+   "sources": [
+    "https://www.hespress.com/1521247-1521247.html",
+    "https://h24info.ma/?p=896873",
+    "https://www.challenge.ma/dimanche-premier-jour-du-mois-de-ramadan-au-maroc-297504"
+   ],
+   "note": "Ministry announcement Fri 28 Feb 2025: crescent not seen, Sha'ban 30 days, 1 Ramadan = Sun 2 Mar 2025. Page text confirmed (Hespress Arabic, H24info, Challenge)."
+  },
+  {
+   "authority": "ma",
+   "year": 1446,
+   "month": 10,
+   "start": "2025-03-31",
+   "sources": [
+    "https://fr.hespress.com/417581-417581.html",
+    "https://www.bladi.net/officiel-aid-fitr-maroc-lundi-mars,113958.html",
+    "https://en.yabiladi.com/articles/details/162811/morocco-celebrate-al-fitr-monday.html"
+   ],
+   "note": "Ministry communique 30 Mar 2025: crescent seen on 29 Ramadan (30 Mar); Eid al-Fitr Mon 31 Mar 2025. Page text confirmed."
+  },
+  {
+   "authority": "ma",
+   "year": 1446,
+   "month": 12,
+   "start": "2025-05-29",
+   "sources": [
+    "https://fr.hespress.com/426178-426178.html",
+    "https://h24info.ma/?p=921571",
+    "https://ecoactu.ma/1er-dou-al-hijja-1446-h-correspond-laid-al-adha/"
+   ],
+   "note": "Ministry communique 27 May 2025: crescent not seen, Dhu al-Qa'da 30 days; 1 Dhu al-Hijjah = Thu 29 May 2025, Eid al-Adha Sat 7 Jun (consistent, +9). Stated directly. Page text confirmed. (Saudi/Egypt 1 DhH = 28 May.)"
+  },
+  {
+   "authority": "ma",
+   "year": 1447,
+   "month": 9,
+   "start": "2026-02-19",
+   "sources": [
+    "https://h24info.ma/?p=983054",
+    "https://www.fnh.ma/article/actualites-marocaines/ramadan-19-fevrier-maroc",
+    "https://www.bladi.net/ramadan-2026-maroc-premier-jour-jeune-officiellement-fixe-jeudi,119569.html"
+   ],
+   "note": "Ministry communique Wed 18 Feb 2026 (29 Sha'ban): 1 Ramadan 1447 = Thu 19 Feb 2026. Page text confirmed. Saudi started 18 Feb."
+  },
+  {
+   "authority": "ma",
+   "year": 1447,
+   "month": 10,
+   "start": "2026-03-20",
+   "sources": [
+    "https://fr.hespress.com/466486-466486.html",
+    "https://www.lavieeco.com/au-royaume/aid-al-fitr-celebre-vendredi-au-maroc/",
+    "https://www.bladi.net/officiel-croissant-lune-observe-aid-al-fitr-maroc-fixe-vendredi,120166.html"
+   ],
+   "note": "Ministry communique Thu 19 Mar 2026: crescent seen on 29 Ramadan (19 Mar); Eid al-Fitr Fri 20 Mar 2026 (Ramadan 29 days). Page text confirmed. Astronomical forecasts had expected Sat 21 Mar (Medias24 24 Mar 2026 explainer)."
+  },
+  {
+   "authority": "ma",
+   "year": 1447,
+   "month": 12,
+   "start": "2026-05-18",
+   "sources": [
+    "https://fr.hespress.com/473835-473835.html",
+    "https://h24info.ma/?p=999298",
+    "https://telquel.ma/instant-t/2026/05/18/le-1er-dou-al-hijja-1447-h-correspond-au-lundi-18-mai-2026-laid-al-adha-celebre-le-mercredi-27-mai_1989908/"
+   ],
+   "note": "Ministry communique Sun 17 May 2026: crescent seen; 1 Dhu al-Hijjah = Mon 18 May 2026, Eid al-Adha Wed 27 May (consistent, +9). Stated directly. Hespress and H24info text confirmed; TelQuel seen in search title only (403 on fetch)."
+  },
+  {
+   "authority": "my",
+   "year": 1445,
+   "month": 9,
+   "start": "2024-03-12",
+   "sources": [
+    "https://www.thestar.com.my/news/nation/2024/03/10/muslims-in-malaysia-to-begin-ramadan-fast-on-tuesday-march-12",
+    "https://www.malaymail.com/news/malaysia/2024/03/10/muslims-in-malaysia-to-begin-ritual-fast-on-tuesday/122647"
+   ],
+   "note": "Keeper of the Rulers' Seal Syed Danial, announced 10 Mar 2024: fasting begins Tuesday 12 Mar. Both pages text-confirmed (Malay Mail article says 'Tuesday'; dated 10 Mar 2024)."
+  },
+  {
+   "authority": "my",
+   "year": 1445,
+   "month": 10,
+   "start": "2024-04-10",
+   "sources": [
+    "https://www.thestar.com.my/news/nation/2024/04/09/muslims-in-malaysia-to-celebrate-hari-raya-on-april-10",
+    "https://www.bernama.com/en/news.php?id=2287117"
+   ],
+   "note": "Keeper of the Rulers' Seal, 9 Apr 2024: Aidilfitri Wednesday 10 Apr. The Star text-confirmed; Bernama headline 'Muslims In Malaysia Celebrate Aidilfitri Tomorrow' dated 9 Apr 2024 (date implied by 'tomorrow')."
+  },
+  {
+   "authority": "my",
+   "year": 1445,
+   "month": 12,
+   "start": "2024-06-08",
+   "sources": [
+    "https://www.malaymail.com/news/malaysia/2024/06/07/muslims-in-malaysia-to-celebrate-aidiladha-on-june-17/138625",
+    "https://www.thestar.com.my/news/nation/2024/06/07/hari-raya-haji-to-fall-on-june-17"
+   ],
+   "note": "Declared on behalf of Keeper of the Rulers' Seal: '1 Zulhijjah 1445 Hijrah will be on June 8, 2024'; Aidiladha Mon 17 Jun 2024. Stated directly (not derived). Both text-confirmed."
+  },
+  {
+   "authority": "my",
+   "year": 1446,
+   "month": 9,
+   "start": "2025-03-02",
+   "sources": [
+    "https://www.bernama.com/en/general/news.php?id=2397802",
+    "https://www.malaymail.com/news/malaysia/2025/02/28/muslims-in-malaysia-to-begin-fasting-on-sunday/168299"
+   ],
+   "note": "Keeper of the Rulers' Seal, 28 Feb 2025: 'Muslims in Malaysia will begin fasting on Sunday, March 2.' Both text-confirmed. (Indonesia started a day earlier, 1 Mar.)"
+  },
+  {
+   "authority": "my",
+   "year": 1446,
+   "month": 10,
+   "start": "2025-03-31",
+   "sources": [
+    "https://www.malaymail.com/news/malaysia/2025/03/30/malaysia-to-celebrate-hari-raya-aidilfitri-on-march-31-keeper-of-the-rulers-seal-announces/171424",
+    "https://www.thestar.com.my/news/nation/2025/03/30/muslims-in-malaysia-to-celebrate-hari-raya-on-march-31"
+   ],
+   "note": "Keeper of the Rulers' Seal, 30 Mar 2025: Aidilfitri Monday 31 Mar 2025. Both text-confirmed."
+  },
+  {
+   "authority": "my",
+   "year": 1446,
+   "month": 12,
+   "start": "2025-05-29",
+   "sources": [
+    "https://www.malaymail.com/news/malaysia/2025/05/27/muslims-in-malaysia-to-celebrate-aidiladha-on-june-7/178407",
+    "https://www.malaysiakini.com/news/744529",
+    "https://bernama.com/en/news.php?id=2428086"
+   ],
+   "note": "Declared 27 May 2025: '1 Zulhijjah 1446H will be on May 29, 2025'; Aidiladha Sat 7 Jun 2025. Malay Mail and Malaysiakini text-confirmed; Bernama page shows only headline 'Aidiladha On June 7' (consistent, June 7 - 9 = May 29). (Indonesia 1 Zulhijjah was 28 May.)"
+  },
+  {
+   "authority": "my",
+   "year": 1447,
+   "month": 9,
+   "start": "2026-02-19",
+   "sources": [
+    "https://bernama.com/en/news.php?id=2525049",
+    "https://www.thestar.com.my/news/nation/2026/02/17/ramadan-to-start-on-feb-19",
+    "https://www.malaymail.com/news/malaysia/2026/02/17/muslims-in-malaysia-to-begin-ramadan-fasting-on-thursday/209522"
+   ],
+   "note": "Keeper of the Rulers' Seal, 17 Feb 2026: 'Muslims in Malaysia will begin fasting on Thursday, Feb 19.' All three text-confirmed."
+  },
+  {
+   "authority": "my",
+   "year": 1447,
+   "month": 10,
+   "start": "2026-03-21",
+   "sources": [
+    "https://www.malaymail.com/news/malaysia/2026/03/19/malaysia-to-celebrate-hari-raya-aidilfitri-on-saturday/213260",
+    "https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/umat-islam-di-malaysia-sambut-aidilfitri-pada-sabtu-21-mac/",
+    "https://www.bernama.com/en/news.php?id=2536440"
+   ],
+   "note": "Keeper of the Rulers' Seal, 19 Mar 2026: 'Hari Raya Puasa for all states in Malaysia is Saturday, March 21, 2026.' Malay Mail and RTM text-confirmed (RTM body says 'hari Isnin, 21 Mac 2026' - weekday typo, headline says Sabtu; 21 Mar 2026 is a Saturday). Bernama 21 Mar 2026 report of Aidilfitri prayers that day."
+  },
+  {
+   "authority": "my",
+   "year": 1447,
+   "month": 12,
+   "start": "2026-05-18",
+   "sources": [
+    "https://www.bernama.com/en/news.php?id=2558314",
+    "https://www.thestar.com.my/news/nation/2026/05/17/muslims-in-malaysia-to-celebrate-hari-raya-aidiladha-on-may-27"
+   ],
+   "note": "Declared 17 May 2026 on behalf of Keeper of the Rulers' Seal: '1 Zulhijjah 1447H falls on May 18, 2026'; Aidiladha Wed 27 May. Both text-confirmed."
+  },
+  {
+   "authority": "na",
+   "year": 1445,
+   "month": 9,
+   "start": "2024-03-11",
+   "sources": [
+    "https://fiqhcouncil.org/announcement-for-ramadan-shawwal-1445/",
+    "https://fiqhcouncil.org/calendar/",
+    "https://pakistanlink.org/Community/2024/Feb24/16/01.HTM"
+   ],
+   "note": "FCNA announcement (confirmed): 'the first day of Ramadan 1445 is on Monday, March 11, 2024'. The FCNA calendar table (confirmed) agrees. Pakistan Link (confirmed): a Shura Council notice, based on the 'Fiqh Council calendar', says Monday 11 March."
+  },
+  {
+   "authority": "na",
+   "year": 1445,
+   "month": 10,
+   "start": "2024-04-10",
+   "sources": [
+    "https://fiqhcouncil.org/announcement-for-ramadan-shawwal-1445/",
+    "https://fiqhcouncil.org/calendar/",
+    "https://pakistanlink.org/Community/2024/Feb24/16/01.HTM"
+   ],
+   "note": "FCNA announcement (confirmed): 'the first day of Shawwal is on Wednesday, April 10, 2024'. The calendar table (confirmed) agrees. Pakistan Link (confirmed): Eid al-Fitr Wednesday 10 April. Some news outlets (Philstar, Secret Philadelphia; search snippets only) wrongly attributed 9 April to FCNA."
+  },
+  {
+   "authority": "na",
+   "year": 1445,
+   "month": 12,
+   "start": "2024-06-07",
+   "sources": [
+    "https://fiqhcouncil.org/calendar/",
+    "https://fiqhcouncil.org/announcement-for-ramadan-shawwal-1445/"
+   ],
+   "note": "FCNA calendar table (confirmed): 'Dhul-Hijjah 1 1445 = June 07, 2024 (Fri)'. FCNA's 1445 announcement (confirmed) says Eid al-Adha depends on the Makkah Arafah announcement and gives the 'Expected date for Eidul-Adha 1445 AH, based on Saudi Ummul-Qura Calendar is Sunday, June 16, 2024', so Eid minus 9 days = 7 June (derived). FCNA did not publish a separate Dhul-Hijjah start notice. The actual Saudi Arafah was 15 June, Eid 16 June (AMJA and MAPS search snippets only), which is consistent. Both sources are FCNA's own pages; no independent page text was confirmed."
+  },
+  {
+   "authority": "na",
+   "year": 1446,
+   "month": 9,
+   "start": "2025-03-01",
+   "sources": [
+    "https://fiqhcouncil.org/ramadan-2025-announcement/",
+    "https://fiqhcouncil.org/calendar/",
+    "https://aboutislam.net/muslim-issues/world/ramadan-starts-march-1-in-north-america-europe/"
+   ],
+   "note": "FCNA announcement (confirmed): 'the first day of Ramadan is Saturday, March 1, 2025'. The calendar table agrees. AboutIslam (confirmed) quotes the FCNA statement."
+  },
+  {
+   "authority": "na",
+   "year": 1446,
+   "month": 10,
+   "start": "2025-03-30",
+   "sources": [
+    "https://fiqhcouncil.org/ramadan-2025-announcement/",
+    "https://fiqhcouncil.org/calendar/"
+   ],
+   "note": "FCNA announcement (confirmed): 'the first day of Shawwal (Eid al-Fitr) is Sunday, March 30th, 2025'. The calendar table agrees. Independent masjid notices citing FCNA for 30 March were seen only in search snippets (masjidplus/ummahx, MAC). Those pages could not be fetched (410, connection refused)."
+  },
+  {
+   "authority": "na",
+   "year": 1446,
+   "month": 12,
+   "start": "2025-05-28",
+   "sources": [
+    "https://fiqhcouncil.org/calendar/",
+    "https://ummahx.org/snl/eid-al-adha-2025-announcement-Ds3VnUE17V"
+   ],
+   "note": "FCNA calendar table (confirmed): 'Dhul-Hijjah 1 1446 = May 28, 2025 (Wed)'. A Muslim Association of Puget Sound notice (ummahx.org, redirected from masjidplus.com; confirmed) says 'Based on the Fiqh Council of North America (FCNA) and Islamic Society of North America (ISNA)': 'Wednesday, May 28th - 1st of Dhul Hijjah', Arafah Thursday 5 June, Eid al-Adha Friday 6 June. This follows FCNA's Saudi-Arafah rule."
+  },
+  {
+   "authority": "na",
+   "year": 1447,
+   "month": 9,
+   "start": "2026-02-18",
+   "sources": [
+    "https://fiqhcouncil.org/ramadan-2026-announcement/",
+    "https://fiqhcouncil.org/calendar/",
+    "https://www.aljazeera.com/news/2026/2/16/when-is-ramadan-2026-and-how-is-the-moon-sighted",
+    "https://muslimlife.yale.edu/programs/ramadan"
+   ],
+   "note": "FCNA announcement, 20 Jan 2026 (confirmed): 'the first day of Ramadan is Wednesday, February 18, 2026'. The calendar table agrees. Al Jazeera (confirmed): FCNA and ISNA 'have officially announced that Ramadan will begin on February 18, 2026'. Yale Muslim Life (confirmed) agrees, citing FCNA. This differs from Turkey (19 Feb)."
+  },
+  {
+   "authority": "na",
+   "year": 1447,
+   "month": 10,
+   "start": "2026-03-20",
+   "sources": [
+    "https://fiqhcouncil.org/ramadan-2026-announcement/",
+    "https://fiqhcouncil.org/calendar/",
+    "https://muslimlife.yale.edu/programs/ramadan"
+   ],
+   "note": "FCNA announcement (confirmed): 'the first day of Shawwal (Eid al-Fitr) is Friday, March 20, 2026'. The calendar table agrees. Yale Muslim Life (confirmed): 'Eid al-Fitr will be Friday, March 20th', citing FCNA."
+  },
+  {
+   "authority": "na",
+   "year": 1447,
+   "month": 12,
+   "start": "2026-05-18",
+   "sources": [
+    "https://fiqhcouncil.org/calendar/",
+    "https://al-dirassa.com/en/eid-al-adha-2026-date-prayer-traditions"
+   ],
+   "note": "FCNA calendar table (confirmed): 'Dhul-Hijjah 1 1447 = May 18, 2026 (Mon)'. FCNA's 2026 announcement (confirmed) says Eid al-Adha will be the day after the Makkah Arafah. Al-Dirassa (confirmed): ISNA and FCNA 'have confirmed' Eid al-Adha Wednesday 27 May 2026 and Arafah Tuesday 26 May, so 1 Dhu al-Hijjah = Eid minus 9 = 18 May (derived). Al-Dirassa is a secondary site, not an FCNA page. Saudi 1 Dhul-Hijjah was 18 May per Arab Times (search snippet only)."
+  },
+  {
+   "authority": "pk",
+   "year": 1445,
+   "month": 9,
+   "start": "2024-03-12",
+   "sources": [
+    "https://www.dawn.com/news/1820786",
+    "https://thenews.com.pk/print/1167260-ramazan-moon-sighted-first-fast-today"
+   ],
+   "note": "Central Ruet-e-Hilal Committee (Peshawar, 11 Mar 2024) announced the moon was sighted, first fast Tue 12 Mar. I read both pages. Dawn: 'Ramazan will begin on March 12'; The News: 'first of Ramazan of Hijri year 1445 would be observed across the country on March 12'. I did not find an APP or Radio Pakistan page that states the outcome."
+  },
+  {
+   "authority": "pk",
+   "year": 1445,
+   "month": 10,
+   "start": "2024-04-10",
+   "sources": [
+    "https://www.radio.gov.pk/09-04-2024/moon-sighted-eid-ul-fitr-to-be-celebrated-tomorrow",
+    "https://www.dawn.com/news/1826713"
+   ],
+   "note": "Shawwal moon sighted 9 Apr 2024, Eid Wed 10 Apr. I read both pages. APP's https://www.app.com.pk/national/shawwal-moon-sighted-eid-on-wednesday/ also says '1st Shawwal 1445 AH would fall on Wednesday, April 10, 2024', but I saw that only in a search snippet."
+  },
+  {
+   "authority": "pk",
+   "year": 1445,
+   "month": 12,
+   "start": "2024-06-08",
+   "sources": [
+    "https://english.aaj.tv/news/330364171",
+    "https://dawn.com/news/1838415"
+   ],
+   "note": "Zilhaj moon sighted 7 Jun 2024 (committee met in Karachi). Aaj (read) quotes the chairman: 'the first of Zilhaj will fall on June 08, 2024' and 'Eidul Azha will be celebrated on June 17, 2024'. Dawn (read) states Eid on 17 Jun only, so its 1 Zilhaj is derived as Eid minus 9 days, which matches."
+  },
+  {
+   "authority": "pk",
+   "year": 1446,
+   "month": 9,
+   "start": "2025-03-02",
+   "sources": [
+    "https://www.app.com.pk/national/moon-not-sighted-ramadan-to-begin-on-march-2/",
+    "https://radio.gov.pk/28-02-2025/ramadan-moon-not-sighted-1st-roza-on-sunday"
+   ],
+   "note": "Moon not sighted 28 Feb 2025. APP (read): 'the first day of Ramadan will be observed on Sunday, March 2, 2025'. Radio Pakistan (read): first Ramadan from Sunday, per MoRA notification."
+  },
+  {
+   "authority": "pk",
+   "year": 1446,
+   "month": 10,
+   "start": "2025-03-31",
+   "sources": [
+    "https://www.app.com.pk/national/eid-ul-fitr-moon-sighted-across-country-announces-central-ruet-e-hilal-committee/",
+    "https://www.radio.gov.pk/30-03-2025/shawwal-moon-sighted-eid-to-be-celebrated-tomorrow"
+   ],
+   "note": "Shawwal moon sighted 30 Mar 2025. APP (read): 'first of Shawwal-ul-Mukarram ... will be observed across Pakistan on Monday, March 31, 2025'. Radio Pakistan (read) says Eid is 'tomorrow' in an article dated 30 Mar. Dawn https://www.dawn.com/news/1901319 reports the same date (search result only)."
+  },
+  {
+   "authority": "pk",
+   "year": 1446,
+   "month": 12,
+   "start": "2025-05-29",
+   "sources": [
+    "https://www.radio.gov.pk/27-05-2025/crescent-not-sighted-eid-ul-azha-on-june-7",
+    "https://www.app.com.pk/national/zulhajj-moon-not-sighted-eid-ul-azha-to-be-celebrated-on-june-7-ruet-e-hilal-committee/"
+   ],
+   "note": "Moon not sighted 27 May 2025. Both pages (read) say '1st Zil Hajj ... May 29, Thursday' and Eid-ul-Azha on Sat 7 Jun. That is consistent (+9 days). Pakistan was one day behind Saudi Arabia (Eid 6 Jun)."
+  },
+  {
+   "authority": "pk",
+   "year": 1447,
+   "month": 9,
+   "start": "2026-02-19",
+   "sources": [
+    "https://www.app.com.pk/?p=1164821",
+    "https://www.dawn.com/news/1974092",
+    "https://radio.gov.pk/18-02-2026/moon-sighted-first-ramadan-on-thursday"
+   ],
+   "note": "Moon sighted 18 Feb 2026 (Peshawar). APP (read): 'Thursday, February 19, 2026, will be the 1st of Ramadan-ul-Mubarak 1447 Hijri'. Dawn and Radio Pakistan (read) give the same date. Saudi Arabia started a day earlier (18 Feb)."
+  },
+  {
+   "authority": "pk",
+   "year": 1447,
+   "month": 10,
+   "start": "2026-03-21",
+   "sources": [
+    "https://www.app.com.pk/?p=1180682",
+    "https://www.dawn.com/news/1983722"
+   ],
+   "note": "Shawwal moon not sighted 19 Mar 2026, so Ramadan ran 30 days. APP (read): 'Eid-ul-Fitr will therefore be observed across Pakistan on Saturday, March 21, 2026'. Dawn (read) gives the same date. Saudi Arabia and the UAE celebrated on 20 Mar."
+  },
+  {
+   "authority": "pk",
+   "year": 1447,
+   "month": 12,
+   "start": "2026-05-18",
+   "sources": [
+    "https://www.geo.tv/latest/664855-zil-hajj-moon-sighted-pakistan-to-celebrate-eid-ul-adha-on-may-27",
+    "https://www.dawn.com/news/2000923",
+    "https://www.app.com.pk/?p=1211836"
+   ],
+   "note": "Zil Hajj moon sighted 17 May 2026. Geo and Dawn (read) quote 'first Zilhaj 1447 AH will be on (Monday) May 18' and Eid ul Adha on Wed 27 May. That is consistent (+9 days). APP (read) says first day Monday, Eid 27 May. Same date as Saudi Arabia."
+  },
+  {
+   "authority": "sa",
+   "year": 1440,
+   "month": 9,
+   "start": "2019-05-06",
+   "sources": [
+    "https://www.arabnews.com/node/1492921/saudi-arabia",
+    "https://www.khaleejtimes.com/ramadan-2019/first-day-of-ramadan-announced-moon-not-sighted-in-saudi-arabia",
+    "https://saudigazette.com.sa/article/565624"
+   ],
+   "note": "Arab News (5 May 2019, page checked): Supreme Court confirmed sighting Sunday, 'Monday will be the start of Ramadan'. Khaleej Times (5 May 2019, page checked): 'Ramadan will begin on May 6 (Monday)'. Saudi Gazette only from search snippet ('Monday is the 1st of Ramadan 1440H corresponding to May 6, 2019'; page paywalled 402)."
+  },
+  {
+   "authority": "sa",
+   "year": 1440,
+   "month": 10,
+   "start": "2019-06-04",
+   "sources": [
+    "https://www.arabnews.com/node/1505831/saudi-arabia",
+    "https://gulfnews.com/uae/announced-eid-al-fitr-in-saudi-on-tuesday-1.1559211252195"
+   ],
+   "note": "Arab News (3 Jun 2019, page checked): 'Eid Al-Fitr celebrations will begin in Saudi Arabia on Tuesday, June 4, the Saudi Supreme Court has announced'; crescent seen Monday evening. Gulf News (3 Jun 2019, page checked): Saudi declared Tuesday first day of Eid."
+  },
+  {
+   "authority": "sa",
+   "year": 1440,
+   "month": 12,
+   "start": "2019-08-02",
+   "sources": [
+    "https://arabnews.com/node/1534151/saudi-arabia",
+    "https://gulfnews.com/uae/sunday-august-11-will-be-the-first-day-of-eid-al-adha-1.1564675421409"
+   ],
+   "note": "Arab News (1 Aug 2019, page checked): Supreme Court confirmed Thursday crescent sighted; Arafat Sat 10 Aug, Eid Sun 11 Aug. Gulf News (page checked): Supreme Court 'confirmed that Friday is the first day of Zul-Hijja', Arafat 10 Aug, Eid 11 Aug."
+  },
+  {
+   "authority": "sa",
+   "year": 1441,
+   "month": 9,
+   "start": "2020-04-24",
+   "sources": [
+    "https://www.arabnews.com/saudi-arabia/ramadan-2020-will-start-on-friday-saudi-arabia-1660636",
+    "https://gulfnews.com/world/gulf/saudi/ramadan-2020-saudi-arabia-announces-april-24-first-day-of-ramadan-1.1587651326325",
+    "https://english.alarabiya.net/coronavirus/2020/04/23/Ramadan-moon-sighted-in-Saudi-Arabia-holy-month-amid-coronavirus-begins-on-Friday"
+   ],
+   "note": "Arab News (23 Apr 2020, page checked): 'Ramadan 2020 will start on Friday April 24, Saudi Arabia's Supreme Court announced on Thursday'. Gulf News (23 Apr 2020, page checked): 'Friday, April 24 will be the first day of Ramadan'. Al Arabiya from search snippet only (403)."
+  },
+  {
+   "authority": "sa",
+   "year": 1441,
+   "month": 10,
+   "start": "2020-05-24",
+   "sources": [
+    "https://www.khaleejtimes.com/uae/first-day-of-eid-al-fitr-2020-announced-shawwal-crescent-not-sighted-in-saudi-arabia",
+    "https://www.arabnews.com/saudi-arabia/saudi-arabia-announces-eid-al-fitr-will-start-on-sunday-1678461",
+    "https://www.fatwa-online.com/eed-al-fitr-1441-supreme-court-of-saudi-arabia/",
+    "https://saudigazette.com.sa/article/593451"
+   ],
+   "note": "Crescent not sighted Fri 22 May 2020, Ramadan 30 days. Khaleej Times (page checked): 'Eid Al Fitr will be on Sunday, May 24'. Arab News (22 May 2020, page checked): 'Eid Al-Fitr will begin on Sunday May 24, authorities in Saudi Arabia have announced'. fatwa-online (page checked): Sunday 24 May 2020. Saudi Gazette (Royal Court citing Supreme Court) from search snippet only."
+  },
+  {
+   "authority": "sa",
+   "year": 1441,
+   "month": 12,
+   "start": "2020-07-22",
+   "sources": [
+    "https://gulfnews.com/world/gulf/saudi/saudi-arabia-announces-july-31-as-first-day-of-eid-al-adha-1.1595262379639",
+    "https://english.ajel.sa/news/dhu-al-hijjah-month-starts-on-wednesday-eid-al-adha-to-be-on-friday"
+   ],
+   "note": "Crescent not sighted Mon 20 Jul 2020. Gulf News (20 Jul 2020, page checked): 'Wednesday, July 22, will mark the first of Dhu Al Hijja'; Eid Fri 31 Jul. Ajel (20 Jul 2020, page checked): Supreme Court: Wednesday is 1 Dhu al-Hijjah 1441, Arafat Thursday 30 July 2020, Eid following Friday."
+  },
+  {
+   "authority": "sa",
+   "year": 1442,
+   "month": 9,
+   "start": "2021-04-13",
+   "sources": [
+    "https://gulfnews.com/world/gulf/saudi/saudi-arabia-confirms-first-day-of-ramadan-as-tuesday-april-13-1.1618239973222",
+    "https://www.spa.gov.sa/w1541796",
+    "https://www.arabnews.com/node/1841176/amp"
+   ],
+   "note": "Gulf News (12 Apr 2021, page checked): 'the April 13, Tuesday will be the first day of Ramadan' per Supreme Court. SPA (page checked; headline only, no date): 'Moon sighting committee of the Supreme Court declares tomorrow, Tuesday, the first day of Ramadan, Royal Court reports'. Arab News (12 Apr 2021, page checked): first day Tuesday."
+  },
+  {
+   "authority": "sa",
+   "year": 1442,
+   "month": 10,
+   "start": "2021-05-13",
+   "sources": [
+    "https://www.arabnews.com/node/1857296/saudi-arabia",
+    "https://www.khaleejtimes.com/ramadan/eid-al-fitr-on-thursday-shawwal-moon-not-sighted-in-saudi-arabia"
+   ],
+   "note": "Crescent not sighted Tue 11 May 2021. Arab News (11 May 2021, page checked): Royal Court: 'Thursday will be the first day of Eid Al-Fitr', Wednesday = 30 Ramadan. Khaleej Times (page checked): 'first day of Eid Al Fitr will be on Thursday, May 13'. (A Gulf News piece has a typo 'Thursday, May 11' - ignore.)"
+  },
+  {
+   "authority": "sa",
+   "year": 1442,
+   "month": 12,
+   "start": "2021-07-11",
+   "sources": [
+    "https://gulfnews.com/uae/sunday-to-be-the-first-day-of-dhu-al-hijjah-eid-al-adha-on-tuesday-july-20-1.1625851119141",
+    "https://www.aljazeera.com/news/2021/7/12/when-is-eid-al-adha-hajj-2021-interactive",
+    "https://saudigazette.com.sa/article/608660"
+   ],
+   "note": "Crescent not sighted Fri 9 Jul 2021. Gulf News (9 Jul 2021, page checked): Supreme Court 'announced that Sunday, July 11, will be the first day of Dhu Al Hijjah', Arafat 19 Jul, Eid 20 Jul. Al Jazeera (page checked): Eid 20 July per Supreme Court. Saudi Gazette (Arafat 19 Jul, Eid 20 Jul) from search result title only."
+  },
+  {
+   "authority": "sa",
+   "year": 1443,
+   "month": 9,
+   "start": "2022-04-02",
+   "sources": [
+    "https://www.arabnews.com/node/2055161/amp",
+    "https://english.alarabiya.net/News/gulf/2022/04/01/Ramadan-moon-sighted-in-Saudi-Arabia-holy-month-begins-on-Saturday",
+    "https://saudigazette.com.sa/article/618906/SAUDI-ARABIA/Ramadan-begins-in-Saudi-Arabia-on-Saturday"
+   ],
+   "note": "Arab News (1 Apr 2022, page checked): Supreme Court announced Friday after sighting; first day of Ramadan Saturday (=2 Apr). Al Arabiya and Saudi Gazette from search results only (snippet: Supreme Court declared Saturday April 2 the first day of Ramadan 1443H)."
+  },
+  {
+   "authority": "sa",
+   "year": 1443,
+   "month": 10,
+   "start": "2022-05-02",
+   "sources": [
+    "https://www.arabnews.com/saudi-arabia/eid-al-fitr-to-begin-on-monday-saudi-supreme-court-2073716",
+    "https://english.alarabiya.net/amp/News/gulf/2022/04/30/Saudi-Arabia-officially-announces-Eid-al-Fitr-start-date",
+    "https://saudigazette.com.sa/article/619979"
+   ],
+   "note": "Crescent not sighted Sat 30 Apr 2022. Arab News (30 Apr 2022, page checked): 'Eid Al-Fitr would begin on Monday May 2'. Al Arabiya and Saudi Gazette from search snippets only."
+  },
+  {
+   "authority": "sa",
+   "year": 1443,
+   "month": 12,
+   "start": "2022-06-30",
+   "sources": [
+    "https://gulfnews.com/uae/saturday-july-9-is-first-day-of-eid-al-adha-dhu-al-hijjah-crescent-moon-sighted-in-saudi-arabia-1.1656519257839",
+    "https://sharjah24.ae/en/Articles/2022/06/30/Eid-Al-Adha-to-fall-on-July-9th-Saudi-Arabias-Supreme-Court",
+    "https://fatwa-online.com/eed-adhaa-1443-supreme-court-of-saudi-arabia",
+    "https://saudigazette.com.sa/article/622394/SAUDI-ARABIA/Arafat-Day-on-Friday-July-8-Eid-Al-Adha-on-Saturday"
+   ],
+   "note": "Crescent sighted Wed 29 Jun 2022. Gulf News (page checked): 'Thursday, June 30 is the first day of Dhu Al Hijjah', Arafat Fri 8 Jul, Eid Sat 9 Jul. Sharjah24 (29 Jun 2022, page checked): Supreme Court, 30 June first day. fatwa-online (checked) agrees. Saudi Gazette title only. Note: Saudi Gazette's sighting-call article labelled 29 Jun 2022 as 'Dhu Al-Qadah 30' (Umm al-Qura numbering); does not change the result."
+  },
+  {
+   "authority": "sa",
+   "year": 1444,
+   "month": 9,
+   "start": "2023-03-23",
+   "sources": [
+    "https://www.arabnews.com/node/2272956/saudi-arabia",
+    "https://www.khaleejtimes.com/ramadan/ramadan-2023-begins-on-march-23-crescent-moon-not-sighted-in-saudi-arabia"
+   ],
+   "note": "Crescent not sighted Tue 21 Mar 2023. Arab News (21 Mar 2023, page checked): Supreme Court: 'Thursday, March 23, will be the start of the holy month of Ramadan'. Khaleej Times (21 Mar 2023, page checked): begins Thursday March 23."
+  },
+  {
+   "authority": "sa",
+   "year": 1444,
+   "month": 10,
+   "start": "2023-04-21",
+   "sources": [
+    "https://www.arabnews.com/node/2290266/saudi-arabia",
+    "https://www.khaleejtimes.com/life-and-living/uae-holidays/eid-al-fitr-2023-here-are-the-countries-that-have-announced-friday-as-first-day-of-festival"
+   ],
+   "note": "Crescent sighted Thu 20 Apr 2023. Arab News (20 Apr 2023, page checked): 'Eid Al-Fitr celebrations to begin on Friday, April 21, 2023'. Khaleej Times (20 Apr 2023, page checked): 'tomorrow, Friday, April 21, is the first day of Eid Al Fitr'. Astronomers had predicted Saturday 22 Apr; official date is 21 Apr."
+  },
+  {
+   "authority": "sa",
+   "year": 1444,
+   "month": 12,
+   "start": "2023-06-19",
+   "sources": [
+    "https://www.khaleejtimes.com/world/gulf/saudi-announces-dhul-hijjah-moon-spotted-eid-al-adha-on-june-28",
+    "https://www.arabnews.com/node/2323821",
+    "https://english.alarabiya.net/News/saudi-arabia/2023/06/18/Saudi-Arabia-declares-sighting-of-Dhul-Hijjah-crescent-Eid-Al-Adha-on-June-28"
+   ],
+   "note": "Crescent sighted Sun 18 Jun 2023. Khaleej Times (18 Jun 2023, page checked): month 'begins on Monday, June 19', Arafah Tue 27 Jun, Eid Wed 28 Jun. Arab News (page checked): Arafah 27 Jun, Eid 28 Jun (19 Jun = 28 Jun - 9). Al Arabiya from snippet only."
+  },
+  {
+   "authority": "sa",
+   "year": 1445,
+   "month": 9,
+   "start": "2024-03-11",
+   "sources": [
+    "https://www.spa.gov.sa/en/N2062566",
+    "https://gulfnews.com/world/gulf/saudi-arabia-announces-first-day-of-ramadan-1.1710061287127",
+    "https://www.fatwa-online.com/ramadhaan-1445-supreme-court-of-saudi-arabia/"
+   ],
+   "note": "Crescent sighted Sun 10 Mar 2024. SPA (page checked, headline): 'Royal Court: Ramadan Begins in Saudi Arabia Tomorrow, March 11'. Gulf News (page checked): Supreme Court confirmed Monday first day. fatwa-online (checked): first fast Monday 11 March 2024."
+  },
+  {
+   "authority": "sa",
+   "year": 1445,
+   "month": 10,
+   "start": "2024-04-10",
+   "sources": [
+    "https://www.arabnews.com/node/2490006/saudi-arabia",
+    "https://www.khaleejtimes.com/world/gulf/eid-al-fitr-2024-crescent-moon-not-spotted-in-saudi-arabia-first-day-of-festival-announced"
+   ],
+   "note": "Crescent not sighted Mon 8 Apr 2024. Arab News (8 Apr 2024, page checked): 'Eid Al-Fitr celebrations will commence on Wednesday, April 10', per Supreme Court. Khaleej Times (8 Apr 2024, page checked): 'Saudi Arabia has declared Wednesday, April 10, as the first day of Eid Al Fitr'."
+  },
+  {
+   "authority": "sa",
+   "year": 1445,
+   "month": 12,
+   "start": "2024-06-07",
+   "sources": [
+    "https://gulfnews.com/world/gulf/saudi/eid-al-adha-2024-dhu-al-hijjah-crescent-moon-sighted-in-saudi-arabia-1.1717674088671",
+    "https://www.spa.gov.sa/en/N2118090",
+    "https://english.alarabiya.net/News/saudi-arabia/2024/06/06/saudi-arabia-announces-eid-al-adha-dates"
+   ],
+   "note": "Crescent sighted Thu 6 Jun 2024. Gulf News (6 Jun 2024, page checked): Supreme Court 'announced that Friday, June 7 will mark the first day of Dhu Al Hijjah', Arafat Sat 15 Jun, Eid Sun 16 Jun. SPA page checked shows only headline 'Tomorrow is the First Day of Dhu Al-Hijjah, Supreme Court Announces' (no date on page). Al Arabiya from snippet only."
+  },
+  {
+   "authority": "sa",
+   "year": 1446,
+   "month": 9,
+   "start": "2025-03-01",
+   "sources": [
+    "https://www.arabnews.pk/saudi-arabia/crescent-moon-sighted-start-of-ramadan-on-saturday-in-saudi-arabia-2591957",
+    "https://www.aljazeera.com/amp/gallery/2025/3/1/saudi-arabia-other-muslim-countries-welcome-start-of-ramadan"
+   ],
+   "note": "Crescent sighted Fri 28 Feb 2025. Arab News (28 Feb 2025, page checked; arabnews.com/node/2591957 redirects here): Ramadan 'will begin on March 1, Saturday, the Supreme Court announced'. Al Jazeera (1 Mar 2025, page checked): started Saturday after crescent sighted in the kingdom."
+  },
+  {
+   "authority": "sa",
+   "year": 1446,
+   "month": 10,
+   "start": "2025-03-30",
+   "sources": [
+    "https://gulfnews.com/world/gulf/saudi/saudi-arabia-announces-sunday-as-first-day-of-eid-al-fitr-1.500076688",
+    "https://www.arabnews.pk/saudi-arabia/crescent-moon-sighted-eid-al-fitr-on-sunday-in-saudi-arabia-2595272"
+   ],
+   "note": "Crescent sighted Sat 29 Mar 2025. Gulf News (29 Mar 2025, page checked): Royal Court: 'Sunday, March 30, 2025, will be the first day of Eid Al Fitr'. Arab News (29 Mar 2025, page checked): Eid begins Sunday March 30. Note: astronomers (IAC) had said sighting impossible on 29 Mar due to solar eclipse; official Saudi date nonetheless 30 Mar."
+  },
+  {
+   "authority": "sa",
+   "year": 1446,
+   "month": 12,
+   "start": "2025-05-28",
+   "sources": [
+    "https://gulfnews.com/world/gulf/saudi/saudi-arabia-declares-first-day-of-eid-al-adha-2025-1.500141836",
+    "https://www.arabnews.com/node/2602375/saudi-arabia",
+    "https://www.fatwa-online.com/eed-al-adhaa-1446-supreme-court-of-saudi-arabia/"
+   ],
+   "note": "Crescent sighted Tue 27 May 2025. Gulf News (27 May 2025, page checked): 'Wednesday, May 28, will mark the first day of Dhu Al Hijjah', Arafat Thu 5 Jun, Eid Fri 6 Jun. Arab News (27 May 2025, page checked): Supreme Court, Arafah 5 Jun, Eid 6 Jun. fatwa-online (checked): 1 Dhul-Hijjah Wednesday 28 May 2025."
+  },
+  {
+   "authority": "sa",
+   "year": 1447,
+   "month": 9,
+   "start": "2026-02-18",
+   "sources": [
+    "https://www.spa.gov.sa/en/N2516805",
+    "https://www.arabnews.com/node/2633313/saudi-arabia",
+    "https://www.fatwa-online.com/ramadhaan-1447-supreme-court-of-saudi-arabia/"
+   ],
+   "note": "Crescent sighted Tue 17 Feb 2026. SPA (page checked, headline): 'Royal Court: Ramadan Begins in Saudi Arabia Tomorrow, February 18, 2026'. Arab News (17 Feb 2026, page checked): 'Ramadan will therefore start on Wednesday, Feb. 18'. fatwa-online (checked): first fast Wednesday 18 Feb 2026. Note: astronomers had said crescent invisible on 17 Feb; official date is still 18 Feb."
+  },
+  {
+   "authority": "sa",
+   "year": 1447,
+   "month": 10,
+   "start": "2026-03-20",
+   "sources": [
+    "https://www.arabnews.com/node/2636822/saudi-arabia",
+    "https://www.khaleejtimes.com/world/gulf/saudi-arabia-announces-eid-al-fitr-2026-march-20",
+    "https://www.fatwa-online.com/eed-alfitr-1447-supreme-court-of-saudi-arabia/"
+   ],
+   "note": "Crescent not sighted Wed 18 Mar 2026, Ramadan 30 days. Arab News (18 Mar 2026, page checked): Eid on Friday per Supreme Court. Khaleej Times (18 Mar 2026, page checked): 'Eid Al Fitr 2026 will fall on Friday, March 20'. fatwa-online (checked): Friday 20 March 2026."
+  },
+  {
+   "authority": "sa",
+   "year": 1447,
+   "month": 12,
+   "start": "2026-05-18",
+   "sources": [
+    "https://www.spa.gov.sa/en/N2587986",
+    "https://www.fatwa-online.com/eed-al-adhaa-1447-supreme-court-of-saudi-arabia/",
+    "https://www.arabnews.com/node/2643929/saudi-arabia"
+   ],
+   "note": "Crescent sighted Sun 17 May 2026. SPA (page checked, headline): 'Supreme Court: Monday Marks Start of Dhul-Hijjah, Arafat Day on Tuesday, May 26' (26 May - 8 = 18 May). fatwa-online (checked): '1 Dhul-Hijjah will be tomorrow, Monday 18 May 2026', Eid Wed 27 May. Arab News (17 May 2026, page checked): Arafat Tue 26 May, Eid Wed 27 May."
+  },
+  {
+   "authority": "tr",
+   "year": 1445,
+   "month": 9,
+   "start": "2024-03-11",
+   "sources": [
+    "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2024",
+    "https://www.haberturk.com/ilk-oruc-ne-zaman-tutulacak-2024-ramazan-ne-zaman-basliyor-diyanet-isleri-dini-gunler-takvimi-3663658"
+   ],
+   "note": "Diyanet 2024 list (page text confirmed): '01 RAMAZAN 1445 = 11 MART 2024 PAZARTESI, RAMAZAN BASLANGICI'. Haberturk (confirmed): first fast 11 March 2024."
+  },
+  {
+   "authority": "tr",
+   "year": 1445,
+   "month": 10,
+   "start": "2024-04-10",
+   "sources": [
+    "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2024",
+    "https://www.haberturk.com/ilk-oruc-ne-zaman-tutulacak-2024-ramazan-ne-zaman-basliyor-diyanet-isleri-dini-gunler-takvimi-3663658"
+   ],
+   "note": "Diyanet list (confirmed): '01 SEVVAL 1445 = 10 NISAN 2024, RAMAZAN BAYRAMI (1. Gun)'; Arefe 9 April = 30 Ramazan, so a 30-day Ramadan. Haberturk (confirmed): '10 Nisan Carsamba: Ramazan Bayrami (1.Gun)', per the Diyanet calendar."
+  },
+  {
+   "authority": "tr",
+   "year": 1445,
+   "month": 12,
+   "start": "2024-06-07",
+   "sources": [
+    "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2024",
+    "https://www.ahaber.com.tr/yasam/2023/09/22/kurban-bayrami-ne-zaman-hangi-ayda-2024-kurban-bayrami-tatili-kac-gun-dini-gunler-takvimi-2024"
+   ],
+   "note": "Diyanet list states 1 Zilhicce directly (confirmed): '01 ZILHICCE 1445 = 07 HAZIRAN 2024', Arefe 15 June, Kurban Bayrami day 1 16 June. A Haber (confirmed) gives Arefe 15 June and Kurban day 1 16 June 2024, citing the Diyanet calendar. For the second source, 1 Dhu al-Hijjah is derived as Kurban day 1 minus 9 days."
+  },
+  {
+   "authority": "tr",
+   "year": 1446,
+   "month": 9,
+   "start": "2025-03-01",
+   "sources": [
+    "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2025",
+    "https://www.dailysabah.com/life/religion/turkiyes-diyanet-sets-ramadan-dates-calls-for-charity-reflection"
+   ],
+   "note": "Diyanet list (confirmed): '01 RAMAZAN 1446 = 01 MART 2025 CUMARTESI, RAMAZAN BASLANGICI'. Daily Sabah, 23 Feb 2025 (confirmed): sahur on the night of 28 Feb to 1 March, which implies a 1 March first fast (inferred, not stated as 'Ramadan begins')."
+  },
+  {
+   "authority": "tr",
+   "year": 1446,
+   "month": 10,
+   "start": "2025-03-30",
+   "sources": [
+    "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2025",
+    "https://www.dailysabah.com/life/religion/turkiyes-diyanet-sets-ramadan-dates-calls-for-charity-reflection"
+   ],
+   "note": "Diyanet list (confirmed): '01 SEVVAL 1446 = 30 MART 2025 PAZAR, RAMAZAN BAYRAMI (1. Gun)'. Daily Sabah, 23 Feb 2025 (confirmed): 'Ramadan Bayram ... will begin on March 30.'"
+  },
+  {
+   "authority": "tr",
+   "year": 1446,
+   "month": 12,
+   "start": "2025-05-28",
+   "sources": [
+    "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2025",
+    "https://www.dailysabah.com/politics/erdogan-rallies-spirit-of-unity-on-eid-throws-weight-behind-gaza/news"
+   ],
+   "note": "Diyanet list states 1 Zilhicce directly (confirmed): '01 ZILHICCE 1446 = 28 MAYIS 2025', Arefe 5 June, Kurban day 1 6 June. Daily Sabah, 6 Jun 2025 (confirmed): 'June 6 officially marking the first day of celebrations in Turkiye'. For the second source, the date is derived as Kurban day 1 minus 9 days."
+  },
+  {
+   "authority": "tr",
+   "year": 1447,
+   "month": 9,
+   "start": "2026-02-19",
+   "sources": [
+    "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2026",
+    "https://www.dailysabah.com/turkiye/diyanet-highlights-mosque-centered-life-as-2026-ramadan-theme/news",
+    "https://www.aljazeera.com/news/2026/2/16/when-is-ramadan-2026-and-how-is-the-moon-sighted"
+   ],
+   "note": "Diyanet list (confirmed): '01 RAMAZAN 1447 = 19 SUBAT 2026 PERSEMBE, RAMAZAN BASLANGICI'. Daily Sabah, 12 Feb 2026 (confirmed): 'the first day of fasting on Feb. 19'. Al Jazeera (confirmed): 'Turkiye has also declared February 19'. This is one day after FCNA (18 Feb). A Jan 2026 en.yenisafak.com article seen only in a search snippet claimed 16 Feb / Eid 18 Mar. It conflicts with every other source and was ignored."
+  },
+  {
+   "authority": "tr",
+   "year": 1447,
+   "month": 10,
+   "start": "2026-03-20",
+   "sources": [
+    "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2026",
+    "https://www.haberturk.com/ramazan-bayrami-ne-zaman-hangi-gune-denk-geliyor-tatil-kac-gun-surecek-ramazan-ayi-ilk-oruc-tarihi-3855816"
+   ],
+   "note": "Diyanet list (confirmed): '01 SEVVAL 1447 = 20 MART 2026 CUMA, RAMAZAN BAYRAMI (1. Gun)'; Arefe 19 March = 29 Ramazan. Haberturk, 23 Jan 2026 (confirmed): 'Ramazan Bayrami 1. Gunu: 20 Mart 2026 Cuma', per Diyanet's 2026 calendar."
+  },
+  {
+   "authority": "tr",
+   "year": 1447,
+   "month": 12,
+   "start": "2026-05-18",
+   "sources": [
+    "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2026",
+    "https://www.dailysabah.com/turkiye/turkiye-extends-eid-al-adha-holiday-to-9-days/news"
+   ],
+   "note": "Diyanet list states 1 Zilhicce directly (confirmed): '01 ZILHICCE 1447 = 18 MAYIS 2026', Arefe 26 May, Kurban day 1 27 May. Diyanet's namazvakitleri prayer-time table, fetched as namazvakitleri.diyanet.gov.tr/tr-TR/dini-gunler (it redirected to the Ankara prayer times), also shows '18 Mayis 2026 Pazartesi 1 Zilhicce 1447'. That is the same agency, not independent. Daily Sabah, 5 May 2026 (confirmed): 'Eid al-Adha will be observed from May 27 to May 30'. For that source, the date is derived as Kurban day 1 minus 9 days."
+  },
+  {
+   "authority": "uk",
+   "year": 1445,
+   "month": 10,
+   "start": "2024-04-10",
+   "sources": [
+    "https://www.eastlondonmosque.org.uk/news/eid-al-fitr-2024",
+    "https://www.wifaqululama.co.uk/1445-2/",
+    "https://www.moonsighting.org.uk/moon/sighting-reports/report-1445-10.html"
+   ],
+   "note": "Both camps agreed on Wed 10 Apr 2024, so the UK was not split. The Saudi-following East London Mosque (ELM) gave Eid Wed 10 Apr; I read that in ELM's news index (https://www.eastlondonmosque.org.uk/news), not on the item page. I read the other two pages. Wifaqul Ulama: 'first day of Shawwal (Eid ul Fitr) will be ... Wednesday 10th April 2024'. ICOUK (Moon Sighting UK) saw the crescent locally on 9 Apr and set 1 Shawwal on Wed 10 Apr. I could not open BBC, Guardian, Independent, Standard, Sky or Birmingham Mail (blocked for my tools)."
+  },
+  {
+   "authority": "uk",
+   "year": 1446,
+   "month": 9,
+   "start": "2025-03-01",
+   "sources": [
+    "https://www.wifaqululama.co.uk/1446-2/",
+    "https://www.moonsighting.org.uk/moon/sighting-reports/report-1446-09.html",
+    "https://www.eastlondonmosque.org.uk/news/start-of-ramadan-2025"
+   ],
+   "note": "Both camps agreed on Sat 1 Mar 2025. Wifaqul Ulama (read): 'The first day of Ramadān will be Saturday 1st March 2025'. ICOUK (read) accepted a binocular sighting from Devon on 28 Feb and set 1 Ramadan on Sat 1 Mar. ELM gave 1 Ramadan Sat 1 Mar; I read that in ELM's news index. Wikipedia cites a Birmingham Mail article of 28 Feb 2025 saying multiple moonsighting groups confirmed the UK start, but I could not open it."
+  },
+  {
+   "authority": "uk",
+   "year": 1446,
+   "month": 12,
+   "start": "2025-05-28",
+   "sources": [
+    "https://www.wifaqululama.co.uk/1446-2/",
+    "https://www.moonsighting.org.uk/moon/sighting-reports/report-1446-12.html",
+    "https://www.eastlondonmosque.org.uk/news/eid-al-adha-2025"
+   ],
+   "note": "Both camps agreed. Wifaqul Ulama (read): 'The first day of Dhū al-Hijjah will be Wednesday 28th May 2025' and Eid ul Adha on Friday 6th June 2025. ICOUK (read): crescent seen locally on 27 May (Dewsbury, Sutton Bank), 1 Dhul Hijjah on Wed 28 May, Eid on Fri 6 Jun. ELM gave 1 Dhul Hijjah Wed 28 May and Eid Fri 6 Jun; I read that in ELM's news index."
+  },
+  {
+   "authority": "uk",
+   "year": 1447,
+   "month": 10,
+   "start": "2026-03-20",
+   "sources": [
+    "https://www.eastlondonmosque.org.uk/news/eid-al-fitr-2026",
+    "https://www.wifaqululama.co.uk/1447-2/",
+    "https://www.moonsighting.org.uk/moon/sighting-reports/report-1447-10.html"
+   ],
+   "note": "I read all three pages. ELM (Saudi-following) announced 'Eid al-Fitr 1447 is on Friday 20 March 2026' on 18 Mar. Wifaqul Ulama: 'The first day of Shawwāl / Eid Al Fitr will be Friday 20th March 2026'. ICOUK accepted an optical-aid sighting from Devon on 19 Mar and set 1 Shawwal on Fri 20 Mar. A minority may have kept Sat 21 Mar. Before the sighting, the New Crescent Society said that with UK naked-eye sighting it expected Saturday 21 March (I saw this only in a forum repost and never found its final declaration). Moroccan-following communities may also have marked 21 Mar, and ARY News said UK observance was split. MyLondon and Birmingham Mail reported 20 Mar with school closures; I saw that only via a ground.news summary."
+  },
+  {
+   "authority": "uk",
+   "year": 1447,
+   "month": 12,
+   "start": "2026-05-18",
+   "sources": [
+    "https://www.wifaqululama.co.uk/1447-2/",
+    "https://www.moonsighting.org.uk/moon/sighting-reports/report-1447-12.html",
+    "https://uk.news.yahoo.com/date-eid-al-adha-announced-161733391.html"
+   ],
+   "note": "Both camps agreed. Wifaqul Ulama (read): 'The first day of Dhū al-Hijjah will be Monday 18th May 2026' and Eid ul Adha on Wednesday 27th May 2026. ICOUK (read): crescent seen in the UK on 17 May, 1 Dhul Hijjah Mon 18 May, Eid Wed 27 May. Birmingham Mail, syndicated on Yahoo News UK (read), says Eid al-Adha on Wed 27 May and that UK communities would follow; that outlet's 1 Dhul Hijjah is derived (27 May minus 9). Manchester Evening News reported the mosque-organised Eid in the Park on Wed 27 May (https://uk.news.yahoo.com/manchesters-eid-park-2026-details-122402402.html). I found no ELM item for this month."
+  }
+ ]
+}

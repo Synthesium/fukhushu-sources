@@ -201,6 +201,23 @@ To update a pack: bump its version in the script, rebuild, create the
 `source-packs-v<N>` release with the new zips, copy the regenerated manifest
 here, then commit and push.
 
+## Hijri announcements (the Islamic calendar)
+
+`hijri/` holds fuKhushu's reviewed record of announced Hijri month starts —
+what each authority (Saudi Arabia, Turkey, Morocco, Pakistan, Malaysia,
+Indonesia, Egypt, the UK, North America) declared, each start with the pages
+that say so. The app bundles a copy and, only when the user turns updates on,
+reads `hijri/manifest.json` around each month's turn; it fetches the pack only
+when the manifest's `version` is newer, and checks its `sha256` and `version`
+before use. Nothing about the user is sent.
+
+Both files are built in the fuKhushu repo by
+`scripts/build_hijri_announcements.py` from the hand-reviewed
+`data/hijri/announcements.json` (unverified months never ship). To update:
+review the new entries, bump `version` there, rebuild, copy `build/hijri/`
+here, then commit and push — old pack files stay, so older manifests keep
+working.
+
 ## Refresh workflow
 
 File URLs die when QUL re-exports a resource (users will see downloads fail
